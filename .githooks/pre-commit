@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Updates documentation
+doxygen Doxyfile
+git add docs
+exit 0
