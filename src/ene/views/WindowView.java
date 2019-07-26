@@ -31,7 +31,7 @@ public class WindowView extends AbstractBaseView <JFrame> implements Localizatio
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle(getString("WINDOW_TITLE"));
-        frame.setIconImage(new ImageIcon(this.getClass().getResource("/images/icon.png")).getImage());
+        frame.setIconImage(new ImageIcon(this.getClass().getResource("/resources/images/icon.png")).getImage());
         this.setCoreComponent(frame);
     }
 
@@ -41,7 +41,6 @@ public class WindowView extends AbstractBaseView <JFrame> implements Localizatio
         for (View component : this.getAllViews()) {
             contentPane.add(
                 (Component)component.getCoreComponent(), component.getLayoutPosition()
-                //contentPane.add(new ContentView(model, controller), BorderLayout.CENTER);
             );
         }
         this.getCoreComponent().setContentPane(contentPane);

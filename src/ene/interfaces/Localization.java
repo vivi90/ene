@@ -22,9 +22,9 @@ public interface Localization {
         String viewName = this.getClass().getSimpleName();
         try {
             String locale = Locale.getDefault().toString();
-            return ResourceBundle.getBundle("locales." + locale + "." + viewName).getString(stringName);
+            return ResourceBundle.getBundle("resources.locales." + locale + "." + viewName).getString(stringName);
         } catch (Exception exception) {
-            return ResourceBundle.getBundle("locales." + DEFAULT_LOCALE + "." + viewName).getString(stringName);
+            return ResourceBundle.getBundle("resources.locales." + DEFAULT_LOCALE + "." + viewName).getString(stringName);
         }
     }
 }
