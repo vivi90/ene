@@ -3,6 +3,7 @@ package ene.controllers;
 import ene.controllers.AbstractController;
 import ene.interfaces.Model;
 import ene.models.PlayerModel;
+import ene.models.TrackModel;
 import javax.sound.sampled.LineEvent.Type;
 
 /**
@@ -15,6 +16,15 @@ public class PlayerController extends AbstractController <PlayerModel>  {
      */
     public PlayerController(Model model) {
         this.setModel(model);
+    }
+
+    /**
+     * Load track.
+     * @param track Track instance.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     */
+    public boolean load(TrackModel track) {
+        return this.getModel().load(track);
     }
 
     /**

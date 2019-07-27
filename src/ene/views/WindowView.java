@@ -2,6 +2,7 @@ package ene.views;
 
 import ene.interfaces.Localization;
 import ene.interfaces.View;
+import ene.views.AbstractMasterView;
 import java.awt.BorderLayout;
 import java.awt.Component;
 import javax.swing.ImageIcon;
@@ -11,7 +12,7 @@ import javax.swing.JPanel;
 /**
  * Window class.
  */
-public class WindowView extends AbstractBaseView <JFrame> implements Localization {
+public class WindowView extends AbstractMasterView <JFrame> implements Localization {
     /**
      * Constructor.
      * @param views View instances.

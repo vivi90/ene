@@ -6,5 +6,5 @@ digraph "ene.Main.main"
   rankdir="LR";
   Node0 [label="ene.Main.main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 [label="ene.interfaces.BaseView.render",height=0.2,width=0.4,color="black",URL="$interfaceene_1_1interfaces_1_1BaseView.html#a653907ccb00b2ebaae076d674256397d"];
+  Node1 [label="ene.interfaces.MasterView.render",height=0.2,width=0.4,color="black",URL="$interfaceene_1_1interfaces_1_1MasterView.html#af178709966fad43ba2fef4b03623b21c"];
 }

@@ -25,6 +25,19 @@ public class LibraryModel extends AbstractModel {
     }
 
     /**
+     * Remove a track by it's unique identifier.
+     * @param uuid Unique identifier.
+     * @return Returns TRUE, if successful. Otherwise FALSE. 
+     */
+    public boolean remove(UUID uuid) {
+        if (this.tracks.remove(uuid) == null) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    /**
      * Get track by UUID.
      * @param uuid Unique identifier.
      * @return Track.

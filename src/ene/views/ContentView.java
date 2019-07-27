@@ -1,8 +1,11 @@
 package ene.views;
 
+import java.io.File;
 import ene.interfaces.Model;
 import ene.interfaces.Controller;
+import ene.views.AbstractView;
 import ene.controllers.LibraryController;
+import ene.controllers.PlayerController;
 import ene.interfaces.Localization;
 import ene.models.LibraryModel;
 import ene.models.TrackModel;
@@ -13,13 +16,20 @@ import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
 import javax.swing.table.DefaultTableModel;
 import java.awt.BorderLayout;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.event.ListSelectionEvent;
 
 /**
  * Content view class.
  */
-public class ContentView extends AbstractView <JScrollPane, LibraryModel, LibraryController> implements Localization {
+public class ContentView extends AbstractView <JScrollPane, LibraryModel> implements Localization, ListSelectionListener {
     /**
-     * Table content.
+     * Table instance.
+     */
+    protected JTable table;
+
+    /**
+     * Table content instance.
      */
     protected DefaultTableModel tableContent = new DefaultTableModel() {
         /**
@@ -41,24 +51,92 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel, Librar
     };
 
     /**
-     * Get the table content.
-     * @return Table content.
+     * Library controller instance.
+     */
+    protected LibraryController libraryController;
+
+    /**
+     * Player controller instance.
+     */
+    protected PlayerController playerController;
+
+    /**
+     * Sets the table instance.
+     * @param table Table instance.
+     */
+    protected void setTable(JTable table) {
+        this.table = table;
+    }
+
+    /**
+     * Returns the table instance.
+     * @return Table instance.
+     */
+    protected JTable getTable() {
+        return this.table;
+    }
+
+    /**
+     * Sets the table content instance.
+     * @param tableContent Table content instance.
+     */
+    protected void setTableContent(DefaultTableModel tableContent) {
+        this.tableContent = tableContent;
+    }
+
+    /**
+     * Returns the table content instance.
+     * @return Table content instance.
      */
     protected DefaultTableModel getTableContent() {
         return this.tableContent;
     }
 
     /**
+     * Sets the library controller instance.
+     * @param libraryController Library controller instance.
+     */
+    protected void setLibraryController(Controller libraryController) {
+        this.libraryController = (LibraryController)libraryController;
+    }
+
+    /**
+     * Returns the library controller instance.
+     * @return Library controller instance.
+     */
+    protected LibraryController getLibraryController() {
+        return this.libraryController;
+    }
+
+    /**
+     * Sets the player controller instance.
+     * @param playerController Player controller instance.
+     */
+    protected void setPlayerController(Controller playerController) {
+        this.playerController = (PlayerController)playerController;
+    }
+
+    /**
+     * Returns the player controller instance.
+     * @return Player controller instance.
+     */
+    protected PlayerController getPlayerController() {
+        return this.playerController;
+    }
+
+    /**
      * Constructor.
      * @param model Library model instance.
-     * @param controller Library controller instance.
+     * @param libraryController Library controller instance.
+     * @param playerController Player controller instance.
      */
-    public ContentView(Model model, Controller controller) {
+    public ContentView(Model model, Controller libraryController, Controller playerController) {
         model.addView(this);
         this.setModel(model);
-        this.setController(controller);
+        this.setLibraryController(libraryController);
+        this.setPlayerController(playerController);
         this.initialize();
-        this.getController().load();
+        this.getLibraryController().addDirectoryContent(new File("Music"));
     }
 
     /**
@@ -68,6 +146,8 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel, Librar
         this.setCoreComponent(new JScrollPane());
         JTable table = new JTable(this.getTableContent());
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        table.getSelectionModel().addListSelectionListener(this);
+        this.setTable(table);
         this.getCoreComponent().setViewportView(table);
         this.setLayoutPosition(BorderLayout.CENTER);
     }
@@ -81,5 +161,12 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel, Librar
             TrackModel track = entry.getValue();
             tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre()});
         }
+    }
+
+    @Override
+    public void valueChanged(ListSelectionEvent e) {
+        JTable table = this.getTable();
+        String title = (String) table.getValueAt(table.getSelectedRow(), 1);
+        this.getPlayerController().load(this.getModel().getByTitle(title).entrySet().iterator().next().getValue());
     }
 }

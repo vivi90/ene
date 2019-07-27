@@ -16,21 +16,42 @@ import javax.sound.sampled.LineEvent.Type;
 /**
  * Player view class.
  */
-public class PlayerView extends AbstractView <JPanel, PlayerModel, PlayerController> implements Localization {
+public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Localization {
+    /**
+     * Player controller instance.
+     */
+    protected PlayerController playerController;
+
     /**
      * Play/Stop button.
      */
     protected JButton playButton;
 
     /**
+     * Sets the player controller instance.
+     * @param playerController Player controller instance.
+     */
+    protected void setPlayerController(Controller playerController) {
+        this.playerController = (PlayerController)playerController;
+    }
+
+    /**
+     * Returns the player controller instance.
+     * @return Player controller instance.
+     */
+    protected PlayerController getPlayerController() {
+        return this.playerController;
+    }
+
+    /**
      * Constructor.
      * @param model Player model instance.
      * @param controller Player controller instance.
      */
-    public PlayerView(Model model, Controller controller) {
+    public PlayerView(Model model, Controller playerController) {
         model.addView(this);
         this.setModel(model);
-        this.setController(controller);
+        this.setPlayerController(playerController);
         this.initialize();
     }
 
@@ -41,7 +62,8 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel, PlayerControl
         this.setCoreComponent(new JPanel(new FlowLayout()));
         this.setLayoutPosition(BorderLayout.SOUTH);
         this.playButton = new JButton(getString("PLAY_BUTTON_START"));
-        this.playButton.addActionListener(e -> this.getController().togglePlayback());
+        this.playButton.setFocusPainted(false);
+        this.playButton.addActionListener(event -> this.getPlayerController().togglePlayback());
         this.getCoreComponent().add(this.playButton);
         this.setLayoutPosition(BorderLayout.SOUTH);
     }

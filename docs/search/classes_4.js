@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['main',['Main',['../classene_1_1Main.html',1,'ene']]],
-  ['menuview',['MenuView',['../classene_1_1views_1_1MenuView.html',1,'ene::views']]],
-  ['model',['Model',['../interfaceene_1_1interfaces_1_1Model.html',1,'ene::interfaces']]]
+  ['playercontroller',['PlayerController',['../classene_1_1controllers_1_1PlayerController.html',1,'ene::controllers']]],
+  ['playermodel',['PlayerModel',['../classene_1_1models_1_1PlayerModel.html',1,'ene::models']]],
+  ['playerview',['PlayerView',['../classene_1_1views_1_1PlayerView.html',1,'ene::views']]]
 ];

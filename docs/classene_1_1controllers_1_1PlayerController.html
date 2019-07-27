@@ -105,6 +105,8 @@ Collaboration diagram for ene.controllers.PlayerController:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8d957cddfac817f81949798d9778d356"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1PlayerController.html#a8d957cddfac817f81949798d9778d356">PlayerController</a> (<a class="el" href="interfaceene_1_1interfaces_1_1Model.html">Model</a> <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a7af4ecfc2a535685954c3785376c591e">model</a>)</td></tr>
 <tr class="separator:a8d957cddfac817f81949798d9778d356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3161f5c373dd9ec50cfa2f07e59ee1a1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1PlayerController.html#a3161f5c373dd9ec50cfa2f07e59ee1a1">load</a> (<a class="el" href="classene_1_1models_1_1TrackModel.html">TrackModel</a> track)</td></tr>
+<tr class="separator:a3161f5c373dd9ec50cfa2f07e59ee1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acea0cc4709105881026516d468c4baf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1PlayerController.html#acea0cc4709105881026516d468c4baf8">togglePlayback</a> ()</td></tr>
 <tr class="separator:acea0cc4709105881026516d468c4baf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classene_1_1controllers_1_1AbstractController"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classene_1_1controllers_1_1AbstractController')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classene_1_1controllers_1_1AbstractController.html">ene.controllers.AbstractController&lt; PlayerModel &gt;</a></td></tr>
@@ -122,7 +124,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Player controller. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlayerController_8java_source.html#l00011">11</a> of file <a class="el" href="PlayerController_8java_source.html">PlayerController.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlayerController_8java_source.html#l00012">12</a> of file <a class="el" href="PlayerController_8java_source.html">PlayerController.java</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8d957cddfac817f81949798d9778d356"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d957cddfac817f81949798d9778d356">&#9670;&nbsp;</a></span>PlayerController()</h2>
@@ -146,7 +148,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="PlayerController_8java_source.html#l00016">16</a> of file <a class="el" href="PlayerController_8java_source.html">PlayerController.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlayerController_8java_source.html#l00017">17</a> of file <a class="el" href="PlayerController_8java_source.html">PlayerController.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1controllers_1_1AbstractController.html#aeb538130c72b3c48f6574443db04eed5">ene.controllers.AbstractController&lt; PlayerModel &gt;.setModel()</a>.</p>
 <div class="dynheader">
@@ -159,6 +161,49 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3161f5c373dd9ec50cfa2f07e59ee1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3161f5c373dd9ec50cfa2f07e59ee1a1">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean ene.controllers.PlayerController.load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classene_1_1models_1_1TrackModel.html">TrackModel</a>&#160;</td>
+          <td class="paramname"><em>track</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load track. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">track</td><td>Track instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns TRUE, if successful. Otherwise FALSE. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="PlayerController_8java_source.html#l00026">26</a> of file <a class="el" href="PlayerController_8java_source.html">PlayerController.java</a>.</p>
+
+<p class="reference">References <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd">ene.controllers.AbstractController&lt; PlayerModel &gt;.getModel()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classene_1_1views_1_1ContentView.html#ad17789ad04bc7fc495546b37e3f979b0">ene.views.ContentView.valueChanged()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 3 -->
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 4 -->
+</div>
+</div>
+
+</div>
+</div>
 <a id="acea0cc4709105881026516d468c4baf8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acea0cc4709105881026516d468c4baf8">&#9670;&nbsp;</a></span>togglePlayback()</h2>
 
@@ -175,13 +220,13 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Toggle playback. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlayerController_8java_source.html#l00023">23</a> of file <a class="el" href="PlayerController_8java_source.html">PlayerController.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlayerController_8java_source.html#l00033">33</a> of file <a class="el" href="PlayerController_8java_source.html">PlayerController.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd">ene.controllers.AbstractController&lt; PlayerModel &gt;.getModel()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><!-- SVG 3 -->
+<div class="center"><!-- SVG 5 -->
 </div>
 </div>
 
@@ -196,7 +241,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceene.html">ene</a></li><li class="navelem"><a class="el" href="namespaceene_1_1controllers.html">controllers</a></li><li class="navelem"><a class="el" href="classene_1_1controllers_1_1PlayerController.html">PlayerController</a></li>
-    <li class="footer">Generated on Fri Jul 26 2019 12:44:22 for Ene by
+    <li class="footer">Generated on Sat Jul 27 2019 05:26:44 for Ene by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

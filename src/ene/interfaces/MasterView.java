@@ -5,9 +5,10 @@ import ene.interfaces.View;
 import java.util.List;
 
 /**
- * Base view interface.
+ * Master view interface.
+ * @since 0.3.0
  */
-public interface BaseView <CoreComponentType> extends Composition <CoreComponentType> {
+public interface MasterView <CoreComponentType> extends Composition <CoreComponentType> {
     /**
      * Adds view instance.
      * @param view View instance.

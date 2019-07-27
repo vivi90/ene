@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['update',['update',['../interfaceene_1_1interfaces_1_1View.html#a726bf34f6438b0d247c0ef0637fa772d',1,'ene.interfaces.View.update()'],['../classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1',1,'ene.models.PlayerModel.update()'],['../classene_1_1views_1_1AbstractView.html#a45812631aae22429737e512ab9e2f83c',1,'ene.views.AbstractView.update()'],['../classene_1_1views_1_1ContentView.html#aff5d4737e39b7ca485b369aa13810924',1,'ene.views.ContentView.update()'],['../classene_1_1views_1_1PlayerView.html#ad3190eef3aaedcd62b74b17ce89fa641',1,'ene.views.PlayerView.update()']]],
-  ['uuid',['uuid',['../classene_1_1models_1_1TrackModel.html#ab8703c49263aaec70cf5d1317dce7c65',1,'ene::models::TrackModel']]]
+  ['valuechanged',['valueChanged',['../classene_1_1views_1_1ContentView.html#ad17789ad04bc7fc495546b37e3f979b0',1,'ene::views::ContentView']]],
+  ['view',['View',['../interfaceene_1_1interfaces_1_1View.html',1,'ene::interfaces']]],
+  ['view_2ejava',['View.java',['../View_8java.html',1,'']]],
+  ['viewcomposition',['ViewComposition',['../classene_1_1views_1_1ViewComposition.html',1,'ene::views']]],
+  ['viewcomposition_2ejava',['ViewComposition.java',['../ViewComposition_8java.html',1,'']]],
+  ['views',['views',['../classene_1_1models_1_1AbstractModel.html#a104cb65af39124ca53ebe8cf9cbeccc1',1,'ene.models.AbstractModel.views()'],['../classene_1_1views_1_1AbstractMasterView.html#a66d5c28953bc345505b19814c05d70d0',1,'ene.views.AbstractMasterView.views()']]]
 ];

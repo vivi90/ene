@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['composition_2ejava',['Composition.java',['../Composition_8java.html',1,'']]],
-  ['contentview_2ejava',['ContentView.java',['../ContentView_8java.html',1,'']]],
-  ['controller_2ejava',['Controller.java',['../Controller_8java.html',1,'']]]
+  ['librarycontroller_2ejava',['LibraryController.java',['../LibraryController_8java.html',1,'']]],
+  ['librarymodel_2ejava',['LibraryModel.java',['../LibraryModel_8java.html',1,'']]],
+  ['localization_2ejava',['Localization.java',['../Localization_8java.html',1,'']]]
 ];

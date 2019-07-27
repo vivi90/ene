@@ -106,8 +106,12 @@ Collaboration diagram for ene.controllers.LibraryController:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af59acb98eeac06354a4534939ee65577"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1LibraryController.html#af59acb98eeac06354a4534939ee65577">LibraryController</a> (<a class="el" href="interfaceene_1_1interfaces_1_1Model.html">Model</a> <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a7af4ecfc2a535685954c3785376c591e">model</a>)</td></tr>
 <tr class="separator:af59acb98eeac06354a4534939ee65577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7225b093aff739e21f5e08d7a4e17bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1LibraryController.html#ab7225b093aff739e21f5e08d7a4e17bc">load</a> ()</td></tr>
-<tr class="separator:ab7225b093aff739e21f5e08d7a4e17bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510a4d97c1d8c2fd471725933e2064b0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1LibraryController.html#a510a4d97c1d8c2fd471725933e2064b0">addFile</a> (File file, String genre)</td></tr>
+<tr class="separator:a510a4d97c1d8c2fd471725933e2064b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc70daa48b96db79d5524113a49cd3e"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1LibraryController.html#a6bc70daa48b96db79d5524113a49cd3e">addDirectoryContent</a> (File directory)</td></tr>
+<tr class="separator:a6bc70daa48b96db79d5524113a49cd3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9fa66bce780f7cd657c2d73d7cde9f9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1LibraryController.html#ae9fa66bce780f7cd657c2d73d7cde9f9">remove</a> (UUID uuid)</td></tr>
+<tr class="separator:ae9fa66bce780f7cd657c2d73d7cde9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classene_1_1controllers_1_1AbstractController"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classene_1_1controllers_1_1AbstractController')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classene_1_1controllers_1_1AbstractController.html">ene.controllers.AbstractController&lt; LibraryModel &gt;</a></td></tr>
 <tr class="memitem:aeb538130c72b3c48f6574443db04eed5 inherit pub_methods_classene_1_1controllers_1_1AbstractController"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1AbstractController.html#aeb538130c72b3c48f6574443db04eed5">setModel</a> (<a class="el" href="interfaceene_1_1interfaces_1_1Model.html">Model</a> <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a7af4ecfc2a535685954c3785376c591e">model</a>)</td></tr>
 <tr class="separator:aeb538130c72b3c48f6574443db04eed5 inherit pub_methods_classene_1_1controllers_1_1AbstractController"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,8 +120,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2bb7538995189dddbf1b1c2fe6f90251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1LibraryController.html#a2bb7538995189dddbf1b1c2fe6f90251">scan</a> (File path, String ... genre)</td></tr>
-<tr class="separator:a2bb7538995189dddbf1b1c2fe6f90251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8b922c846a9b770b67f478ea0e5352"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352">scan</a> (File path, String ... genre)</td></tr>
+<tr class="separator:a3a8b922c846a9b770b67f478ea0e5352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -165,36 +169,140 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab7225b093aff739e21f5e08d7a4e17bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7225b093aff739e21f5e08d7a4e17bc">&#9670;&nbsp;</a></span>load()</h2>
+<a id="a6bc70daa48b96db79d5524113a49cd3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc70daa48b96db79d5524113a49cd3e">&#9670;&nbsp;</a></span>addDirectoryContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ene.controllers.LibraryController.load </td>
+          <td class="memname">boolean ene.controllers.LibraryController.addDirectoryContent </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>directory</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Load library content. </p>
+<p>Adds the files of a whole directory to the library. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">directory</td><td>File instance of the directory. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns TRUE, if successful. Otherwise FALSE. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="LibraryController_8java_source.html#l00025">25</a> of file <a class="el" href="LibraryController_8java_source.html">LibraryController.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LibraryController_8java_source.html#l00051">51</a> of file <a class="el" href="LibraryController_8java_source.html">LibraryController.java</a>.</p>
 
-<p class="reference">References <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a2bb7538995189dddbf1b1c2fe6f90251">ene.controllers.LibraryController.scan()</a>.</p>
+<p class="reference">References <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352">ene.controllers.LibraryController.scan()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classene_1_1views_1_1ContentView.html#a0dcfbea75d8b136df7772cbf6b1357f6">ene.views.ContentView.ContentView()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><!-- SVG 3 -->
 </div>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 4 -->
+</div>
+</div>
 
 </div>
 </div>
-<a id="a2bb7538995189dddbf1b1c2fe6f90251"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bb7538995189dddbf1b1c2fe6f90251">&#9670;&nbsp;</a></span>scan()</h2>
+<a id="a510a4d97c1d8c2fd471725933e2064b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a510a4d97c1d8c2fd471725933e2064b0">&#9670;&nbsp;</a></span>addFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean ene.controllers.LibraryController.addFile </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>genre</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a file to the library. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>File instance. </td></tr>
+    <tr><td class="paramname">genre</td><td>Genre. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns TRUE, if successful. Otherwise FALSE. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="LibraryController_8java_source.html#l00028">28</a> of file <a class="el" href="LibraryController_8java_source.html">LibraryController.java</a>.</p>
+
+<p class="reference">References <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd">ene.controllers.AbstractController&lt; LibraryModel &gt;.getModel()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352">ene.controllers.LibraryController.scan()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 5 -->
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 6 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae9fa66bce780f7cd657c2d73d7cde9f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9fa66bce780f7cd657c2d73d7cde9f9">&#9670;&nbsp;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean ene.controllers.LibraryController.remove </td>
+          <td>(</td>
+          <td class="paramtype">UUID&#160;</td>
+          <td class="paramname"><em>uuid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes a file from the library by it's unique identifier. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">uuid</td><td>Unique identifier. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns TRUE, if successful. Otherwise FALSE. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="LibraryController_8java_source.html#l00086">86</a> of file <a class="el" href="LibraryController_8java_source.html">LibraryController.java</a>.</p>
+
+<p class="reference">References <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd">ene.controllers.AbstractController&lt; LibraryModel &gt;.getModel()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><!-- SVG 7 -->
+</div>
+</div>
+
+</div>
+</div>
+<a id="a3a8b922c846a9b770b67f478ea0e5352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a8b922c846a9b770b67f478ea0e5352">&#9670;&nbsp;</a></span>scan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,7 +311,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ene.controllers.LibraryController.scan </td>
+          <td class="memname">int ene.controllers.LibraryController.scan </td>
           <td>(</td>
           <td class="paramtype">File&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -226,29 +334,30 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Recursive track file scan. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Scans and adds files recursively. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>File instance of the path. </td></tr>
     <tr><td class="paramname">genre</td><td>Given track genre (Optional, internal usage). </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns the amount of added files. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="LibraryController_8java_source.html#l00039">39</a> of file <a class="el" href="LibraryController_8java_source.html">LibraryController.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="LibraryController_8java_source.html#l00069">69</a> of file <a class="el" href="LibraryController_8java_source.html">LibraryController.java</a>.</p>
 
-<p class="reference">References <a class="el" href="classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd">ene.controllers.AbstractController&lt; LibraryModel &gt;.getModel()</a>.</p>
+<p class="reference">References <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a510a4d97c1d8c2fd471725933e2064b0">ene.controllers.LibraryController.addFile()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classene_1_1controllers_1_1LibraryController.html#ab7225b093aff739e21f5e08d7a4e17bc">ene.controllers.LibraryController.load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a6bc70daa48b96db79d5524113a49cd3e">ene.controllers.LibraryController.addDirectoryContent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><!-- SVG 4 -->
+<div class="center"><!-- SVG 8 -->
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><!-- SVG 5 -->
+<div class="center"><!-- SVG 9 -->
 </div>
 </div>
 
@@ -263,7 +372,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceene.html">ene</a></li><li class="navelem"><a class="el" href="namespaceene_1_1controllers.html">controllers</a></li><li class="navelem"><a class="el" href="classene_1_1controllers_1_1LibraryController.html">LibraryController</a></li>
-    <li class="footer">Generated on Fri Jul 26 2019 12:44:22 for Ene by
+    <li class="footer">Generated on Sat Jul 27 2019 05:26:44 for Ene by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

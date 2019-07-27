@@ -5,6 +5,7 @@ import ene.models.TrackModel;
 import java.io.File;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineEvent;
@@ -66,16 +67,14 @@ public class PlayerModel extends AbstractModel implements LineListener {
     public boolean load(TrackModel track) {
         try {
             Clip clip = this.getClip();
-            if (clip.isOpen()) clip.close();
-            AudioInputStream audioStream = AudioSystem.getAudioInputStream(new File(track.getFilename()));
-            clip = (Clip) AudioSystem.getLine(
-                new DataLine.Info(
-                    this.clip.getClass(),
-                    audioStream.getFormat()
-                )
-            );
+            if (clip != null) if (clip.isOpen()) clip.close();
+            File soundFile = new File(track.getFilename());
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(soundFile);
+            AudioFormat format = audioInputStream.getFormat();
+            DataLine.Info info = new DataLine.Info(Clip.class, format);
+            clip = (Clip)AudioSystem.getLine(info);
             clip.addLineListener(this);
-            clip.open(audioStream);
+            clip.open(audioInputStream);
             this.setClip(clip);
         } catch (Exception exception) {
             return false;

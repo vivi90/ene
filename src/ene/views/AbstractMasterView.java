@@ -1,14 +1,15 @@
 package ene.views;
 
-import ene.interfaces.BaseView;
+import ene.interfaces.MasterView;
 import ene.interfaces.View;
 import java.util.List;
 import java.util.ArrayList;
 
 /**
- * Abstract base view class.
+ * Abstract master view class.
+ * @since 0.3.0
  */
-abstract class AbstractBaseView <CoreComponentType> implements BaseView <CoreComponentType> {
+abstract class AbstractMasterView <CoreComponentType> implements MasterView <CoreComponentType> {
     /**
      * Core component instance.
      */

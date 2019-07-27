@@ -7,7 +7,7 @@ import ene.interfaces.Controller;
 /**
  * View interface.
  */
-public interface View <CoreComponentType, ModelType, ControllerType> extends Composition <CoreComponentType> {
+public interface View <CoreComponentType, ModelType> extends Composition <CoreComponentType> {
     /**
      * Sets the layout position.
      * @param layoutPosition Layout position.
@@ -31,18 +31,6 @@ public interface View <CoreComponentType, ModelType, ControllerType> extends Com
      * @return Model instance.
      */
     public abstract ModelType getModel();
-
-    /**
-     * Sets the controller instance.
-     * @param controller Controller instance.
-     */
-    public abstract void setController(Controller controller);
-
-    /**
-     * Returns the controller instance.
-     * @return Controller instance.
-     */
-    public abstract ControllerType getController();
 
     /**
      * Request update.

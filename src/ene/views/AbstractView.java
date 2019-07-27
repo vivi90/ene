@@ -2,12 +2,11 @@ package ene.views;
 
 import ene.interfaces.View;
 import ene.interfaces.Model;
-import ene.interfaces.Controller;
 
 /**
  * Abstract view class.
  */
-abstract class AbstractView <CoreComponentType, ModelType, ControllerType> implements View <CoreComponentType, ModelType, ControllerType> {
+abstract class AbstractView <CoreComponentType, ModelType> implements View <CoreComponentType, ModelType> {
     /**
      * Layout position.
      */
@@ -22,11 +21,6 @@ abstract class AbstractView <CoreComponentType, ModelType, ControllerType> imple
      * Model instance.
      */
     protected ModelType model;
-
-    /**
-     * Controller instance.
-     */
-    protected ControllerType controller;
 
     @Override
     public void setLayoutPosition(String layoutPosition) {
@@ -57,17 +51,6 @@ abstract class AbstractView <CoreComponentType, ModelType, ControllerType> imple
     @Override
     public ModelType getModel() {
         return this.model;
-    }
-
-    @SuppressWarnings("unchecked")
-    @Override
-    public void setController(Controller controller) {
-        this.controller = (ControllerType)controller;
-    }
-
-    @Override
-    public ControllerType getController() {
-        return this.controller;
     }
 
     @Override

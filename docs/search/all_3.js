@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['default_5flocale',['DEFAULT_LOCALE',['../interfaceene_1_1interfaces_1_1Localization.html#a81bfea877a39e2ba0db7a2dcdbedbea1',1,'ene::interfaces::Localization']]]
+  ['controllers',['controllers',['../namespaceene_1_1controllers.html',1,'ene']]],
+  ['ene',['ene',['../namespaceene.html',1,'']]],
+  ['ene',['Ene',['../index.html',1,'']]],
+  ['interfaces',['interfaces',['../namespaceene_1_1interfaces.html',1,'ene']]],
+  ['models',['models',['../namespaceene_1_1models.html',1,'ene']]],
+  ['views',['views',['../namespaceene_1_1views.html',1,'ene']]]
 ];
