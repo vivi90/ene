@@ -34,7 +34,7 @@ public class PlayerController extends AbstractController <PlayerModel>  {
         Type lineEventType = this.getModel().getLastEvent().getType();
         if (lineEventType != Type.CLOSE) {
             if (lineEventType == Type.START) {
-                this.getModel().stop();
+                this.getModel().pause();
             } else {
                 this.getModel().start();
             }

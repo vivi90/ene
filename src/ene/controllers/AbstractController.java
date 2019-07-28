@@ -1,12 +1,13 @@
 package ene.controllers;
 
+import ene.AbstractObject;
 import ene.interfaces.Controller;
 import ene.interfaces.Model;
 
 /**
  * Abstract controller class.
  */
-abstract class AbstractController <ModelType> implements Controller <ModelType> {
+abstract class AbstractController <ModelType> extends AbstractObject implements Controller <ModelType> {
     /**
      * Model instance.
      */

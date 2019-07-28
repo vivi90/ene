@@ -1,14 +1,15 @@
 package ene.models;
 
+import ene.AbstractObject;
 import ene.interfaces.Model;
 import ene.interfaces.View;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Abstract model class.
  */
-abstract class AbstractModel implements Model {
+abstract class AbstractModel extends AbstractObject implements Model {
     /**
      * Related views.
      */

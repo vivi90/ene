@@ -1,12 +1,13 @@
 package ene.views;
 
-import ene.interfaces.View;
+import ene.AbstractObject;
 import ene.interfaces.Model;
+import ene.interfaces.View;
 
 /**
  * Abstract view class.
  */
-abstract class AbstractView <CoreComponentType, ModelType> implements View <CoreComponentType, ModelType> {
+abstract class AbstractView <CoreComponentType, ModelType> extends AbstractObject implements View <CoreComponentType, ModelType> {
     /**
      * Layout position.
      */

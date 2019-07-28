@@ -1,15 +1,23 @@
 package ene.models;
 
+import ene.AbstractObject;
 import ene.models.AbstractModel;
 import ene.models.TrackModel;
 import java.io.File;
+import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
+import javax.sound.sampled.LineEvent.Type;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
+
+import ene.models.TrackModel;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.DataLine;
+import javax.sound.sampled.LineEvent.Type;
 
 /**
  * Player class.
@@ -31,7 +39,6 @@ public class PlayerModel extends AbstractModel implements LineListener {
      */
     protected void setClip(Clip clip) {
         this.clip = clip;
-        this.changed();
     }
 
     /**
@@ -48,7 +55,6 @@ public class PlayerModel extends AbstractModel implements LineListener {
      */
     protected void setLastEvent(LineEvent event) {
         this.lastEvent = event;
-        this.changed();
     }
 
     /**
@@ -61,22 +67,28 @@ public class PlayerModel extends AbstractModel implements LineListener {
 
     /**
      * Load track.
+     * Implementation inpired by: https://www.tutorials.de/threads/kontinuierlich-laufende-hintergrundmusik-in-java.359029
      * @param track Track model instance.
      * @return Returns TRUE, if successful. Otherwise FALSE.
      */
     public boolean load(TrackModel track) {
+        debugInfoAbout(track);
         try {
             Clip clip = this.getClip();
             if (clip != null) if (clip.isOpen()) clip.close();
             File soundFile = new File(track.getFilename());
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(soundFile);
             AudioFormat format = audioInputStream.getFormat();
-            DataLine.Info info = new DataLine.Info(Clip.class, format);
-            clip = (Clip)AudioSystem.getLine(info);
+            int size = (int) (format.getFrameSize() * audioInputStream.getFrameLength());
+            DataLine.Info info = new DataLine.Info(Clip.class, format, size);
+            byte[] buffer = new byte[size];
+            audioInputStream.read(buffer, 0, size);
+            clip = (Clip) AudioSystem.getLine(info);
             clip.addLineListener(this);
-            clip.open(audioInputStream);
+            clip.open(format, buffer, 0, size);
             this.setClip(clip);
         } catch (Exception exception) {
+            debugInfoAbout(exception);
             return false;
         }
         return true;
@@ -84,20 +96,38 @@ public class PlayerModel extends AbstractModel implements LineListener {
 
     /**
      * Start playing.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
      */
-    public void start() {
-        this.getClip().start();
+    public boolean start() {
+        try {
+            this.getClip().start();
+        } catch (Exception exception) {
+            debugInfoAbout(exception);
+            return false;
+        }
+        return true;
     }
 
     /**
-     * Stop playing.
+     * Pause playing.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
      */
-    public void stop() {
-        this.getClip().stop();
+    public boolean pause() {
+        try {
+            this.getClip().stop();
+        } catch (Exception exception) {
+            debugInfoAbout(exception);
+            return false;
+        }
+        return true;
     }
 
     @Override
     public void update(LineEvent event) {
+        debugInfoAbout(event);
         this.setLastEvent(event);
+        Clip clip = this.getClip();
+        if ((event.getType() == Type.STOP) && (clip.getMicrosecondPosition() == clip.getMicrosecondLength())) clip.setMicrosecondPosition(0);
+        this.changed();
     }
 }

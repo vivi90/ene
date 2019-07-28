@@ -71,7 +71,7 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Lo
     public void update() {
         LineEvent lastEvent = this.getModel().getLastEvent();
         if (lastEvent.getType() == Type.START) {
-            this.playButton.setText(getString("PLAY_BUTTON_STOP"));
+            this.playButton.setText(getString("PLAY_BUTTON_PAUSE"));
         } else if (lastEvent.getType() == Type.STOP) {
             this.playButton.setText(getString("PLAY_BUTTON_START"));
         }

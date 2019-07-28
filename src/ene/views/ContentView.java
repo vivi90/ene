@@ -1,5 +1,6 @@
 package ene.views;
 
+import javax.swing.table.TableColumn;
 import java.io.File;
 import ene.interfaces.Model;
 import ene.interfaces.Controller;
@@ -41,7 +42,7 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel> implem
          * Initializing.
          */
         {
-            setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE")});
+            setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE"), "UUID"});
         }
 
         @Override
@@ -148,8 +149,19 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel> implem
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         table.getSelectionModel().addListSelectionListener(this);
         this.setTable(table);
+        this.hideColumn(3); // Hides UUID.
         this.getCoreComponent().setViewportView(table);
         this.setLayoutPosition(BorderLayout.CENTER);
+    }
+
+    /**
+     * Hide column.
+     * @param columnIndex Column index.
+     */
+    protected void hideColumn(int columnIndex) {
+        this.getTable().getColumnModel().getColumn(columnIndex).setMinWidth(0);
+        this.getTable().getColumnModel().getColumn(columnIndex).setPreferredWidth(0);
+        this.getTable().getColumnModel().getColumn(columnIndex).setMaxWidth(0);
     }
 
     @Override
@@ -159,14 +171,16 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel> implem
         tableContent.setRowCount(0);
         for (Map.Entry<UUID, TrackModel> entry : tracks.entrySet()) {
             TrackModel track = entry.getValue();
-            tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre()});
+            tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre(), track.getUUID().toString()});
         }
     }
 
     @Override
-    public void valueChanged(ListSelectionEvent e) {
-        JTable table = this.getTable();
-        String title = (String) table.getValueAt(table.getSelectedRow(), 1);
-        this.getPlayerController().load(this.getModel().getByTitle(title).entrySet().iterator().next().getValue());
+    public void valueChanged(ListSelectionEvent event) {
+        if (!event.getValueIsAdjusting()) {
+            debugInfoAbout(event);
+            UUID uuid = UUID.fromString((String)tableContent.getValueAt(this.getTable().getSelectedRow(), 3));
+            this.getPlayerController().load(this.getModel().getByUUID(uuid));
+        }
     }
 }

@@ -131,4 +131,18 @@ public class TrackModel extends AbstractModel {
         this.setTitle(title);
         this.setGenre(genre);
     }
+
+    /**
+     * Returns a string representation of the object.
+     * @return String representation of the object.
+     */
+    public String toString() {
+        return getClass().getName() + "{"
+        + this.getUUID() + ", "
+        + this.getFilename() + ", "
+        + this.getArtist() + ", "
+        + this.getTitle() + ", "
+        + this.getGenre()
+        + "}" + '@' + Integer.toHexString(hashCode());
+    }
 }

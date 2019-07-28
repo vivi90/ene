@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['update',['update',['../interfaceene_1_1interfaces_1_1View.html#a8cc04bba46312609f1cccfb419130500',1,'ene.interfaces.View.update()'],['../classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1',1,'ene.models.PlayerModel.update()'],['../classene_1_1views_1_1AbstractView.html#a9e80e79d980bffa3df36fbda24d9078d',1,'ene.views.AbstractView.update()'],['../classene_1_1views_1_1ContentView.html#aff5d4737e39b7ca485b369aa13810924',1,'ene.views.ContentView.update()'],['../classene_1_1views_1_1PlayerView.html#ad3190eef3aaedcd62b74b17ce89fa641',1,'ene.views.PlayerView.update()']]]
+  ['remove',['remove',['../classene_1_1controllers_1_1LibraryController.html#ae9fa66bce780f7cd657c2d73d7cde9f9',1,'ene.controllers.LibraryController.remove()'],['../classene_1_1models_1_1LibraryModel.html#a89b63aa014021aba996f973037bbe739',1,'ene.models.LibraryModel.remove()']]],
+  ['render',['render',['../interfaceene_1_1interfaces_1_1MasterView.html#af178709966fad43ba2fef4b03623b21c',1,'ene.interfaces.MasterView.render()'],['../classene_1_1views_1_1AbstractMasterView.html#a894c494c7d54892bfd045c3de9fe6c13',1,'ene.views.AbstractMasterView.render()'],['../classene_1_1views_1_1WindowView.html#a147fba15d4ff26346f805c2a66f31404',1,'ene.views.WindowView.render()']]]
 ];

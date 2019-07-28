@@ -12,7 +12,8 @@ We have named it after the character 'Ene' from the anime 'Mekakucity Actors'.
 
 Usage
 -----
-Just compile it.
+Just create a `Music` folder at the project root directory and compile it.
+Currently it supports only WAV files.
 
 Requirements
 ------------
@@ -25,7 +26,12 @@ Please issue **right after** cloning the following command to use all necessary 
 
 Translation
 -----------
-Please take a look at the `locales` directory.
+Please take a look at the directory `src/resources/locales`.
+
+Troubleshooting
+---------------
+If you run this application on a Linux operating system, the sound doesn't work,
+and you get an LineUnavailableException in debug mode, then please force Java to use the Pulse Audio system by issuing: `padsp java -jar bin/ene.jar`
 
 License
 -------

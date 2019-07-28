@@ -9,6 +9,8 @@ var searchData=
   ['abstractmasterview_3c_20jframe_20_3e',['AbstractMasterView&lt; JFrame &gt;',['../classene_1_1views_1_1AbstractMasterView.html',1,'ene::views']]],
   ['abstractmodel',['AbstractModel',['../classene_1_1models_1_1AbstractModel.html',1,'ene::models']]],
   ['abstractmodel_2ejava',['AbstractModel.java',['../AbstractModel_8java.html',1,'']]],
+  ['abstractobject',['AbstractObject',['../classene_1_1AbstractObject.html',1,'ene']]],
+  ['abstractobject_2ejava',['AbstractObject.java',['../AbstractObject_8java.html',1,'']]],
   ['abstractview',['AbstractView',['../classene_1_1views_1_1AbstractView.html',1,'ene::views']]],
   ['abstractview_2ejava',['AbstractView.java',['../AbstractView_8java.html',1,'']]],
   ['abstractview_3c_20jpanel_2c_20playermodel_20_3e',['AbstractView&lt; JPanel, PlayerModel &gt;',['../classene_1_1views_1_1AbstractView.html',1,'ene::views']]],

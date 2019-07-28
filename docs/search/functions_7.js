@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['remove',['remove',['../classene_1_1controllers_1_1LibraryController.html#ae9fa66bce780f7cd657c2d73d7cde9f9',1,'ene.controllers.LibraryController.remove()'],['../classene_1_1models_1_1LibraryModel.html#a89b63aa014021aba996f973037bbe739',1,'ene.models.LibraryModel.remove()']]],
-  ['render',['render',['../interfaceene_1_1interfaces_1_1MasterView.html#af178709966fad43ba2fef4b03623b21c',1,'ene.interfaces.MasterView.render()'],['../classene_1_1views_1_1AbstractMasterView.html#a894c494c7d54892bfd045c3de9fe6c13',1,'ene.views.AbstractMasterView.render()'],['../classene_1_1views_1_1WindowView.html#a147fba15d4ff26346f805c2a66f31404',1,'ene.views.WindowView.render()']]]
+  ['librarycontroller',['LibraryController',['../classene_1_1controllers_1_1LibraryController.html#af59acb98eeac06354a4534939ee65577',1,'ene::controllers::LibraryController']]],
+  ['load',['load',['../classene_1_1controllers_1_1PlayerController.html#a3161f5c373dd9ec50cfa2f07e59ee1a1',1,'ene.controllers.PlayerController.load()'],['../classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5',1,'ene.models.PlayerModel.load()']]]
 ];
