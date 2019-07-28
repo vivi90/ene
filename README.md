@@ -31,7 +31,8 @@ Please take a look at the directory `src/resources/locales`.
 Troubleshooting
 ---------------
 If you run this application on a Linux operating system, the sound doesn't work,
-and you get an LineUnavailableException in debug mode, then please force Java to use the Pulse Audio system by issuing: `padsp java -jar bin/ene.jar`
+and you get an `LineUnavailableException` in debug mode, then please force Java to use the Pulse Audio system by issuing: `padsp java -jar bin/ene.jar`
+You need to start this application with the `-d` argument to enable debug infos.
 
 License
 -------
