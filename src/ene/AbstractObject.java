@@ -41,7 +41,7 @@ abstract public class AbstractObject {
      */
     public static void debugInfoAbout(Object object) {
         if (AbstractObject.isDebugModeEnabled()) {
-            AbstractObject.consoleOutput("[" + new Timestamp(new Date().getTime()).toString() + "] " + object.toString());
+            AbstractObject.consoleOutput("[" + new Timestamp(new Date().getTime()).toString() + "] " + object.toString() + "\n");
         }
     }
 
