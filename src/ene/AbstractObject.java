@@ -52,4 +52,16 @@ abstract public class AbstractObject {
     public static void consoleOutput(String text) {
         System.out.println(text);
     }
+
+    /**
+     * Let's wait for a while in the current thread.
+     * @param milliseconds Wait time in milliseconds.
+     */
+    protected void delay(long milliseconds) {
+        try {
+            Thread.sleep(milliseconds);
+        } catch(InterruptedException exception) {
+            Thread.currentThread().interrupt();
+        }
+    }
 }
