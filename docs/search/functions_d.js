@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['update',['update',['../interfaceene_1_1interfaces_1_1View.html#a8cc04bba46312609f1cccfb419130500',1,'ene.interfaces.View.update()'],['../classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1',1,'ene.models.PlayerModel.update()'],['../classene_1_1views_1_1AbstractView.html#a9e80e79d980bffa3df36fbda24d9078d',1,'ene.views.AbstractView.update()'],['../classene_1_1views_1_1ContentView.html#aff5d4737e39b7ca485b369aa13810924',1,'ene.views.ContentView.update()'],['../classene_1_1views_1_1PlayerView.html#ad3190eef3aaedcd62b74b17ce89fa641',1,'ene.views.PlayerView.update()']]]
+  ['toggleplayback',['togglePlayback',['../classene_1_1controllers_1_1PlayerController.html#acea0cc4709105881026516d468c4baf8',1,'ene::controllers::PlayerController']]],
+  ['tostring',['toString',['../classene_1_1models_1_1TrackModel.html#a0a42aa27708a22d669893b6152be8d20',1,'ene::models::TrackModel']]],
+  ['trackmodel',['TrackModel',['../classene_1_1models_1_1TrackModel.html#aa1b3f4e62209c12dda188c81fa16dec0',1,'ene::models::TrackModel']]]
 ];

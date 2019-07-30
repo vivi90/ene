@@ -21,5 +21,7 @@ var searchData=
   ['gettable',['getTable',['../classene_1_1views_1_1ContentView.html#add6500ee5c8cd74bebd3402ec9e92561',1,'ene::views::ContentView']]],
   ['gettablecontent',['getTableContent',['../classene_1_1views_1_1ContentView.html#a29474beeab9ccf63d6608c8aa035bc56',1,'ene::views::ContentView']]],
   ['gettitle',['getTitle',['../classene_1_1models_1_1TrackModel.html#a5bac0e2b6c87c93eef2802d9d10bf3c1',1,'ene::models::TrackModel']]],
+  ['gettracklength',['getTrackLength',['../classene_1_1models_1_1PlayerModel.html#ac32610c7511e6187ae364f64e1cf290b',1,'ene::models::PlayerModel']]],
+  ['gettrackposition',['getTrackPosition',['../classene_1_1models_1_1PlayerModel.html#a3108500012be901007a2e809761ac136',1,'ene::models::PlayerModel']]],
   ['getuuid',['getUUID',['../classene_1_1models_1_1TrackModel.html#a7cf68e99d6fc7d9ddcd8fe4afeb86b5d',1,'ene::models::TrackModel']]]
 ];

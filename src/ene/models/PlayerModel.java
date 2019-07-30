@@ -9,15 +9,8 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
-import javax.sound.sampled.LineEvent.Type;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
-
-import ene.models.TrackModel;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.DataLine;
-import javax.sound.sampled.LineEvent.Type;
 
 /**
  * Player class.
@@ -34,6 +27,11 @@ public class PlayerModel extends AbstractModel implements LineListener {
     LineEvent lastEvent;
 
     /**
+     * Track length.
+     */
+    int trackLength;
+
+    /**
      * Sets the clip.
      * @param clip Clip instance.
      */
@@ -45,7 +43,7 @@ public class PlayerModel extends AbstractModel implements LineListener {
      * Returns the clip.
      * @return Clip instance.
      */
-    protected Clip getClip() {
+    public Clip getClip() {
         return this.clip;
     }
 
@@ -63,6 +61,32 @@ public class PlayerModel extends AbstractModel implements LineListener {
      */
     public LineEvent getLastEvent() {
         return this.lastEvent;
+    }
+
+    /**
+     * Returns the track length.
+     * @return Track length in seconds.
+     */
+    public int getTrackLength() {
+        this.delay(10);
+        return (int) (this.getClip().getMicrosecondLength() / 1000000);
+    }
+
+    /**
+     * Sets the current track position.
+     * @param position Track position in seconds.
+     */
+    public void setTrackPosition(int position) {
+        if (this.getTrackPosition() != position) this.getClip().setMicrosecondPosition(position * 1000000);
+    }
+
+    /**
+     * Returns the current track position.
+     * @return Current track position in seconds.
+     */
+    public int getTrackPosition() {
+        this.delay(10);
+        return (int) (this.getClip().getMicrosecondPosition() / 1000000);
     }
 
     /**
@@ -86,6 +110,7 @@ public class PlayerModel extends AbstractModel implements LineListener {
             clip = (Clip) AudioSystem.getLine(info);
             clip.addLineListener(this);
             clip.open(format, buffer, 0, size);
+            audioInputStream.close();
             this.setClip(clip);
         } catch (Exception exception) {
             debugInfoAbout(exception);
@@ -126,8 +151,6 @@ public class PlayerModel extends AbstractModel implements LineListener {
     public void update(LineEvent event) {
         debugInfoAbout(event);
         this.setLastEvent(event);
-        Clip clip = this.getClip();
-        if ((event.getType() == Type.STOP) && (clip.getMicrosecondPosition() == clip.getMicrosecondLength())) clip.setMicrosecondPosition(0);
         this.changed();
     }
 }

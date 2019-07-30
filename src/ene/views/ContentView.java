@@ -1,6 +1,5 @@
 package ene.views;
 
-import javax.swing.table.TableColumn;
 import java.io.File;
 import ene.interfaces.Model;
 import ene.interfaces.Controller;

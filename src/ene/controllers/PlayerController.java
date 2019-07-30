@@ -19,6 +19,14 @@ public class PlayerController extends AbstractController <PlayerModel>  {
     }
 
     /**
+     * Changes the current track position.
+     * @param newPosition New track position in seconds.
+     */
+    public void changeTrackPosition(int newPosition) {
+        this.getModel().setTrackPosition(newPosition);
+    }
+
+    /**
      * Load track.
      * @param track Track instance.
      * @return Returns TRUE, if successful. Otherwise FALSE.

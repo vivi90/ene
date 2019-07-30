@@ -1,17 +1,35 @@
 package ene.views;
 
-import ene.interfaces.Model;
-import ene.interfaces.Controller;
 import ene.controllers.PlayerController;
+import ene.interfaces.Controller;
 import ene.interfaces.Localization;
+import ene.interfaces.Model;
 import ene.models.PlayerModel;
 import ene.views.AbstractView;
 import java.awt.BorderLayout;
-import java.awt.FlowLayout;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
+import javax.sound.sampled.LineEvent.Type;
 import javax.sound.sampled.LineEvent;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JSlider;
+import javax.swing.SwingConstants;
+import javax.swing.Timer;
+import javax.swing.border.EmptyBorder;
+
+import java.util.Date;
+import ene.interfaces.Controller;
+import ene.interfaces.Model;
+import ene.views.AbstractView;
 import javax.sound.sampled.LineEvent.Type;
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
 
 /**
  * Player view class.
@@ -26,6 +44,26 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Lo
      * Play/Stop button.
      */
     protected JButton playButton;
+
+    /**
+     * Progress slider.
+     */
+    protected JSlider progressSlider;
+
+    /**
+     * Progress label.
+     */
+    protected JLabel progressLabel;
+
+    /**
+     * Progress refresh timer.
+     */
+    Timer progressTimer;
+
+    /**
+     * Track time format instance.
+     */
+    SimpleDateFormat trackTimeFormat;
 
     /**
      * Sets the player controller instance.
@@ -52,6 +90,7 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Lo
         model.addView(this);
         this.setModel(model);
         this.setPlayerController(playerController);
+        this.setLayoutPosition(BorderLayout.SOUTH);
         this.initialize();
     }
 
@@ -59,20 +98,109 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Lo
      * Initializing.
      */
     protected void initialize() {
-        this.setCoreComponent(new JPanel(new FlowLayout()));
-        this.setLayoutPosition(BorderLayout.SOUTH);
+        // Panel
+        JPanel panel = new JPanel(new BorderLayout(10, 0));
+        panel.setBorder(new EmptyBorder(5, 5, 5, 5));
+        this.setCoreComponent(panel);
+        // Play button.
         this.playButton = new JButton(getString("PLAY_BUTTON_START"));
         this.playButton.setFocusPainted(false);
-        this.playButton.addActionListener(event -> this.getPlayerController().togglePlayback());
-        this.getCoreComponent().add(this.playButton);
-        this.setLayoutPosition(BorderLayout.SOUTH);
+        this.playButton.addActionListener(event -> {
+            debugInfoAbout(event);
+            this.getPlayerController().togglePlayback();
+        });
+        panel.add(this.playButton, BorderLayout.WEST);
+        // Progress slider.
+        this.progressSlider = new JSlider(0, 100, 0);
+        this.progressSlider.addChangeListener(event -> {
+            this.getPlayerController().changeTrackPosition(progressSlider.getValue());
+        });
+        panel.add(this.progressSlider, BorderLayout.CENTER);
+        // Progress label.
+        this.progressLabel = new JLabel("--:-- / --:--");
+        this.progressLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+        this.trackTimeFormat = new SimpleDateFormat("mm:ss");
+        this.trackTimeFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+        panel.add(this.progressLabel, BorderLayout.EAST);
+        // Progress refresh timer.
+        this.progressTimer = new Timer(100, event -> {
+            this.updateProgress();
+        });
+        // Prepare player controls.
+        this.disablePlayerControls();
     }
+
+    /**
+     * Enables player controls.
+     */
+    protected void enablePlayerControls() {
+        this.playButton.setEnabled(true);
+        this.progressSlider.setEnabled(true);
+        this.progressLabel.setEnabled(true);
+    }
+
+    /**
+     * Disables player controls.
+     */
+    protected void disablePlayerControls() {
+        this.playButton.setEnabled(false);
+        this.progressSlider.setEnabled(false);
+        this.progressLabel.setEnabled(false);
+    }
+
+    /**
+     * Updates the progress slider and label.
+     */
+    protected void updateProgress() {
+        int trackLength = this.getModel().getTrackLength();
+        int trackPosition = this.getModel().getTrackPosition();
+        this.progressSlider.setMaximum(trackLength);
+        this.progressSlider.setValue(trackPosition);
+        this.progressLabel.setText(
+            this.formatTimeToString(trackPosition) +
+            " / " +
+            this.formatTimeToString(trackLength)
+        );
+    }
+
+    /**
+     * Resets the track progress.
+     */
+    protected void resetProgress() {
+        this.getPlayerController().changeTrackPosition(0);
+        this.updateProgress();
+    }
+
+    /**
+     * Returns a string representation of the time.
+     * @param timeInSeconds Time in seconds.
+     * @return String representation of the time.
+     */
+    protected String formatTimeToString(int timeInSeconds) {
+        return this.trackTimeFormat.format(new Date(timeInSeconds*1000));
+    }
+
     @Override
     public void update() {
-        LineEvent lastEvent = this.getModel().getLastEvent();
-        if (lastEvent.getType() == Type.START) {
+        Type lastEventType = this.getModel().getLastEvent().getType();
+        // Track opened.
+        if (lastEventType == Type.OPEN) {
+            this.resetProgress();
+            this.enablePlayerControls();
+        // Track closed.
+        } else if (lastEventType == Type.CLOSE) {
+            this.resetProgress();
+            this.progressLabel.setText("--:-- / --:--");
+            this.disablePlayerControls();
+        // Track started.
+        } else if (lastEventType == Type.START) {
+            this.progressTimer.start();
             this.playButton.setText(getString("PLAY_BUTTON_PAUSE"));
-        } else if (lastEvent.getType() == Type.STOP) {
+        // Track paused.
+        } else if (lastEventType == Type.STOP) {
+            PlayerModel playerModel = this.getModel();
+            if (playerModel.getTrackPosition() == playerModel.getTrackLength()) this.resetProgress();
+            this.progressTimer.stop();
             this.playButton.setText(getString("PLAY_BUTTON_START"));
         }
     }
