@@ -8,9 +8,15 @@ import ene.models.PlayerModel;
 import ene.views.AbstractView;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
+import java.io.*;
+
 import javax.sound.sampled.LineEvent;
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import javax.swing.filechooser.FileSystemView;
 import javax.sound.sampled.LineEvent.Type;
 
 /**
@@ -26,6 +32,8 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Lo
      * Play/Stop button.
      */
     protected JButton playButton;
+    protected JButton addButton;
+    protected JButton deleteButton;
 
     /**
      * Sets the player controller instance.
@@ -43,6 +51,68 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Lo
         return this.playerController;
     }
 
+    
+    protected void AddTitle() /*{
+    	JFrame parentFrame = new JFrame();
+    	 
+    	JFileChooser fileChooser = new JFileChooser();
+    	fileChooser.setDialogTitle("Choose a Title");   
+    	 
+    	int userSelection = fileChooser.showSaveDialog(parentFrame);
+    	 
+    	if (userSelection == JFileChooser.APPROVE_OPTION) {
+    	    File fileToSave = fileChooser.getSelectedFile();
+    	    
+    	    
+    	    System.out.println("Save as file: " + fileToSave.getAbsolutePath());
+    	}
+    }
+*/    
+    {
+    
+    JFileChooser jfc = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
+		jfc.setDialogTitle("Select an image");
+		jfc.setAcceptAllFileFilterUsed(false);
+		FileNameExtensionFilter filter = new FileNameExtensionFilter("Wav Sound file", "wav");
+		jfc.addChoosableFileFilter(filter);
+
+		int returnValue = jfc.showOpenDialog(null);
+		if (returnValue == JFileChooser.APPROVE_OPTION) {
+			System.out.println(jfc.getSelectedFile().getPath());
+		}
+    }  
+    
+    
+    
+    //File will be delete it
+    
+  protected void DeleteTitle() {
+	  JFrame parentFrame = new JFrame();
+ 	 
+  	JFileChooser fileChooser = new JFileChooser();
+  	fileChooser.setDialogTitle("Choose a Title");   
+  	 
+  	int userSelection = fileChooser.showSaveDialog(parentFrame);
+  	 
+  	if (userSelection == JFileChooser.APPROVE_OPTION) {
+  	    File fileToDelete = fileChooser.getSelectedFile();
+  	    
+  	    
+  	    System.out.println("Save as file: " + fileToDelete.getAbsolutePath());
+  	
+	  
+	
+	        
+      if(fileToDelete.delete()) 
+      { 
+          System.out.println("File deleted successfully"); 
+      } 
+      else
+      { 
+          System.out.println("Failed to delete the file"); 
+      } 
+  } }
+	 
     /**
      * Constructor.
      * @param model Player model instance.
@@ -65,7 +135,27 @@ public class PlayerView extends AbstractView <JPanel, PlayerModel> implements Lo
         this.playButton.setFocusPainted(false);
         this.playButton.addActionListener(event -> this.getPlayerController().togglePlayback());
         this.getCoreComponent().add(this.playButton);
+        
+        this.addButton = new JButton(getString("ADD_BUTTON"));
+        this.addButton.setFocusPainted(false);
+        this.addButton.addActionListener(event -> this.AddTitle());
+        this.getCoreComponent().add(this.addButton);
+        
+        this.deleteButton = new JButton(getString("DELETE_BUTTON"));
+        this.deleteButton.setFocusPainted(false);
+        this.deleteButton.addActionListener(event -> this.DeleteTitle());
+        this.getCoreComponent().add(this.deleteButton);
+        
+        
+        
+        
+        
         this.setLayoutPosition(BorderLayout.SOUTH);
+        
+        
+        
+        
+        
     }
     @Override
     public void update() {
