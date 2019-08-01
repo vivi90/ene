@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['main',['main',['../classene_1_1Main.html#a6895a0ab05864203ddac84ae03ae479d',1,'ene::Main']]]
+  ['main',['main',['../classene_1_1Application.html#a336bc7b9857591df7cc547781aacbf10',1,'ene::Application']]]
 ];

@@ -3,7 +3,7 @@ Ene
 
 About
 -----
-This project is a simple extensible music library as a homework in the context of my computer science studies.
+This project is a simple music library as a homework in the context of my computer science studies.
 For more details about the source code please check out the documentation: https://vivi90.github.io/ene
 
 Naming
@@ -43,5 +43,6 @@ For more details please see the LICENSE file or: http://www.gnu.org/licenses
 Credits
 -------
 * 2019 by Vivien Richter <vivien-richter@outlook.de> and Mathias Telling <mathias.telling@stud.htwk-leipzig.de>
-* Git repository: https://github.com/vivi90/ene.git
-* Application icon by Google Limited: https://github.com/google/material-design-icons.git
+* Our Git repository: https://github.com/vivi90/ene.git
+* Application icon repository (by Google Limited): https://github.com/google/material-design-icons.git
+* SQLite JDBC driver library repository: https://bitbucket.org/xerial/sqlite-jdbc
