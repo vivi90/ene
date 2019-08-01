@@ -32,7 +32,7 @@ public class WindowView extends AbstractMasterView <JFrame> implements Localizat
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle(getString("WINDOW_TITLE"));
-        frame.setIconImage(new ImageIcon(this.getClass().getResource("/resources/images/icon.png")).getImage());
+        frame.setIconImage(new ImageIcon(this.getClass().getResource("/ene/resources/images/icon.png")).getImage());
         this.setCoreComponent(frame);
     }
 

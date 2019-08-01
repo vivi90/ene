@@ -26,7 +26,7 @@ Please issue **right after** cloning the following command to use all necessary 
 
 Translation
 -----------
-Please take a look at the directory `src/resources/locales`.
+Please take a look at the directory `src/ene/resources/locales`.
 
 Troubleshooting
 ---------------
