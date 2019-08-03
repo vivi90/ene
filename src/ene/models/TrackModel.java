@@ -122,4 +122,34 @@ public class TrackModel extends AbstractModel {
         + this.getGenre()
         + "}" + '@' + Integer.toHexString(hashCode());
     }
+
+    /**
+     * Detects the artist by the filenme.
+     * @param filenme The filename.
+     * @return Returns the artist or a empty string.
+     * @since 0.10.1
+     */
+    public static String detectArtist(String filename) {
+        String[] tags = filename.split(" - ");
+        if (tags.length > 1) {
+            return tags[0];
+        } else {
+            return "";
+        }
+    }
+
+    /**
+     * Detects the title by the filenme.
+     * @param filenme The filename.
+     * @return Returns the title or a empty string.
+     * @since 0.10.1
+     */
+    public static String detectTitle(String filename) {
+        String[] tags = filename.split(" - ");
+        if (tags.length > 1) {
+            return tags[1].substring(0, tags[1].lastIndexOf("."));
+        } else {
+            return filename.substring(0, filename.lastIndexOf("."));
+        }
+    }
 }

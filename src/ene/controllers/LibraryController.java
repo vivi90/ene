@@ -29,19 +29,10 @@ public class LibraryController extends AbstractController <LibraryModel> {
         String filename = file.getName();
         String extension = filename.substring(filename.lastIndexOf(".") + 1);
         if (extension.equals("wav") && file.length() > 0) {
-            String[] tags = filename.split(" - ");
-            String artist, title;
-            if (tags.length > 1) {
-                artist = tags[0];
-                title = tags[1].substring(0, tags[1].lastIndexOf("."));
-            } else {
-                artist = "";
-                title = filename.substring(0, filename.lastIndexOf("."));
-            }
             this.getModel().add(new TrackModel(
                 file.getAbsolutePath(),
-                artist,
-                title,
+                TrackModel.detectArtist(filename),
+                TrackModel.detectTitle(filename),
                 genre
             ));
             return true;
