@@ -4,33 +4,35 @@ import ene.models.AbstractModel;
 import ene.models.TrackModel;
 import java.util.Map;
 import java.util.HashMap;
-import java.util.UUID;
 
 /**
  * Library class.
+ * @version 2.0.0
  */
 public class LibraryModel extends AbstractModel {
     /**
      * All tracks.
+     * @since 0.10.0
      */
-    protected Map<UUID, TrackModel> tracks = new HashMap<>();
+    protected Map<String, TrackModel> tracks = new HashMap<>();
 
     /**
-     * Add a track to the library.
+     * Adds a track to the library.
      * @param track Track model instance.
      */
     public void add(TrackModel track) {
-        this.tracks.put(track.getUUID(), track);
+        this.tracks.put(track.getFilename(), track);
         this.changed();
     }
 
     /**
-     * Remove a track by it's unique identifier.
-     * @param uuid Unique identifier.
-     * @return Returns TRUE, if successful. Otherwise FALSE. 
+     * Removes a track from the library.
+     * @param filename File path.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 0.10.0
      */
-    public boolean remove(UUID uuid) {
-        if (this.tracks.remove(uuid) == null) {
+    public boolean remove(String filename) {
+        if (this.tracks.remove(filename) == null) {
             return false;
         } else {
             return true;
@@ -38,65 +40,70 @@ public class LibraryModel extends AbstractModel {
     }
 
     /**
-     * Get track by UUID.
-     * @param uuid Unique identifier.
+     * Returns track.
+     * @param filename File path.
      * @return Track.
+     * @since 0.10.0
      */
-    public TrackModel getByUUID(UUID uuid) {
-        return this.tracks.get(uuid);
+    public TrackModel get(String filename) {
+        return this.tracks.get(filename);
     }
 
     /**
-     * Get all tracks.
+     * Returns all tracks.
      * @return Tracks.
+     * @since 0.10.0
      */
-    public Map<UUID, TrackModel> getAll() {
+    public Map<String, TrackModel> getAll() {
         return this.tracks;
     }
 
     /**
-     * Get tracks by artist.
+     * Returns all tracks by an particular artist.
      * @param artist Artist.
      * @return Tracks.
+     * @since 0.10.0
      */
-    public Map<UUID, TrackModel> getByArtist(String artist) {
-        HashMap<UUID, TrackModel> tracks = new HashMap<>();
-        for (Map.Entry<UUID, TrackModel> entry : this.tracks.entrySet()) {
+    public Map<String, TrackModel> getByArtist(String artist) {
+        HashMap<String, TrackModel> tracks = new HashMap<>();
+        for (Map.Entry<String, TrackModel> entry : this.tracks.entrySet()) {
             TrackModel track = entry.getValue();
             if (track.getArtist().equals(artist)) {
-                tracks.put(track.getUUID(), track);
+                tracks.put(track.getFilename(), track);
             }
         }
         return tracks;
     }
 
     /**
-     * Get tracks by title.
+     * Returns all tracks with a particular title.
      * @param title Title.
      * @return Tracks.
+     * @since 0.10.0
      */
-    public Map<UUID, TrackModel> getByTitle(String title) {
-        HashMap<UUID, TrackModel> tracks = new HashMap<>();
-        for (Map.Entry<UUID, TrackModel> entry : this.tracks.entrySet()) {
+    public Map<String, TrackModel> getByTitle(String title) {
+        HashMap<String, TrackModel> tracks = new HashMap<>();
+        for (Map.Entry<String, TrackModel> entry : this.tracks.entrySet()) {
             TrackModel track = entry.getValue();
             if (track.getTitle().equals(title)) {
-                tracks.put(track.getUUID(), track);
+                tracks.put(track.getFilename(), track);
             }
         }
         return tracks;
     }
 
     /**
-     * Get tracks by genre.
+     * Returns all tracks from a particular genre.
      * @param genre Genre.
      * @return Tracks.
+     * @since 0.10.0
      */
-    public Map<UUID, TrackModel> getByGenre(String genre) {
-        HashMap<UUID, TrackModel> tracks = new HashMap<>();
-        for (Map.Entry<UUID, TrackModel> entry : this.tracks.entrySet()) {
+    public Map<String, TrackModel> getByGenre(String genre) {
+        HashMap<String, TrackModel> tracks = new HashMap<>();
+        for (Map.Entry<String, TrackModel> entry : this.tracks.entrySet()) {
             TrackModel track = entry.getValue();
             if (track.getGenre().equals(genre)) {
-                tracks.put(track.getUUID(), track);
+                tracks.put(track.getFilename(), track);
             }
         }
         return tracks;

@@ -10,7 +10,6 @@ import ene.interfaces.Localization;
 import ene.models.LibraryModel;
 import ene.models.TrackModel;
 import java.util.Map;
-import java.util.UUID;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
@@ -21,6 +20,7 @@ import javax.swing.event.ListSelectionEvent;
 
 /**
  * Content view class.
+ * @version 2.0.0
  */
 public class ContentView extends AbstractView <JScrollPane, LibraryModel> implements Localization, ListSelectionListener {
     /**
@@ -139,7 +139,7 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel> implem
     protected void initialize() {
         // Prepare table content.
         DefaultTableModel tableContent = this.getTableContent();
-        tableContent.setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE"), "UUID"});
+        tableContent.setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE"), getString("TABLE_COLUMN_FILENAME")});
         // Prepare table.
         JTable table = new JTable(tableContent);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
@@ -163,11 +163,11 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel> implem
     @Override
     public void update() {
         DefaultTableModel tableContent = this.getTableContent();
-        Map<UUID, TrackModel> tracks = this.getModel().getAll();
+        Map<String, TrackModel> tracks = this.getModel().getAll();
         tableContent.setRowCount(0);
-        for (Map.Entry<UUID, TrackModel> entry : tracks.entrySet()) {
+        for (Map.Entry<String, TrackModel> entry : tracks.entrySet()) {
             TrackModel track = entry.getValue();
-            tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre(), track.getUUID().toString()});
+            tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre(), track.getFilename().toString()});
         }
     }
 
@@ -175,8 +175,8 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel> implem
     public void valueChanged(ListSelectionEvent event) {
         if (!event.getValueIsAdjusting()) {
             debugInfoAbout(event);
-            UUID uuid = UUID.fromString((String)tableContent.getValueAt(this.getTable().getSelectedRow(), 3));
-            this.getPlayerController().load(this.getModel().getByUUID(uuid));
+            String filename = (String)tableContent.getValueAt(this.getTable().getSelectedRow(), 3);
+            this.getPlayerController().load(this.getModel().get(filename));
         }
     }
 }

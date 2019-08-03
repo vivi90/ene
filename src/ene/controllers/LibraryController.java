@@ -4,11 +4,11 @@ import ene.controllers.AbstractController;
 import ene.interfaces.Model;
 import ene.models.LibraryModel;
 import ene.models.TrackModel;
-import java.util.UUID;
 import java.io.File;
 
 /**
  * Library controller.
+ * @version 2.0.0
  */
 public class LibraryController extends AbstractController <LibraryModel> {
     /**
@@ -39,7 +39,6 @@ public class LibraryController extends AbstractController <LibraryModel> {
                 title = filename.substring(0, filename.lastIndexOf("."));
             }
             this.getModel().add(new TrackModel(
-                UUID.randomUUID(),
                 file.getAbsolutePath(),
                 artist,
                 title,
@@ -87,11 +86,12 @@ public class LibraryController extends AbstractController <LibraryModel> {
     }
 
     /**
-     * Removes a file from the library by it's unique identifier.
-     * @param uuid Unique identifier.
+     * Removes a file from the library.
+     * @param filename File path.
      * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 0.10.0
      */
-    public boolean remove(UUID uuid) {
-        return this.getModel().remove(uuid);
+    public boolean remove(String filename) {
+        return this.getModel().remove(filename);
     }
 }

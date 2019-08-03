@@ -1,17 +1,12 @@
 package ene.models;
 
 import ene.models.AbstractModel;
-import java.util.UUID;
 
 /**
  * Track model.
+ * @version 2.0.0
  */
 public class TrackModel extends AbstractModel {
-    /**
-     * Unique identifier.
-     */
-    protected UUID uuid;
-
     /**
      * Filename.
      */
@@ -31,22 +26,6 @@ public class TrackModel extends AbstractModel {
      * Genre.
      */
     protected String genre;
-
-    /**
-     * Get the unique identifier.
-     * @return Unique identifier.
-     */
-    public UUID getUUID() {
-        return this.uuid;
-    }
-
-    /**
-     * Set the unique identifier.
-     * @param uuid Unique identifier.
-     */
-    public void setUUID(UUID uuid) {
-        this.uuid = uuid;
-    }
 
 	/**
 	 * Get the filename.
@@ -118,14 +97,13 @@ public class TrackModel extends AbstractModel {
 
     /**
      * Constructor.
-     * @param uuid Unique identifier.
      * @param filename Filename.
      * @param artist Artist.
      * @param title Title.
      * @param genre Genre.
+     * @since 0.10.0
      */
-    public TrackModel(UUID uuid, String filename, String artist, String title, String genre) {
-        this.setUUID(uuid);
+    public TrackModel(String filename, String artist, String title, String genre) {
         this.setFilename(filename);
         this.setArtist(artist);
         this.setTitle(title);
@@ -138,7 +116,6 @@ public class TrackModel extends AbstractModel {
      */
     public String toString() {
         return getClass().getName() + "{"
-        + this.getUUID() + ", "
         + this.getFilename() + ", "
         + this.getArtist() + ", "
         + this.getTitle() + ", "

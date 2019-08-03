@@ -18,7 +18,6 @@ var searchData=
   ['settablecontent',['setTableContent',['../classene_1_1views_1_1ContentView.html#a5871a890c2c8095107f05e7bcdb9dbf8',1,'ene::views::ContentView']]],
   ['settitle',['setTitle',['../classene_1_1models_1_1TrackModel.html#a1e8a6872b5dcf826ba463a663a8249f1',1,'ene::models::TrackModel']]],
   ['settrackposition',['setTrackPosition',['../classene_1_1models_1_1PlayerModel.html#ae58085790604570d46621f019a8e0e78',1,'ene::models::PlayerModel']]],
-  ['setuuid',['setUUID',['../classene_1_1models_1_1TrackModel.html#aaa17d6bc4044234d77100e038ef34b04',1,'ene::models::TrackModel']]],
   ['sqldatabase',['SQLDatabase',['../classene_1_1databases_1_1SQLDatabase.html#a91ac1bd655b300b6d01c858c023cce3e',1,'ene::databases::SQLDatabase']]],
   ['start',['start',['../classene_1_1models_1_1PlayerModel.html#a7d0471082171de01773a1da88cb3652d',1,'ene::models::PlayerModel']]]
 ];

@@ -1,7 +1,3 @@
-/**
- * Simple music library.
- * @version 0.9.0
- */
 package ene;
 
 import ene.AbstractObject;
