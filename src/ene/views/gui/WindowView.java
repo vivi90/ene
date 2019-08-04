@@ -1,4 +1,4 @@
-package ene.views;
+package ene.views.gui;
 
 import ene.interfaces.Localization;
 import ene.interfaces.View;
@@ -10,7 +10,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 /**
- * Window class.
+ * Window view.
+ * @version 1.0.0
  */
 public class WindowView extends AbstractMasterView <JFrame> implements Localization {
     /**
@@ -22,7 +23,6 @@ public class WindowView extends AbstractMasterView <JFrame> implements Localizat
             this.addView(views[i]);
         }
         this.initialize();
-        this.compose();
     }
 
     /**
@@ -37,19 +37,17 @@ public class WindowView extends AbstractMasterView <JFrame> implements Localizat
     }
 
     @Override
-    public void compose() {
+    public void render() {
+        JFrame masterComponent = this.getCoreComponent();
         JPanel contentPane = new JPanel(new BorderLayout());
-        for (View component : this.getAllViews()) {
+        for (View partialView : this.getAllViews()) {
+            partialView.render();
             contentPane.add(
-                (Component)component.getCoreComponent(), component.getLayoutPosition()
+                (Component) partialView.getCoreComponent(), partialView.getLayoutPosition()
             );
         }
-        this.getCoreComponent().setContentPane(contentPane);
-    }
-
-    @Override
-    public void render() {
-        this.getCoreComponent().pack();
-        this.getCoreComponent().setVisible(true);
+        masterComponent.setContentPane(contentPane);
+        masterComponent.pack();
+        masterComponent.setVisible(true);
     }
 }

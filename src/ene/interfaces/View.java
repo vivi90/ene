@@ -1,39 +1,36 @@
 package ene.interfaces;
 
-import ene.interfaces.Composition;
-import ene.interfaces.Model;
-import ene.interfaces.Controller;
-
 /**
- * View interface.
+ * View.
+ * @version 2.0.0
  */
-public interface View <CoreComponentType, ModelType> extends Composition <CoreComponentType> {
-    /**
+public interface View <CoreComponentType> {
+	/**
+	 * Sets the core component instance.
+	 * @param coreComponent Core component instance.
+	 */
+	void setCoreComponent(CoreComponentType coreComponent);
+
+	/**
+	 * Returns the core component instance.
+	 * @return Core component instance.
+	 */
+	CoreComponentType getCoreComponent();
+
+	/**
      * Sets the layout position.
      * @param layoutPosition Layout position.
      */
-    public abstract void setLayoutPosition(String layoutPosition);
+    void setLayoutPosition(String layoutPosition);
 
     /**
      * Returns the layout position.
      * @return Layout position.
      */
-    public abstract String getLayoutPosition();
+    String getLayoutPosition();
 
-    /**
-     * Sets the model instance.
-     * @param model Model instance.
+	/**
+     * Renders the view.
      */
-    public abstract void setModel(Model model);
-
-    /**
-     * Returns the model instance.
-     * @return Model instance.
-     */
-    public abstract ModelType getModel();
-
-    /**
-     * Request update.
-     */
-    public abstract void update();
+    void render();
 }

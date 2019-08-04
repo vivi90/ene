@@ -4,13 +4,14 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
- * Localization interface.
+ * Localization.
+ * @version 1.0.0
  */
 public interface Localization {
     /**
      * Default locale.
      */
-    public static final String DEFAULT_LOCALE = "en_US";
+    static final String DEFAULT_LOCALE = "en_US";
 
     /**
      * Get the localized string.

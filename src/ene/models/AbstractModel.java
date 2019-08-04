@@ -2,21 +2,22 @@ package ene.models;
 
 import ene.AbstractObject;
 import ene.interfaces.Model;
-import ene.interfaces.View;
+import ene.interfaces.PartialView;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Abstract model class.
+ * Abstract model.
+ * @version 2.0.0
  */
 abstract class AbstractModel extends AbstractObject implements Model {
     /**
      * Related views.
      */
-    protected List<View> views = new ArrayList<>();
+    protected List<PartialView> views = new ArrayList<>();
 
     @Override
-    public void addView(View view) {
+    public void addView(PartialView view) {
         this.views.add(view);
     }
 
@@ -24,6 +25,6 @@ abstract class AbstractModel extends AbstractObject implements Model {
      * Update event.
      */
     protected void changed() {
-        this.views.forEach(View::update);
+        this.views.forEach(PartialView::update);
     }
 }

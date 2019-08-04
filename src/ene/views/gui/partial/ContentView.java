@@ -1,9 +1,9 @@
-package ene.views;
+package ene.views.gui.partial;
 
 import java.io.File;
 import ene.interfaces.Model;
 import ene.interfaces.Controller;
-import ene.views.AbstractView;
+import ene.views.AbstractPartialView;
 import ene.controllers.LibraryController;
 import ene.controllers.PlayerController;
 import ene.interfaces.Localization;
@@ -19,10 +19,10 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.event.ListSelectionEvent;
 
 /**
- * Content view class.
- * @version 2.0.0
+ * Content view.
+ * @version 3.0.0
  */
-public class ContentView extends AbstractView <JScrollPane, LibraryModel> implements Localization, ListSelectionListener {
+public class ContentView extends AbstractPartialView <JScrollPane, LibraryModel> implements Localization, ListSelectionListener {
     /**
      * Table instance.
      */
@@ -179,4 +179,7 @@ public class ContentView extends AbstractView <JScrollPane, LibraryModel> implem
             this.getPlayerController().load(this.getModel().get(filename));
         }
     }
+
+    @Override
+    public void render() {}
 }

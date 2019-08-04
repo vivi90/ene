@@ -15,8 +15,14 @@ digraph "ene.AbstractObject.consoleOutput"
   Node5 [label="ene.models.PlayerModel.pause",height=0.2,width=0.4,color="black",URL="$classene_1_1models_1_1PlayerModel.html#afdcaa5e17ecdfbccad3ac8e702914e00"];
   Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 [label="ene.models.PlayerModel.update",height=0.2,width=0.4,color="black",URL="$classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1"];
-  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="ene.Application.processArguments",height=0.2,width=0.4,color="black",URL="$classene_1_1Application.html#a096fa8803429fdb43c79cde1705b489f"];
-  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="ene.Application.main",height=0.2,width=0.4,color="black",URL="$classene_1_1Application.html#a336bc7b9857591df7cc547781aacbf10"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ene.views.gui.partial.Content\lView.valueChanged",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#a647b8caeddca89d41f45fde6ee9389dc"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ene.views.gui.partial.Player\lView.initialize",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6a20ce866e62ced7476b666fe891b10a"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ene.views.gui.partial.Player\lView.PlayerView",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a87a7a4837fc2b68df6bf06984881a7ea"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ene.Application.processArguments",height=0.2,width=0.4,color="black",URL="$classene_1_1Application.html#a096fa8803429fdb43c79cde1705b489f"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ene.Application.main",height=0.2,width=0.4,color="black",URL="$classene_1_1Application.html#a336bc7b9857591df7cc547781aacbf10"];
 }

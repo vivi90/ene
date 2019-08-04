@@ -1,14 +1,15 @@
 package ene.interfaces;
 
-import ene.interfaces.View;
+import ene.interfaces.PartialView;
 
 /**
- * Model interface.
+ * Model.
+ * @version 2.0.0
  */
 public interface Model {
     /**
      * Add related view.
      * @param view View.
      */
-    public abstract void addView(View view);
+    void addView(PartialView view);
 }

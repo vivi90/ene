@@ -6,6 +6,7 @@ import java.sql.Timestamp;
 /**
  * Abstract object class.
  * @since 0.4.0
+ * @version 1.0.0
  */
 abstract public class AbstractObject {
     /**

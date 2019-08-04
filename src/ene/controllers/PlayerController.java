@@ -8,6 +8,7 @@ import javax.sound.sampled.LineEvent.Type;
 
 /**
  * Player controller.
+ * @version 1.0.0
  */
 public class PlayerController extends AbstractController <PlayerModel>  {
     /**

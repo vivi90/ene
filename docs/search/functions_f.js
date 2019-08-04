@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['update',['update',['../interfaceene_1_1interfaces_1_1View.html#a8cc04bba46312609f1cccfb419130500',1,'ene.interfaces.View.update()'],['../classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1',1,'ene.models.PlayerModel.update()'],['../classene_1_1views_1_1AbstractView.html#a9e80e79d980bffa3df36fbda24d9078d',1,'ene.views.AbstractView.update()'],['../classene_1_1views_1_1ContentView.html#aff5d4737e39b7ca485b369aa13810924',1,'ene.views.ContentView.update()'],['../classene_1_1views_1_1PlayerView.html#ad3190eef3aaedcd62b74b17ce89fa641',1,'ene.views.PlayerView.update()']]],
-  ['updateprogress',['updateProgress',['../classene_1_1views_1_1PlayerView.html#aa98d83c4c05fbe1c8fb35dccc470e8ff',1,'ene::views::PlayerView']]]
+  ['update',['update',['../interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265',1,'ene.interfaces.PartialView.update()'],['../classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1',1,'ene.models.PlayerModel.update()'],['../classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#a8d62eb14c5d441576e44b97f2a75ce19',1,'ene.views.gui.partial.ContentView.update()'],['../classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9',1,'ene.views.gui.partial.PlayerView.update()']]],
+  ['updateprogress',['updateProgress',['../classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af324f1c0b5648dab2400b4c0ab33f3ca',1,'ene::views::gui::partial::PlayerView']]]
 ];

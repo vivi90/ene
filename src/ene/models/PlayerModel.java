@@ -1,6 +1,5 @@
 package ene.models;
 
-import ene.AbstractObject;
 import ene.models.AbstractModel;
 import ene.models.TrackModel;
 import java.io.File;
@@ -13,7 +12,8 @@ import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
 
 /**
- * Player class.
+ * Player model.
+ * @version 1.0.0
  */
 public class PlayerModel extends AbstractModel implements LineListener {
     /**

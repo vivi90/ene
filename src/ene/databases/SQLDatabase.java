@@ -13,7 +13,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * JDBC SQL database class.
+ * JDBC SQL database.
+ * @version 1.0.0
  */
 public class SQLDatabase extends AbstractObject implements DatabaseConnection {
     /**

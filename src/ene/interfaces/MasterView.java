@@ -1,39 +1,29 @@
 package ene.interfaces;
 
-import ene.interfaces.Composition;
 import ene.interfaces.View;
 import java.util.List;
 
 /**
- * Master view interface.
+ * Master view.
  * @since 0.3.0
+ * @version 2.0.0
  */
-public interface MasterView <CoreComponentType> extends Composition <CoreComponentType> {
+public interface MasterView <CoreComponentType> extends View <CoreComponentType> {
     /**
      * Adds view instance.
      * @param view View instance.
      */
-    public abstract void addView(View view);
+    void addView(View view);
 
     /**
      * Sets all contained view instances.
      * @param views List of view instaces.
      */
-    public abstract void setAllViews(List<View> views);
+    void setAllViews(List<View> views);
 
     /**
      * Returns all contained view instances.
      * @return List of view instaces.
      */
-    public abstract List<View> getAllViews();
-
-    /**
-     * Compose all core components of all views.
-     */
-    public void compose();
-
-    /**
-     * Render base view.
-     */
-    public abstract void render();
+    List<View> getAllViews();
 }

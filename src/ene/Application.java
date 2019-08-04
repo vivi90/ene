@@ -4,18 +4,18 @@ import ene.AbstractObject;
 import ene.controllers.LibraryController;
 import ene.controllers.PlayerController;
 import ene.interfaces.Controller;
-import ene.interfaces.MasterView;
-import ene.interfaces.Model;
 import ene.interfaces.View;
+import ene.interfaces.Model;
 import ene.models.LibraryModel;
 import ene.models.PlayerModel;
-import ene.views.ContentView;
-import ene.views.PlayerView;
-import ene.views.WindowView;
+import ene.views.gui.partial.ContentView;
+import ene.views.gui.partial.PlayerView;
+import ene.views.gui.WindowView;
 
 /**
  * Bootstrap class.
  * @since 0.8.0
+ * @version 1.0.0
  */
 public class Application extends AbstractObject {
     /**
@@ -59,7 +59,7 @@ public class Application extends AbstractObject {
         Controller libraryController = new LibraryController(libraryModel);
         View contentView = new ContentView(libraryModel, libraryController, playerController);
         View playerView = new PlayerView(playerModel, playerController);
-        MasterView windowView = new WindowView(contentView, playerView);
+        View windowView = new WindowView(contentView, playerView);
         windowView.render();
     }
 }

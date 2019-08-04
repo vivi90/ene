@@ -3,18 +3,19 @@ package ene.interfaces;
 import ene.interfaces.Model;
 
 /**
- * Controller interface.
+ * Controller.
+ * @version 1.0.0
  */
 public interface Controller <ModelType> {
     /**
      * Sets the model instance.
      * @param model Model instance.
      */
-    public abstract void setModel(Model model);
+    void setModel(Model model);
 
     /**
      * Returns the model instance.
      * @return Model instance.
      */
-    public abstract ModelType getModel();
+    ModelType getModel();
 }

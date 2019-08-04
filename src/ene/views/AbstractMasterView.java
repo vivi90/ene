@@ -1,35 +1,21 @@
 package ene.views;
 
-import ene.AbstractObject;
 import ene.interfaces.MasterView;
 import ene.interfaces.View;
+import ene.views.AbstractView;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Abstract master view class.
+ * Abstract master view.
  * @since 0.3.0
+ * @version 1.0.0
  */
-abstract class AbstractMasterView <CoreComponentType> extends AbstractObject implements MasterView <CoreComponentType> {
-    /**
-     * Core component instance.
-     */
-    protected CoreComponentType coreComponent;
-
+abstract public class AbstractMasterView <CoreComponentType> extends AbstractView <CoreComponentType> implements MasterView <CoreComponentType> {
     /**
      * Contained view instances.
      */
     protected List<View> views = new ArrayList<>();
-
-    @Override
-    public void setCoreComponent(CoreComponentType coreComponent) {
-        this.coreComponent = coreComponent;
-    }
-
-    @Override
-    public CoreComponentType getCoreComponent() {
-        return this.coreComponent;
-    }
 
     @Override
     public void addView(View view) {
@@ -45,10 +31,4 @@ abstract class AbstractMasterView <CoreComponentType> extends AbstractObject imp
     public List<View> getAllViews() {
         return this.views;
     }
-
-    @Override
-    public void compose() {}
-
-    @Override
-    public void render() {}
 }

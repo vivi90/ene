@@ -1,37 +1,22 @@
 package ene.views;
 
-import ene.AbstractObject;
-import ene.interfaces.Model;
 import ene.interfaces.View;
+import ene.AbstractObject;
 
 /**
- * Abstract view class.
+ * Abstract view.
+ * @version 1.0.0
  */
-abstract class AbstractView <CoreComponentType, ModelType> extends AbstractObject implements View <CoreComponentType, ModelType> {
-    /**
-     * Layout position.
-     */
-    protected String layoutPosition;
-
+abstract public class AbstractView <CoreComponentType> extends AbstractObject implements View <CoreComponentType> {
     /**
      * Core component instance.
      */
     protected CoreComponentType coreComponent;
 
     /**
-     * Model instance.
+     * Layout position.
      */
-    protected ModelType model;
-
-    @Override
-    public void setLayoutPosition(String layoutPosition) {
-        this.layoutPosition = layoutPosition;
-    }
-
-    @Override
-    public String getLayoutPosition() {
-        return this.layoutPosition;
-    }
+    protected String layoutPosition;
 
     @Override
     public void setCoreComponent(CoreComponentType coreComponent) {
@@ -43,17 +28,13 @@ abstract class AbstractView <CoreComponentType, ModelType> extends AbstractObjec
         return this.coreComponent;
     }
 
-    @SuppressWarnings("unchecked")
     @Override
-    public void setModel(Model model) {
-        this.model = (ModelType)model;
+    public void setLayoutPosition(String layoutPosition) {
+        this.layoutPosition = layoutPosition;
     }
 
     @Override
-    public ModelType getModel() {
-        return this.model;
+    public String getLayoutPosition() {
+        return this.layoutPosition;
     }
-
-    @Override
-    public void update() {}
 }
