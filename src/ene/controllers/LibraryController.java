@@ -8,7 +8,7 @@ import java.io.File;
 
 /**
  * Library controller.
- * @version 2.0.0
+ * @version 3.0.0
  */
 public class LibraryController extends AbstractController <LibraryModel> {
     /**
@@ -21,11 +21,40 @@ public class LibraryController extends AbstractController <LibraryModel> {
 
     /**
      * Adds a file to the library.
+     * @param filename File path.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 0.12.0
+     */
+    public boolean add(String filename) {
+        File file = new File(filename);
+        if (file.exists()) {
+            if (file.isDirectory()) {
+                return this.addDirectoryContent(file);
+            } else {
+                return this.addFile(file);
+            }
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * Removes a file from the library.
+     * @param filename File path.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 0.10.0
+     */
+    public boolean remove(String filename) {
+        return this.getModel().remove(filename);
+    }
+
+    /**
+     * Adds a file to the library.
      * @param file File instance.
-     * @param genre Genre.
+     * @param genre Given track genre (Optional, for internal usage only).
      * @return Returns TRUE, if successful. Otherwise FALSE.
      */
-    public boolean addFile(File file, String genre) {
+    protected boolean addFile(File file, String ... genre) {
         String filename = file.getName();
         String extension = filename.substring(filename.lastIndexOf(".") + 1);
         if (extension.equals("wav") && file.length() > 0) {
@@ -33,7 +62,7 @@ public class LibraryController extends AbstractController <LibraryModel> {
                 file.getAbsolutePath(),
                 TrackModel.detectArtist(filename),
                 TrackModel.detectTitle(filename),
-                genre
+                ((genre.length > 0) ? genre[0] : "")
             ));
             return true;
         } else {
@@ -46,13 +75,9 @@ public class LibraryController extends AbstractController <LibraryModel> {
      * @param directory File instance of the directory.
      * @return Returns TRUE, if successful. Otherwise FALSE.
      */
-    public boolean addDirectoryContent(File directory) {
-        if (directory.exists()) {
-            if (this.scan(directory) > 0) {
-                return true;
-            } else {
-                return false;
-            }
+    protected boolean addDirectoryContent(File directory) {
+        if (this.scan(directory) > 0) {
+            return true;
         } else {
             return false;
         }
@@ -61,7 +86,7 @@ public class LibraryController extends AbstractController <LibraryModel> {
     /**
      * Scans and adds files recursively.
      * @param path File instance of the path.
-     * @param genre Given track genre (Optional, internal usage).
+     * @param genre Given track genre (Optional, for internal usage only).
      * @return Returns the amount of added files.
      */
     protected int scan(File path, String ... genre) {
@@ -74,15 +99,5 @@ public class LibraryController extends AbstractController <LibraryModel> {
             }
         }
         return addedFiles;
-    }
-
-    /**
-     * Removes a file from the library.
-     * @param filename File path.
-     * @return Returns TRUE, if successful. Otherwise FALSE.
-     * @since 0.10.0
-     */
-    public boolean remove(String filename) {
-        return this.getModel().remove(filename);
     }
 }

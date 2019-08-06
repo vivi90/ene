@@ -12,7 +12,7 @@ We have named it after the character 'Ene' from the anime 'Mekakucity Actors'.
 
 Usage
 -----
-Just create a `Music` folder at the project root directory and compile it.
+Just compile it.
 Currently it supports only WAV files.
 
 Requirements

@@ -33,6 +33,7 @@ public class TrackList extends AbstractModel {
         if (this.tracks.remove(filename) == null) {
             return false;
         } else {
+            this.changed();
             return true;
         }
     }

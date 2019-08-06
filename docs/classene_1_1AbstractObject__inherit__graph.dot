@@ -11,7 +11,7 @@ digraph "ene.AbstractObject"
   Node2 -> Node3 [dir="back",color="orange",fontsize="10",style="solid",label=" \< LibraryModel \>" ,fontname="Helvetica"];
   Node3 [label="{ene.controllers.Abstract\lController\< LibraryModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1controllers_1_1AbstractController.html"];
   Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node4 [label="{ene.controllers.LibraryController\n||+ LibraryController()\l+ addFile()\l+ addDirectoryContent()\l+ remove()\l# scan()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1controllers_1_1LibraryController.html"];
+  Node4 [label="{ene.controllers.LibraryController\n||+ LibraryController()\l+ add()\l+ remove()\l# addFile()\l# addDirectoryContent()\l# scan()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1controllers_1_1LibraryController.html"];
   Node2 -> Node5 [dir="back",color="orange",fontsize="10",style="solid",label=" \< PlayerModel \>" ,fontname="Helvetica"];
   Node5 [label="{ene.controllers.Abstract\lController\< PlayerModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1controllers_1_1AbstractController.html"];
   Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
@@ -41,11 +41,11 @@ digraph "ene.AbstractObject"
   Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
   Node18 [label="{ene::views::AbstractPartial\lView\< CoreComponentType \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
   Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node19 [label="{ene::views::gui::partial\l::ContentView\< JScrollPane,\l LibraryModel \>\n|# table\l# tableContent\l# libraryController\l# playerController\l|+ ContentView()\l+ update()\l+ valueChanged()\l+ render()\l# setTable()\l# getTable()\l# setTableContent()\l# getTableContent()\l# setLibraryController()\l# getLibraryController()\l# setPlayerController()\l# getPlayerController()\l# initialize()\l# hideColumn()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1ContentView.html"];
+  Node19 [label="{ene::views::gui::partial\l::ContentView\< JPanel,\l LibraryModel \>\n|# table\l# tableContent\l# libraryController\l# playerController\l|+ ContentView()\l+ update()\l+ valueChanged()\l+ render()\l# setTable()\l# getTable()\l# setTableContent()\l# getTableContent()\l# setLibraryController()\l# getLibraryController()\l# setPlayerController()\l# getPlayerController()\l# initialize()\l# hideColumn()\l# getSelectedFilename()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1ContentView.html"];
   Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
   Node20 [label="{ene::views::gui::partial\l::PlayerView\< JPanel, PlayerModel \>\n|~ progressTimer\l~ trackTimeFormat\l# playerController\l# playButton\l# progressSlider\l# progressLabel\l|+ PlayerView()\l+ update()\l+ render()\l# setPlayerController()\l# getPlayerController()\l# initialize()\l# enablePlayerControls()\l# disablePlayerControls()\l# updateProgress()\l# resetProgress()\l# formatTimeToString()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html"];
   Node18 -> Node21 [dir="back",color="orange",fontsize="10",style="solid",label=" \< JPanel, PlayerModel \>" ,fontname="Helvetica"];
   Node21 [label="{ene.views.AbstractPartial\lView\< JPanel, PlayerModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
-  Node18 -> Node22 [dir="back",color="orange",fontsize="10",style="solid",label=" \< JScrollPane, LibraryModel \>" ,fontname="Helvetica"];
-  Node22 [label="{ene.views.AbstractPartial\lView\< JScrollPane, LibraryModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
+  Node18 -> Node22 [dir="back",color="orange",fontsize="10",style="solid",label=" \< JPanel, LibraryModel \>" ,fontname="Helvetica"];
+  Node22 [label="{ene.views.AbstractPartial\lView\< JPanel, LibraryModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
 }

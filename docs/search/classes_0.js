@@ -8,8 +8,8 @@ var searchData=
   ['abstractmodel',['AbstractModel',['../classene_1_1models_1_1AbstractModel.html',1,'ene::models']]],
   ['abstractobject',['AbstractObject',['../classene_1_1AbstractObject.html',1,'ene']]],
   ['abstractpartialview',['AbstractPartialView',['../classene_1_1views_1_1AbstractPartialView.html',1,'ene::views']]],
+  ['abstractpartialview_3c_20jpanel_2c_20librarymodel_20_3e',['AbstractPartialView&lt; JPanel, LibraryModel &gt;',['../classene_1_1views_1_1AbstractPartialView.html',1,'ene::views']]],
   ['abstractpartialview_3c_20jpanel_2c_20playermodel_20_3e',['AbstractPartialView&lt; JPanel, PlayerModel &gt;',['../classene_1_1views_1_1AbstractPartialView.html',1,'ene::views']]],
-  ['abstractpartialview_3c_20jscrollpane_2c_20librarymodel_20_3e',['AbstractPartialView&lt; JScrollPane, LibraryModel &gt;',['../classene_1_1views_1_1AbstractPartialView.html',1,'ene::views']]],
   ['abstractview',['AbstractView',['../classene_1_1views_1_1AbstractView.html',1,'ene::views']]],
   ['application',['Application',['../classene_1_1Application.html',1,'ene']]]
 ];

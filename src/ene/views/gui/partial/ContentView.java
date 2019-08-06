@@ -1,28 +1,35 @@
 package ene.views.gui.partial;
 
-import java.io.File;
-import ene.interfaces.Model;
-import ene.interfaces.Controller;
-import ene.views.AbstractPartialView;
 import ene.controllers.LibraryController;
 import ene.controllers.PlayerController;
-import ene.interfaces.Localization;
+import ene.interfaces.Controller;
+import ene.interfaces.Model;
 import ene.models.LibraryModel;
 import ene.models.TrackModel;
+import ene.views.AbstractPartialView;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
 import java.util.Map;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.DefaultListSelectionModel;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
-import javax.swing.table.DefaultTableModel;
-import java.awt.BorderLayout;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  * Content view.
  * @version 3.0.0
  */
-public class ContentView extends AbstractPartialView <JScrollPane, LibraryModel> implements Localization, ListSelectionListener {
+public class ContentView extends AbstractPartialView <JPanel, LibraryModel> implements ListSelectionListener {
     /**
      * Table instance.
      */
@@ -130,23 +137,49 @@ public class ContentView extends AbstractPartialView <JScrollPane, LibraryModel>
         this.setPlayerController(playerController);
         this.initialize();
         this.setLayoutPosition(BorderLayout.CENTER);
-        this.getLibraryController().addDirectoryContent(new File("Music"));
     }
 
     /**
      * Initializing.
      */
     protected void initialize() {
-        // Prepare table content.
+        // Prepare library base panel.
+        JPanel libraryPanel = new JPanel(new BorderLayout());
+        this.setCoreComponent(libraryPanel);
+        // Prepare library table controls.
+        JPanel libraryControlPanel = new JPanel();
+        libraryControlPanel.setLayout(new BoxLayout(libraryControlPanel, BoxLayout.Y_AXIS));
+        libraryControlPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+        JButton libraryAddButton = new JButton(getString("TABLE_BUTTON_ADD"));
+        libraryAddButton.setFocusPainted(false);
+        libraryAddButton.addActionListener(event -> {
+            JFileChooser addDialog = new JFileChooser();
+            addDialog.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+            addDialog.setFileFilter(new FileNameExtensionFilter(
+                getString("TABLE_DIALOG_ADD_WAV_DESCRIPTION"),
+                "wav"
+            ));
+            if (addDialog.showOpenDialog(libraryPanel) == JFileChooser.APPROVE_OPTION) {
+                this.getLibraryController().add(addDialog.getSelectedFile().getAbsolutePath());
+            }
+        });
+        libraryControlPanel.add(libraryAddButton);
+        libraryControlPanel.add(Box.createRigidArea(new Dimension(0, 5)));
+        JButton libraryRemoveButton = new JButton(getString("TABLE_BUTTON_REMOVE"));
+        libraryRemoveButton.setFocusPainted(false);
+        libraryRemoveButton.addActionListener(event -> this.getLibraryController().remove(this.getSelectedFilename()));
+        libraryControlPanel.add(libraryRemoveButton);
+        libraryPanel.add(libraryControlPanel, BorderLayout.WEST);
+        // Prepare library table content.
         DefaultTableModel tableContent = this.getTableContent();
         tableContent.setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE"), getString("TABLE_COLUMN_FILENAME")});
-        // Prepare table.
+        // Prepare library table.
         JTable table = new JTable(tableContent);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         table.getSelectionModel().addListSelectionListener(this);
         this.hideColumn(table, 3); // Hides UUID.
         this.setTable(table);
-        this.setCoreComponent(new JScrollPane(table));
+        libraryPanel.add(new JScrollPane(table), BorderLayout.CENTER);
     }
 
     /**
@@ -158,6 +191,20 @@ public class ContentView extends AbstractPartialView <JScrollPane, LibraryModel>
         table.getColumnModel().getColumn(columnIndex).setMinWidth(0);
         table.getColumnModel().getColumn(columnIndex).setPreferredWidth(0);
         table.getColumnModel().getColumn(columnIndex).setMaxWidth(0);
+    }
+
+    /**
+     * Returns the selected filename.
+     * @return Selected filename or empty string, if nothing is selected.
+     * @since 0.12.0
+     */
+    protected String getSelectedFilename() {
+        int selectedRow = this.getTable().getSelectedRow();
+        if (selectedRow > -1) {
+            return (String) tableContent.getValueAt(selectedRow, 3);
+        } else {
+            return "";
+        }
     }
 
     @Override
@@ -175,8 +222,9 @@ public class ContentView extends AbstractPartialView <JScrollPane, LibraryModel>
     public void valueChanged(ListSelectionEvent event) {
         if (!event.getValueIsAdjusting()) {
             debugInfoAbout(event);
-            String filename = (String)tableContent.getValueAt(this.getTable().getSelectedRow(), 3);
-            this.getPlayerController().load(this.getModel().get(filename));
+            if (((DefaultListSelectionModel) event.getSource()).getMinSelectionIndex() > -1) { // Needed to keep playing.
+                this.getPlayerController().load(this.getModel().get(this.getSelectedFilename()));
+            }
         }
     }
 

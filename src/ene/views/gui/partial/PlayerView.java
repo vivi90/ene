@@ -3,7 +3,6 @@ package ene.views.gui.partial;
 import javax.swing.plaf.metal.MetalSliderUI;
 import ene.controllers.PlayerController;
 import ene.interfaces.Controller;
-import ene.interfaces.Localization;
 import ene.interfaces.Model;
 import ene.models.PlayerModel;
 import ene.views.AbstractPartialView;
@@ -24,7 +23,7 @@ import javax.swing.border.EmptyBorder;
  * Player view.
  * @version 2.0.0
  */
-public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> implements Localization {
+public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     /**
      * Player controller instance.
      */

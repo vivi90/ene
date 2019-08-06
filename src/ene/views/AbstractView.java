@@ -2,12 +2,13 @@ package ene.views;
 
 import ene.interfaces.View;
 import ene.AbstractObject;
+import ene.interfaces.Localization;
 
 /**
  * Abstract view.
  * @version 1.0.0
  */
-abstract public class AbstractView <CoreComponentType> extends AbstractObject implements View <CoreComponentType> {
+abstract public class AbstractView <CoreComponentType> extends AbstractObject implements View <CoreComponentType>, Localization {
     /**
      * Core component instance.
      */

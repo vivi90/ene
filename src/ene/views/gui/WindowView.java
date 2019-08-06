@@ -1,6 +1,5 @@
 package ene.views.gui;
 
-import ene.interfaces.Localization;
 import ene.interfaces.View;
 import ene.views.AbstractMasterView;
 import java.awt.BorderLayout;
@@ -13,7 +12,7 @@ import javax.swing.JPanel;
  * Window view.
  * @version 1.0.0
  */
-public class WindowView extends AbstractMasterView <JFrame> implements Localization {
+public class WindowView extends AbstractMasterView <JFrame> {
     /**
      * Constructor.
      * @param views View instances.
