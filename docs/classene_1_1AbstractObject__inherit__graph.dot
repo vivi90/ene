@@ -23,7 +23,7 @@ digraph "ene.AbstractObject"
   Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
   Node9 [label="{ene.models.PlayerModel\n|~ clip\l~ lastEvent\l~ trackLength\l|+ getClip()\l+ getLastEvent()\l+ getTrackLength()\l+ setTrackPosition()\l+ getTrackPosition()\l+ load()\l+ start()\l+ pause()\l+ update()\l# setClip()\l# setLastEvent()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1models_1_1PlayerModel.html"];
   Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node10 [label="{ene.models.TrackList\n|# tracks\l|+ add()\l+ remove()\l+ get()\l+ getAll()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1models_1_1TrackList.html"];
+  Node10 [label="{ene.models.TrackListModel\n|# tracks\l|+ add()\l+ remove()\l+ get()\l+ getAll()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1models_1_1TrackListModel.html"];
   Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
   Node11 [label="{ene.models.LibraryModel\n||+ getByArtist()\l+ getByTitle()\l+ getByGenre()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1models_1_1LibraryModel.html"];
   Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
@@ -45,11 +45,13 @@ digraph "ene.AbstractObject"
   Node14 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
   Node20 [label="{ene::views::AbstractPartial\lView\< CoreComponentType \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
   Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node21 [label="{ene::views::gui::partial\l::LibraryView\< JPanel,\l LibraryModel \>\n|# table\l# tableContent\l# libraryController\l# playerController\l|+ LibraryView()\l+ update()\l+ valueChanged()\l+ render()\l# setTable()\l# getTable()\l# setTableContent()\l# getTableContent()\l# setLibraryController()\l# getLibraryController()\l# setPlayerController()\l# getPlayerController()\l# initialize()\l# hideColumn()\l# getSelectedFilename()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html"];
-  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
-  Node22 [label="{ene::views::gui::partial\l::PlayerView\< JPanel, PlayerModel \>\n|~ progressTimer\l~ trackTimeFormat\l# playerController\l# playButton\l# progressSlider\l# progressLabel\l|+ PlayerView()\l+ update()\l+ render()\l# setPlayerController()\l# getPlayerController()\l# initialize()\l# enablePlayerControls()\l# disablePlayerControls()\l# updateProgress()\l# resetProgress()\l# formatTimeToString()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html"];
-  Node20 -> Node23 [dir="back",color="orange",fontsize="10",style="solid",label=" \< JPanel, PlayerModel \>" ,fontname="Helvetica"];
-  Node23 [label="{ene.views.AbstractPartial\lView\< JPanel, PlayerModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
-  Node20 -> Node24 [dir="back",color="orange",fontsize="10",style="solid",label=" \< JPanel, LibraryModel \>" ,fontname="Helvetica"];
-  Node24 [label="{ene.views.AbstractPartial\lView\< JPanel, LibraryModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
+  Node21 [label="{ene::views::gui::partial\l::AbstractTrackListView\l\< JPanel, TrackListModel \>\n|# table\l# tableContent\l# playerController\l|+ valueChanged()\l+ render()\l# setTable()\l# getTable()\l# setTableContent()\l# getTableContent()\l# setPlayerController()\l# getPlayerController()\l# hideColumn()\l# getSelectedFilename()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node22 [label="{ene.views.gui.partial.LibraryView\n|# libraryController\l|+ LibraryView()\l+ update()\l# setLibraryController()\l# getLibraryController()\l# initialize()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html"];
+  Node20 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node23 [label="{ene::views::gui::partial\l::PlayerView\< JPanel, PlayerModel \>\n|~ progressTimer\l~ trackTimeFormat\l# playerController\l# playButton\l# progressSlider\l# progressLabel\l|+ PlayerView()\l+ update()\l+ render()\l# setPlayerController()\l# getPlayerController()\l# initialize()\l# enablePlayerControls()\l# disablePlayerControls()\l# updateProgress()\l# resetProgress()\l# formatTimeToString()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html"];
+  Node20 -> Node24 [dir="back",color="orange",fontsize="10",style="solid",label=" \< JPanel, PlayerModel \>" ,fontname="Helvetica"];
+  Node24 [label="{ene.views.AbstractPartial\lView\< JPanel, PlayerModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
+  Node20 -> Node25 [dir="back",color="orange",fontsize="10",style="solid",label=" \< JPanel, TrackListModel \>" ,fontname="Helvetica"];
+  Node25 [label="{ene.views.AbstractPartial\lView\< JPanel, TrackListModel \>\n|# model\l|+ setModel()\l+ getModel()\l}",height=0.2,width=0.4,color="black",URL="$classene_1_1views_1_1AbstractPartialView.html"];
 }

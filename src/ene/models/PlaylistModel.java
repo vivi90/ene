@@ -1,13 +1,13 @@
 package ene.models;
 
-import ene.models.TrackList;
+import ene.models.TrackListModel;
 
 /**
  * Playlist model.
- * @since 0.11.0
+ * @since 0.14.0
  * @version 1.0.0
  */
-public class PlaylistModel extends TrackList {
+public class PlaylistModel extends TrackListModel {
     /**
      * Playlist name.
      */

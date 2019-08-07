@@ -1,14 +1,15 @@
 package ene.models;
 
+import ene.models.TrackListModel;
 import ene.models.TrackModel;
 import java.util.Map;
 import java.util.HashMap;
 
 /**
  * Library model.
- * @version 3.0.0
+ * @version 4.0.0
  */
-public class LibraryModel extends TrackList {
+public class LibraryModel extends TrackListModel {
     /**
      * Returns all tracks by an particular artist.
      * @param artist Artist.
