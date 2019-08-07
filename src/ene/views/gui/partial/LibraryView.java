@@ -3,6 +3,7 @@ package ene.views.gui.partial;
 import ene.views.gui.partial.AbstractTrackListView;
 import ene.controllers.LibraryController;
 import ene.interfaces.Controller;
+import ene.models.LibraryModel;
 import ene.interfaces.Model;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -20,10 +21,12 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
 import ene.models.TrackModel;
 import java.util.Map;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
 /**
  * Library view.
- * @version 2.0.0
+ * @version 2.1.0
  * @since 0.13.0
  */
 public class LibraryView extends AbstractTrackListView {
@@ -95,6 +98,34 @@ public class LibraryView extends AbstractTrackListView {
         controlPanel.add(removeButton);
         removeButton.setFocusPainted(false);
         removeButton.addActionListener(event -> this.getLibraryController().remove(this.getSelectedFilename()));
+        controlPanel.add(Box.createRigidArea(new Dimension(0, 5)));
+        JButton searchButton = new JButton(getString("TABLE_BUTTON_SEARCH"));
+        controlPanel.add(searchButton);
+        searchButton.addActionListener(event -> {
+            JTextField title = new JTextField();
+            JTextField artist = new JTextField();
+            JTextField genre = new JTextField();
+            JOptionPane searchDialog = new JOptionPane(
+                new Object[]{
+                    getString("TABLE_COLUMN_TITLE"), title,
+                    getString("TABLE_COLUMN_ARTIST"), artist,
+                    getString("TABLE_COLUMN_GENRE"), genre
+                },
+                JOptionPane.QUESTION_MESSAGE,
+                JOptionPane.OK_CANCEL_OPTION
+            );
+            searchDialog.createDialog(this.getCoreComponent(), getString("TABLE_DIALOG_SEARCH_TITLE")).setVisible(true);
+            Object result = searchDialog.getValue();
+            if (result != null) {
+                if ((int) result == JOptionPane.OK_OPTION) {
+                    this.loadContent(((LibraryModel) this.getModel()).search(
+                        title.getText(),
+                        artist.getText(),
+                        genre.getText()
+                    ));
+                }
+            }
+        });
         // Prepare table content.
         DefaultTableModel tableContent = this.getTableContent();
         tableContent.setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE"), getString("TABLE_COLUMN_FILENAME")});
@@ -107,14 +138,21 @@ public class LibraryView extends AbstractTrackListView {
         libraryPanel.add(new JScrollPane(table), BorderLayout.CENTER);
     }
 
-    @Override
-    public void update() {
+    /**
+     * Loads the table content from the model.
+     * @param tracks Map of Tracks.
+     */
+    protected void loadContent(Map<String, TrackModel> tracks) {
         DefaultTableModel tableContent = this.getTableContent();
-        Map<String, TrackModel> tracks = this.getModel().getAll();
         tableContent.setRowCount(0);
         for (Map.Entry<String, TrackModel> entry : tracks.entrySet()) {
             TrackModel track = entry.getValue();
             tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre(), track.getFilename().toString()});
         }
+    }
+
+    @Override
+    public void update() {
+        this.loadContent(this.getModel().getAll());
     }
 }

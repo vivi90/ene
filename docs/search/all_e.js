@@ -1,6 +1,7 @@
 var searchData=
 [
   ['scan',['scan',['../classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352',1,'ene::controllers::LibraryController']]],
+  ['search',['search',['../classene_1_1models_1_1LibraryModel.html#accd8b9321b02639dbb2970022556d324',1,'ene::models::LibraryModel']]],
   ['setallviews',['setAllViews',['../interfaceene_1_1interfaces_1_1MasterView.html#a4e56a7a3c1b442a80d2fb512222cd97b',1,'ene.interfaces.MasterView.setAllViews()'],['../classene_1_1views_1_1AbstractMasterView.html#acc8385a0b11e37819c5230fc7a21dd9f',1,'ene.views.AbstractMasterView.setAllViews()']]],
   ['setartist',['setArtist',['../classene_1_1models_1_1TrackModel.html#a6e059ab76ba75be47de8d661e132f514',1,'ene::models::TrackModel']]],
   ['setclip',['setClip',['../classene_1_1models_1_1PlayerModel.html#a5617391131179365729686dc4eea1ea1',1,'ene::models::PlayerModel']]],
