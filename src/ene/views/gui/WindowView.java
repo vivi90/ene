@@ -10,9 +10,19 @@ import javax.swing.JPanel;
 
 /**
  * Window view.
- * @version 1.0.0
+ * @version 1.1.0
  */
 public class WindowView extends AbstractMasterView <JFrame> {
+    @Override
+    public void setTitle(String title) {
+        this.getCoreComponent().setTitle(title);
+    }
+
+	@Override
+	public String getTitle() {
+        return this.getCoreComponent().getTitle();
+    }
+
     /**
      * Constructor.
      * @param views View instances.
@@ -30,9 +40,9 @@ public class WindowView extends AbstractMasterView <JFrame> {
     protected void initialize() {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle(getString("WINDOW_TITLE"));
         frame.setIconImage(new ImageIcon(this.getClass().getResource("/ene/resources/images/icon.png")).getImage());
         this.setCoreComponent(frame);
+        this.setTitle(getString("WINDOW_TITLE"));
     }
 
     @Override

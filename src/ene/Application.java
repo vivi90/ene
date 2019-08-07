@@ -8,14 +8,15 @@ import ene.interfaces.View;
 import ene.interfaces.Model;
 import ene.models.LibraryModel;
 import ene.models.PlayerModel;
-import ene.views.gui.partial.ContentView;
+import ene.views.gui.partial.LibraryView;
 import ene.views.gui.partial.PlayerView;
+import ene.views.gui.partial.ContentView;
 import ene.views.gui.WindowView;
 
 /**
  * Bootstrap class.
  * @since 0.8.0
- * @version 1.0.0
+ * @version 1.1.0
  */
 public class Application extends AbstractObject {
     /**
@@ -57,9 +58,9 @@ public class Application extends AbstractObject {
         Model libraryModel = new LibraryModel();
         Controller playerController = new PlayerController(playerModel);
         Controller libraryController = new LibraryController(libraryModel);
-        View contentView = new ContentView(libraryModel, libraryController, playerController);
+        View libraryView = new LibraryView(libraryModel, libraryController, playerController);
         View playerView = new PlayerView(playerModel, playerController);
-        View windowView = new WindowView(contentView, playerView);
+        View windowView = new WindowView(new ContentView(libraryView), playerView);
         windowView.render();
     }
 }

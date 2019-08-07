@@ -6,9 +6,14 @@ import ene.interfaces.Localization;
 
 /**
  * Abstract view.
- * @version 1.0.0
+ * @version 1.1.0
  */
 abstract public class AbstractView <CoreComponentType> extends AbstractObject implements View <CoreComponentType>, Localization {
+    /**
+     * Title.
+     */
+    protected String title = "";
+
     /**
      * Core component instance.
      */
@@ -18,6 +23,16 @@ abstract public class AbstractView <CoreComponentType> extends AbstractObject im
      * Layout position.
      */
     protected String layoutPosition;
+
+    @Override
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+	@Override
+	public String getTitle() {
+        return this.title;
+    }
 
     @Override
     public void setCoreComponent(CoreComponentType coreComponent) {

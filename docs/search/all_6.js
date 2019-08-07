@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hidecolumn',['hideColumn',['../classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#aa331007ef52159d4d0f2fb09d10938bb',1,'ene::views::gui::partial::ContentView']]]
+  ['hidecolumn',['hideColumn',['../classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a2a068dca85da6d89f7a3b165b230624f',1,'ene::views::gui::partial::LibraryView']]]
 ];

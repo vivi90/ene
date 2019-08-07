@@ -7,6 +7,7 @@ var searchData=
   ['abstractmasterview',['AbstractMasterView',['../classene_1_1views_1_1AbstractMasterView.html',1,'ene::views']]],
   ['abstractmasterview_2ejava',['AbstractMasterView.java',['../AbstractMasterView_8java.html',1,'']]],
   ['abstractmasterview_3c_20jframe_20_3e',['AbstractMasterView&lt; JFrame &gt;',['../classene_1_1views_1_1AbstractMasterView.html',1,'ene::views']]],
+  ['abstractmasterview_3c_20jtabbedpane_20_3e',['AbstractMasterView&lt; JTabbedPane &gt;',['../classene_1_1views_1_1AbstractMasterView.html',1,'ene::views']]],
   ['abstractmodel',['AbstractModel',['../classene_1_1models_1_1AbstractModel.html',1,'ene::models']]],
   ['abstractmodel_2ejava',['AbstractModel.java',['../AbstractModel_8java.html',1,'']]],
   ['abstractobject',['AbstractObject',['../classene_1_1AbstractObject.html',1,'ene']]],
