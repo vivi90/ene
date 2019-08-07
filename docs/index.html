@@ -29,7 +29,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ene
-   &#160;<span id="projectnumber">0.1.0</span>
+   &#160;<span id="projectnumber">0.15.1</span>
    </div>
    <div id="projectbrief">Simple extensible music library.</div>
   </td>
@@ -86,31 +86,36 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h2>About </h2>
-<p>This project is a simple extensible music library as a homework in the context of my computer science studies.</p>
-<p>For more details about the source code please check out the documentation: <a href="https://vivi90.github.io/ene">https://vivi90.github.io/ene</a></p>
+<p>This project is a simple music library as a homework in the context of my computer science studies. For more details about the source code please check out the documentation: <a href="https://vivi90.github.io/ene">https://vivi90.github.io/ene</a> (Also available as PDF download: <a href="https://vivi90.github.io/ene/ene.pdf">https://vivi90.github.io/ene/ene.pdf</a>)</p>
 <h2>Naming </h2>
 <p>We have named it after the character 'Ene' from the anime 'Mekakucity Actors'.</p>
 <h2>Usage </h2>
-<p>Just compile it.</p>
+<p>Just compile it. Currently it supports only WAV files.</p>
 <h2>Requirements </h2>
 <ul>
 <li>Doxygen (only for contribution)</li>
 </ul>
 <h2>Contribution </h2>
 <p>Please issue <b>right after</b> cloning the following command to use all necessary hooks: <code>git config --local core.hooksPath .githooks</code></p>
+<h2>Translation </h2>
+<p>Please take a look at the directory <code>src/ene/resources/locales</code>.</p>
+<h2>Troubleshooting </h2>
+<p>If you run this application on a Linux operating system, the sound doesn't work, and you get an <code>LineUnavailableException</code> in debug mode, then please force Java to use the Pulse Audio system by issuing: <code>padsp java -jar bin/ene.jar</code> You need to start this application with the <code>-d</code> argument to enable debug infos.</p>
 <h2>License </h2>
 <p>This project is free software under the terms of the GNU General Public License v3 as published by the Free Software Foundation. It is distributed WITHOUT ANY WARRANTY (without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE). For more details please see the LICENSE file or: <a href="http://www.gnu.org/licenses">http://www.gnu.org/licenses</a></p>
 <h2>Credits </h2>
 <ul>
 <li>2019 by Vivien Richter <a href="#" onclick="location.href='mai'+'lto:'+'viv'+'ie'+'n-r'+'ic'+'hte'+'r@'+'out'+'lo'+'ok.'+'de'; return false;">vivie<span style="display: none;">.nosp@m.</span>n-ri<span style="display: none;">.nosp@m.</span>chter<span style="display: none;">.nosp@m.</span>@out<span style="display: none;">.nosp@m.</span>look.<span style="display: none;">.nosp@m.</span>de</a> and Mathias Telling <a href="#" onclick="location.href='mai'+'lto:'+'mat'+'hi'+'as.'+'te'+'lli'+'ng'+'@st'+'ud'+'.ht'+'wk'+'-le'+'ip'+'zig'+'.d'+'e'; return false;">mathi<span style="display: none;">.nosp@m.</span>as.t<span style="display: none;">.nosp@m.</span>ellin<span style="display: none;">.nosp@m.</span>g@st<span style="display: none;">.nosp@m.</span>ud.ht<span style="display: none;">.nosp@m.</span>wk-l<span style="display: none;">.nosp@m.</span>eipzi<span style="display: none;">.nosp@m.</span>g.de</a></li>
-<li>Git repository: <a href="https://github.com/vivi90/ene.git">https://github.com/vivi90/ene.git</a> </li>
+<li>Our Git repository: <a href="https://github.com/vivi90/ene.git">https://github.com/vivi90/ene.git</a></li>
+<li>Application icon repository (by Google Limited): <a href="https://github.com/google/material-design-icons.git">https://github.com/google/material-design-icons.git</a></li>
+<li>SQLite JDBC driver library repository: <a href="https://bitbucket.org/xerial/sqlite-jdbc">https://bitbucket.org/xerial/sqlite-jdbc</a> </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jul 20 2019 00:38:14 for Ene by
+    <li class="footer">Generated on Wed Aug 7 2019 23:27:39 for Ene by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

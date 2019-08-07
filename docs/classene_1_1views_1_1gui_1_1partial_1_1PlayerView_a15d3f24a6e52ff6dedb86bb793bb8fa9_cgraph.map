@@ -1,0 +1,16 @@
+<map id="ene.views.gui.partial.PlayerView.update" name="ene.views.gui.partial.PlayerView.update">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7126e270c8cc5956e79773eddc508655" title="ene.views.gui.partial.Player\lView.disablePlayerControls" alt="" coords="244,5,427,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a3098a851f88f8b9ce6d4e2fcacdf55c9" title="ene.views.gui.partial.Player\lView.enablePlayerControls" alt="" coords="244,71,427,112"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1AbstractPartialView.html#afb90f9e02eea94a2fb276d711a67ee36" title="ene.views.AbstractPartial\lView.getModel" alt="" coords="787,127,958,168"/>
+<area shape="rect" id="node5" href="$interfaceene_1_1interfaces_1_1Localization.html#ae7d5c65647a8bd1ca0c27b3279b0751c" title="ene.interfaces.Localization.get\lString" alt="" coords="236,264,435,305"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1PlayerModel.html#ac32610c7511e6187ae364f64e1cf290b" title="ene.models.PlayerModel.get\lTrackLength" alt="" coords="242,416,429,457"/>
+<area shape="rect" id="node9" href="$classene_1_1models_1_1PlayerModel.html#a3108500012be901007a2e809761ac136" title="ene.models.PlayerModel.get\lTrackPosition" alt="" coords="242,351,429,392"/>
+<area shape="rect" id="node10" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af84e60915df5af5201e75e01a2f9a4a5" title="ene.views.gui.partial.Player\lView.resetProgress" alt="" coords="244,199,427,240"/>
+<area shape="rect" id="node7" href="$classene_1_1AbstractObject.html#a600f6bedef1dc48e610cdfa5f81b7667" title="ene.AbstractObject.delay" alt="" coords="523,385,693,411"/>
+<area shape="rect" id="node8" href="$classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45" title="ene.models.PlayerModel.getClip" alt="" coords="503,435,713,462"/>
+<area shape="rect" id="node11" href="$classene_1_1controllers_1_1PlayerController.html#a4431d7fb8789a039aba690fa30c7f76f" title="ene.controllers.PlayerController.change\lTrackPosition" alt="" coords="483,253,733,295"/>
+<area shape="rect" id="node13" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a4dc768b48e41f0ea98929d8069ef790a" title="ene.views.gui.partial.Player\lView.getPlayerController" alt="" coords="517,319,699,360"/>
+<area shape="rect" id="node14" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af324f1c0b5648dab2400b4c0ab33f3ca" title="ene.views.gui.partial.Player\lView.updateProgress" alt="" coords="517,188,699,229"/>
+<area shape="rect" id="node12" href="$classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd" title="ene.controllers.Abstract\lController\&lt; PlayerModel\l \&gt;::getModel" alt="" coords="791,258,954,314"/>
+<area shape="rect" id="node15" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a5214bb8084cfb78242868039e33f78ef" title="ene.views.gui.partial.Player\lView.formatTimeToString" alt="" coords="781,192,964,233"/>
+</map>

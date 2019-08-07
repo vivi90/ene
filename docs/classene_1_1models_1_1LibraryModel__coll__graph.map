@@ -1,0 +1,6 @@
+<map id="ene.models.LibraryModel" name="ene.models.LibraryModel">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1TrackListModel.html" title="{ene.models.TrackListModel\n||+ add()\l+ remove()\l+ get()\l+ getAll()\l}" alt="" coords="309,543,492,664"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1AbstractModel.html" title="{ene.models.AbstractModel\n||+ addView()\l# changed()\l}" alt="" coords="213,388,391,480"/>
+<area shape="rect" id="node4" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,160,175,311"/>
+<area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1Model.html" title="{ene.interfaces.Model\n||+ addView()\l}" alt="" coords="199,197,341,274"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ene.views.gui.partial.PlayerView.resetProgress" name="ene.views.gui.partial.PlayerView.resetProgress">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1PlayerController.html#a4431d7fb8789a039aba690fa30c7f76f" title="ene.controllers.PlayerController.change\lTrackPosition" alt="" coords="236,13,487,54"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a4dc768b48e41f0ea98929d8069ef790a" title="ene.views.gui.partial.Player\lView.getPlayerController" alt="" coords="270,78,453,119"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af324f1c0b5648dab2400b4c0ab33f3ca" title="ene.views.gui.partial.Player\lView.updateProgress" alt="" coords="270,143,453,185"/>
+<area shape="rect" id="node3" href="$classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd" title="ene.controllers.Abstract\lController\&lt; PlayerModel\l \&gt;::getModel" alt="" coords="545,5,707,61"/>
+<area shape="rect" id="node6" href="$classene_1_1views_1_1AbstractPartialView.html#afb90f9e02eea94a2fb276d711a67ee36" title="ene.views.AbstractPartial\lView.getModel" alt="" coords="541,114,711,155"/>
+<area shape="rect" id="node7" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a5214bb8084cfb78242868039e33f78ef" title="ene.views.gui.partial.Player\lView.formatTimeToString" alt="" coords="535,179,717,221"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ene.models.TrackModel.TrackModel" name="ene.models.TrackModel.TrackModel">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1TrackModel.html#a6e059ab76ba75be47de8d661e132f514" title="ene.models.TrackModel.set\lArtist" alt="" coords="252,5,435,47"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1TrackModel.html#adcb5ee61c35e73b04879409a43c4b753" title="ene.models.TrackModel.set\lFilename" alt="" coords="252,71,435,112"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1TrackModel.html#acfe29ae2331320c5c60824a1bb4e1ba7" title="ene.models.TrackModel.set\lGenre" alt="" coords="252,136,435,177"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1TrackModel.html#a1e8a6872b5dcf826ba463a663a8249f1" title="ene.models.TrackModel.set\lTitle" alt="" coords="252,201,435,243"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" title="ene.models.AbstractModel.changed" alt="" coords="483,111,713,138"/>
+<area shape="rect" id="node4" href="$interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" title="ene.interfaces.PartialView.update" alt="" coords="761,111,979,138"/>
+</map>

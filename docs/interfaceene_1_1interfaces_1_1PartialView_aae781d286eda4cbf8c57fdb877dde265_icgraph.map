@@ -1,0 +1,11 @@
+<map id="ene.interfaces.PartialView.update" name="ene.interfaces.PartialView.update">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" title="ene.models.AbstractModel.changed" alt="" coords="271,165,501,192"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1" title="ene.models.PlayerModel.update" alt="" coords="560,5,768,32"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1TrackListModel.html#a57554d49b1182a9138b871617ce57e9a" title="ene.models.TrackListModel.add" alt="" coords="561,56,767,83"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1TrackListModel.html#a51482a5f74dfadca48a06dd8888751cd" title="ene.models.TrackListModel.remove" alt="" coords="549,107,779,133"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1TrackModel.html#adcb5ee61c35e73b04879409a43c4b753" title="ene.models.TrackModel.set\lFilename" alt="" coords="573,158,755,199"/>
+<area shape="rect" id="node8" href="$classene_1_1models_1_1TrackModel.html#a6e059ab76ba75be47de8d661e132f514" title="ene.models.TrackModel.set\lArtist" alt="" coords="573,223,755,265"/>
+<area shape="rect" id="node9" href="$classene_1_1models_1_1TrackModel.html#a1e8a6872b5dcf826ba463a663a8249f1" title="ene.models.TrackModel.set\lTitle" alt="" coords="573,289,755,330"/>
+<area shape="rect" id="node10" href="$classene_1_1models_1_1TrackModel.html#acfe29ae2331320c5c60824a1bb4e1ba7" title="ene.models.TrackModel.set\lGenre" alt="" coords="573,354,755,395"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1TrackModel.html#abcdd0235436de2871b905818aaff4873" title="ene.models.TrackModel.Track\lModel" alt="" coords="827,257,1025,298"/>
+</map>

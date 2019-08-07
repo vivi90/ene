@@ -1,0 +1,8 @@
+<map id="ene.views.gui.partial.ContentView" name="ene.views.gui.partial.ContentView">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1AbstractMasterView.html" title="{ene::views::AbstractMaster\lView\&lt; JTabbedPane \&gt;\n|# views\l|+ addView()\l+ setAllViews()\l+ getAllViews()\l}" alt="" coords="296,476,479,597"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1AbstractView.html" title="{ene::views::AbstractView\l\&lt; CoreComponentType \&gt;\n|# title\l# coreComponent\l# layoutPosition\l|+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l}" alt="" coords="201,233,371,428"/>
+<area shape="rect" id="node4" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n|# debugModeEnabled\l|+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,20,175,171"/>
+<area shape="rect" id="node5" href="$interfaceene_1_1interfaces_1_1View.html" title="{ene::interfaces::View\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l+ render()\l}" alt="" coords="402,5,573,185"/>
+<area shape="rect" id="node7" href="$interfaceene_1_1interfaces_1_1MasterView.html" title="{ene::interfaces::MasterView\l\&lt; CoreComponentType \&gt;\n||+ addView()\l+ setAllViews()\l+ getAllViews()\l}" alt="" coords="396,270,581,391"/>
+<area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1Localization.html" title="{ene.interfaces.Localization\n|+ DEFAULT_LOCALE\l|+ getString()\l}" alt="" coords="199,57,376,134"/>
+</map>

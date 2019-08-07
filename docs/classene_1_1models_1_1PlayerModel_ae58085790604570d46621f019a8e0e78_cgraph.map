@@ -1,0 +1,5 @@
+<map id="ene.models.PlayerModel.setTrackPosition" name="ene.models.PlayerModel.setTrackPosition">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45" title="ene.models.PlayerModel.getClip" alt="" coords="475,5,685,32"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#a3108500012be901007a2e809761ac136" title="ene.models.PlayerModel.get\lTrackPosition" alt="" coords="240,53,427,94"/>
+<area shape="rect" id="node4" href="$classene_1_1AbstractObject.html#a600f6bedef1dc48e610cdfa5f81b7667" title="ene.AbstractObject.delay" alt="" coords="495,60,665,87"/>
+</map>

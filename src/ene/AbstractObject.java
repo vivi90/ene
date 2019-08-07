@@ -6,7 +6,7 @@ import java.sql.Timestamp;
 /**
  * Abstract object class.
  * @since 0.4.0
- * @version 1.0.0
+ * @version 1.0.1
  */
 abstract public class AbstractObject {
     /**
@@ -38,7 +38,7 @@ abstract public class AbstractObject {
 
     /**
      * Debug info.
-     * @param exception Exception instance.
+     * @param object Object instance to show information about.
      */
     public static void debugInfoAbout(Object object) {
         if (AbstractObject.isDebugModeEnabled()) {

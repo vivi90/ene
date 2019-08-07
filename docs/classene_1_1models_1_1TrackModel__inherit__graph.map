@@ -1,0 +1,5 @@
+<map id="ene.models.TrackModel" name="ene.models.TrackModel">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1AbstractModel.html" title="{ene.models.AbstractModel\n|# views\l|+ addView()\l# changed()\l}" alt="" coords="91,204,268,296"/>
+<area shape="rect" id="node3" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n|# debugModeEnabled\l|+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,5,175,156"/>
+<area shape="rect" id="node4" href="$interfaceene_1_1interfaces_1_1Model.html" title="{ene.interfaces.Model\n||+ addView()\l}" alt="" coords="199,42,341,119"/>
+</map>

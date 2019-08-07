@@ -1,0 +1,8 @@
+<map id="ene.models.PlayerModel.update" name="ene.models.PlayerModel.update">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" title="ene.models.AbstractModel.changed" alt="" coords="261,5,492,32"/>
+<area shape="rect" id="node4" href="$classene_1_1AbstractObject.html#aff9619cf289ec83735b6c6ca2c12e020" title="ene.AbstractObject.debug\lInfoAbout" alt="" coords="290,57,463,98"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1PlayerModel.html#a96f182616ef8371e8402acc510034183" title="ene.models.PlayerModel.set\lLastEvent" alt="" coords="283,122,470,163"/>
+<area shape="rect" id="node3" href="$interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" title="ene.interfaces.PartialView.update" alt="" coords="540,5,757,32"/>
+<area shape="rect" id="node5" href="$classene_1_1AbstractObject.html#a9ce30d3321c7ce794df2f07bdaf3e47c" title="ene.AbstractObject.console\lOutput" alt="" coords="557,57,740,98"/>
+<area shape="rect" id="node6" href="$classene_1_1AbstractObject.html#a6ee0b669069e0c3ee320a6cf41af24fe" title="ene.AbstractObject.isDebug\lModeEnabled" alt="" coords="555,122,742,163"/>
+</map>

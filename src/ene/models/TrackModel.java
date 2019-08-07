@@ -4,7 +4,7 @@ import ene.models.AbstractModel;
 
 /**
  * Track model.
- * @version 2.0.0
+ * @version 2.0.1
  */
 public class TrackModel extends AbstractModel {
     /**
@@ -125,7 +125,7 @@ public class TrackModel extends AbstractModel {
 
     /**
      * Detects the artist by the filenme.
-     * @param filenme The filename.
+     * @param filename The filename.
      * @return Returns the artist or a empty string.
      * @since 0.10.1
      */
@@ -140,7 +140,7 @@ public class TrackModel extends AbstractModel {
 
     /**
      * Detects the title by the filenme.
-     * @param filenme The filename.
+     * @param filename The filename.
      * @return Returns the title or a empty string.
      * @since 0.10.1
      */

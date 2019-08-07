@@ -1,0 +1,8 @@
+<map id="ene.controllers.LibraryController.add" name="ene.controllers.LibraryController.add">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html#a6bc70daa48b96db79d5524113a49cd3e" title="ene.controllers.LibraryController.add\lDirectoryContent" alt="" coords="284,53,515,94"/>
+<area shape="rect" id="node4" href="$classene_1_1controllers_1_1LibraryController.html#a8ebea67eb61c84ee6a4825fa98fe870b" title="ene.controllers.LibraryController.addFile" alt="" coords="849,93,1101,120"/>
+<area shape="rect" id="node3" href="$classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352" title="ene.controllers.LibraryController.scan" alt="" coords="563,64,801,91"/>
+<area shape="rect" id="node5" href="$classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd" title="ene.controllers.Abstract\lController\&lt; LibraryModel\l \&gt;::getModel" alt="" coords="1168,5,1332,61"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1TrackModel.html#ab0db9bf0054a77ed2879695a379e3bd9" title="ene.models.TrackModel.detect\lArtist" alt="" coords="1149,86,1351,127"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1TrackModel.html#a860b368d4cb6d81e7504cbf979c0cad7" title="ene.models.TrackModel.detect\lTitle" alt="" coords="1149,151,1351,193"/>
+</map>

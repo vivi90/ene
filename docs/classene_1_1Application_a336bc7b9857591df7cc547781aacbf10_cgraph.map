@@ -1,0 +1,7 @@
+<map id="ene.Application.main" name="ene.Application.main">
+<area shape="rect" id="node2" href="$classene_1_1Application.html#a096fa8803429fdb43c79cde1705b489f" title="ene.Application.processArguments" alt="" coords="196,78,420,105"/>
+<area shape="rect" id="node5" href="$classene_1_1Application.html#a78f509d3eeb9756683ed98b5bed5edbf" title="ene.Application.run" alt="" coords="241,133,375,159"/>
+<area shape="rect" id="node3" href="$classene_1_1AbstractObject.html#a9ce30d3321c7ce794df2f07bdaf3e47c" title="ene.AbstractObject.console\lOutput" alt="" coords="468,5,651,47"/>
+<area shape="rect" id="node4" href="$classene_1_1AbstractObject.html#a3a6c641ec379167c42fed40e2c9b3d36" title="ene.AbstractObject.enable\lDebugMode" alt="" coords="471,71,647,112"/>
+<area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1View.html#a07f4a88fc3afe00cd3c090f89cc04ca0" title="ene.interfaces.View.render" alt="" coords="471,137,648,163"/>
+</map>

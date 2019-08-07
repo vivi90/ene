@@ -1,0 +1,4 @@
+<map id="ene.controllers.AbstractController&lt; ModelType &gt;" name="ene.controllers.AbstractController&lt; ModelType &gt;">
+<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,145,175,296"/>
+<area shape="rect" id="node4" href="$interfaceene_1_1interfaces_1_1Controller.html" title="{ene::interfaces::Controller\l\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="199,167,371,274"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="ene.models.TrackModel.getArtist" name="ene.models.TrackModel.getArtist">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1LibraryModel.html#a3165afccddf54c681f89de1a18356fd5" title="ene.models.LibraryModel.get\lByArtist" alt="" coords="247,5,436,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a734cbc08cf36ed3d48cb106b77ecf28b" title="ene.views.gui.partial.Library\lView.loadContent" alt="" coords="249,71,433,112"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1LibraryModel.html#accd8b9321b02639dbb2970022556d324" title="ene.models.LibraryModel.search" alt="" coords="236,137,447,163"/>
+<area shape="rect" id="node8" href="$classene_1_1models_1_1TrackModel.html#a0a42aa27708a22d669893b6152be8d20" title="ene.models.TrackModel.to\lString" alt="" coords="253,188,429,229"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6e6e521f258ad6e3f2e06ed96180efb6" title="ene.views.gui.partial.Library\lView.initialize" alt="" coords="495,39,679,80"/>
+<area shape="rect" id="node6" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a363a0a2db7ab4295ef38bb667038a6f8" title="ene.views.gui.partial.Library\lView.update" alt="" coords="495,104,679,145"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="727,39,911,80"/>
+</map>

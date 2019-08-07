@@ -1,0 +1,4 @@
+<map id="ene.models.AbstractModel" name="ene.models.AbstractModel">
+<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,160,175,311"/>
+<area shape="rect" id="node4" href="$interfaceene_1_1interfaces_1_1Model.html" title="{ene.interfaces.Model\n||+ addView()\l}" alt="" coords="199,197,341,274"/>
+</map>

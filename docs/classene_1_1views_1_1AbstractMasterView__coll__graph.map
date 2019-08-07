@@ -1,0 +1,7 @@
+<map id="ene.views.AbstractMasterView&lt; CoreComponentType &gt;" name="ene.views.AbstractMasterView&lt; CoreComponentType &gt;">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1AbstractView.html" title="{ene::views::AbstractView\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l}" alt="" coords="379,403,549,568"/>
+<area shape="rect" id="node3" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="371,160,541,311"/>
+<area shape="rect" id="node5" href="$interfaceene_1_1interfaces_1_1View.html" title="{ene::interfaces::View\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l+ render()\l}" alt="" coords="176,145,347,325"/>
+<area shape="rect" id="node10" href="$interfaceene_1_1interfaces_1_1MasterView.html" title="{ene::interfaces::MasterView\l\&lt; CoreComponentType \&gt;\n||+ addView()\l+ setAllViews()\l+ getAllViews()\l}" alt="" coords="169,425,354,546"/>
+<area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1Localization.html" title="{ene.interfaces.Localization\n||+ getString()\l}" alt="" coords="565,197,742,274"/>
+</map>

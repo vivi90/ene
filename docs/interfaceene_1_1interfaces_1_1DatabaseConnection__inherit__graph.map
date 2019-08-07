@@ -1,0 +1,3 @@
+<map id="ene.interfaces.DatabaseConnection" name="ene.interfaces.DatabaseConnection">
+<area shape="rect" id="node2" href="$classene_1_1databases_1_1SQLDatabase.html" title="{ene.databases.SQLDatabase\n|# connection\l# statement\l|+ SQLDatabase()\l+ execute()\l+ query()\l# setConnection()\l# getConnection()\l# setStatement()\l# getStatement()\l}" alt="" coords="24,145,217,325"/>
+</map>

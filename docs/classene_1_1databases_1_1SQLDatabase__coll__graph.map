@@ -1,0 +1,4 @@
+<map id="ene.databases.SQLDatabase" name="ene.databases.SQLDatabase">
+<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,145,175,296"/>
+<area shape="rect" id="node4" href="$interfaceene_1_1interfaces_1_1DatabaseConnection.html" title="{ene.interfaces.DatabaseConnection\n||+ execute()\l+ query()\l}" alt="" coords="199,175,429,267"/>
+</map>

@@ -5,7 +5,7 @@ import java.util.ResourceBundle;
 
 /**
  * Localization.
- * @version 1.0.0
+ * @version 1.0.1
  */
 public interface Localization {
     /**
@@ -15,7 +15,6 @@ public interface Localization {
 
     /**
      * Get the localized string.
-     * @param viewInstance View instance.
      * @param stringName String name.
      * @return Localized string.
      */

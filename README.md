@@ -5,6 +5,7 @@ About
 -----
 This project is a simple music library as a homework in the context of my computer science studies.
 For more details about the source code please check out the documentation: https://vivi90.github.io/ene
+(Also available as PDF download: https://vivi90.github.io/ene/ene.pdf)
 
 Naming
 ------

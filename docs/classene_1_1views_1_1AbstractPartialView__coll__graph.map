@@ -1,0 +1,7 @@
+<map id="ene.views.AbstractPartialView&lt; CoreComponentType, ModelType &gt;" name="ene.views.AbstractPartialView&lt; CoreComponentType, ModelType &gt;">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1AbstractView.html" title="{ene::views::AbstractView\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l}" alt="" coords="328,403,499,568"/>
+<area shape="rect" id="node3" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="654,160,823,311"/>
+<area shape="rect" id="node5" href="$interfaceene_1_1interfaces_1_1View.html" title="{ene::interfaces::View\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l+ render()\l}" alt="" coords="5,145,176,325"/>
+<area shape="rect" id="node10" href="$interfaceene_1_1interfaces_1_1PartialView.html" title="{ene::interfaces::Partial\lView\&lt; CoreComponentType,\l ModelType \&gt;\n||+ setModel()\l+ getModel()\l+ update()\l}" alt="" coords="78,417,269,553"/>
+<area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1Localization.html" title="{ene.interfaces.Localization\n||+ getString()\l}" alt="" coords="201,197,378,274"/>
+</map>

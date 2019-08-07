@@ -2,5 +2,20 @@
 
 # Updates documentation
 doxygen Doxyfile
+
+# Creates PDF file from documentation
+cd docs/latex
+make
+cp refman.pdf ../ene.pdf
+
+# Removes LaTeX files
+cd ..
+rm -r latex
+
+# Adds documentation and pdf file
+cd ..
 git add docs
+git add docs/ene.pdf
+
+# Done
 exit 0

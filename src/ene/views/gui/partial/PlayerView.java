@@ -21,7 +21,7 @@ import javax.swing.border.EmptyBorder;
 
 /**
  * Player view.
- * @version 2.0.0
+ * @version 2.0.1
  */
 public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     /**
@@ -73,7 +73,7 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     /**
      * Constructor.
      * @param model Player model instance.
-     * @param controller Player controller instance.
+     * @param playerController Player controller instance.
      */
     public PlayerView(Model model, Controller playerController) {
         model.addView(this);

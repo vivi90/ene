@@ -1,0 +1,6 @@
+<map id="ene.controllers.PlayerController" name="ene.controllers.PlayerController">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1AbstractController.html" title="{ene.controllers.Abstract\lController\&lt; PlayerModel \&gt;\n|# model\l|+ setModel()\l+ getModel()\l}" alt="" coords="197,528,372,635"/>
+<area shape="rect" id="node3" href="$classene_1_1controllers_1_1AbstractController.html" title="{ene.controllers.Abstract\lController\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="201,359,368,465"/>
+<area shape="rect" id="node4" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,145,175,296"/>
+<area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1Controller.html" title="{ene::interfaces::Controller\l\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="199,167,371,274"/>
+</map>

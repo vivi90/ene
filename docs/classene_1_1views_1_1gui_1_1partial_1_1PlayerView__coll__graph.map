@@ -1,0 +1,12 @@
+<map id="ene.views.gui.partial.PlayerView" name="ene.views.gui.partial.PlayerView">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1AbstractPartialView.html" title="{ene::views::AbstractPartial\lView\&lt; JPanel, PlayerModel \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="313,631,508,737"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1AbstractView.html" title="{ene::views::AbstractView\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l}" alt="" coords="308,403,479,568"/>
+<area shape="rect" id="node4" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="653,160,822,311"/>
+<area shape="rect" id="node17" href="$classene_1_1controllers_1_1AbstractController.html" title="{ene.controllers.Abstract\lController\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="833,432,999,539"/>
+<area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1View.html" title="{ene::interfaces::View\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l+ render()\l}" alt="" coords="5,145,176,325"/>
+<area shape="rect" id="node11" href="$interfaceene_1_1interfaces_1_1PartialView.html" title="{ene::interfaces::Partial\lView\&lt; CoreComponentType,\l ModelType \&gt;\n||+ setModel()\l+ getModel()\l+ update()\l}" alt="" coords="61,417,251,553"/>
+<area shape="rect" id="node7" href="$interfaceene_1_1interfaces_1_1Localization.html" title="{ene.interfaces.Localization\n||+ getString()\l}" alt="" coords="451,197,629,274"/>
+<area shape="rect" id="node15" href="$classene_1_1controllers_1_1PlayerController.html" title="{ene.controllers.PlayerController\n||+ PlayerController()\l+ changeTrackPosition()\l+ load()\l+ togglePlayback()\l}" alt="" coords="711,787,915,908"/>
+<area shape="rect" id="node16" href="$classene_1_1controllers_1_1AbstractController.html" title="{ene.controllers.Abstract\lController\&lt; PlayerModel \&gt;\n|# model\l|+ setModel()\l+ getModel()\l}" alt="" coords="770,631,945,737"/>
+<area shape="rect" id="node18" href="$interfaceene_1_1interfaces_1_1Controller.html" title="{ene::interfaces::Controller\l\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="957,182,1129,289"/>
+</map>

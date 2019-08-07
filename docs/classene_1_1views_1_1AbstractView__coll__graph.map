@@ -1,0 +1,5 @@
+<map id="ene.views.AbstractView&lt; CoreComponentType &gt;" name="ene.views.AbstractView&lt; CoreComponentType &gt;">
+<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,160,175,311"/>
+<area shape="rect" id="node4" href="$interfaceene_1_1interfaces_1_1View.html" title="{ene::interfaces::View\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l+ render()\l}" alt="" coords="199,145,370,325"/>
+<area shape="rect" id="node5" href="$interfaceene_1_1interfaces_1_1Localization.html" title="{ene.interfaces.Localization\n||+ getString()\l}" alt="" coords="395,197,572,274"/>
+</map>

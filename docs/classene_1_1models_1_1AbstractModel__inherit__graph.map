@@ -1,0 +1,9 @@
+<map id="ene.models.AbstractModel" name="ene.models.AbstractModel">
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html" title="{ene.models.PlayerModel\n|~ clip\l~ lastEvent\l~ trackLength\l|+ getClip()\l+ getLastEvent()\l+ getTrackLength()\l+ setTrackPosition()\l+ getTrackPosition()\l+ load()\l+ start()\l+ pause()\l+ update()\l# setClip()\l# setLastEvent()\l}" alt="" coords="5,359,171,612"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1TrackListModel.html" title="{ene.models.TrackListModel\n|# tracks\l|+ add()\l+ remove()\l+ get()\l+ getAll()\l}" alt="" coords="195,425,378,546"/>
+<area shape="rect" id="node8" href="$classene_1_1models_1_1TrackModel.html" title="{ene.models.TrackModel\n|# filename\l# artist\l# title\l# genre\l|+ getFilename()\l+ setFilename()\l+ getArtist()\l+ setArtist()\l+ getTitle()\l+ setTitle()\l+ getGenre()\l+ setGenre()\l+ TrackModel()\l+ toString()\l+ detectArtist()\l+ detectTitle()\l}" alt="" coords="402,344,563,627"/>
+<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n|# debugModeEnabled\l|+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="113,5,282,156"/>
+<area shape="rect" id="node3" href="$interfaceene_1_1interfaces_1_1Model.html" title="{ene.interfaces.Model\n||+ addView()\l}" alt="" coords="306,42,449,119"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1LibraryModel.html" title="{ene.models.LibraryModel\n||+ getByArtist()\l+ getByTitle()\l+ getByGenre()\l+ search()\l}" alt="" coords="107,675,274,796"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1PlaylistModel.html" title="{ene.models.PlaylistModel\n|~ name\l|+ setName()\l+ getName()\l}" alt="" coords="299,689,469,781"/>
+</map>
