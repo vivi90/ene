@@ -61,7 +61,7 @@ public class LibraryView extends AbstractTrackListView {
     public LibraryView(Model model, Controller libraryController, Controller playerController) {
         model.addView(this);
         this.setModel(model);
-        this.setTitle(getString("PANE_LIBRARY_TITLE"));
+        this.setTitle(getString("PANE_TITLE"));
         this.setLibraryController(libraryController);
         this.setPlayerController(playerController);
         this.setLayoutPosition(BorderLayout.CENTER);
