@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 
 /**
  * Window view.
- * @version 1.1.0
+ * @version 1.2.0
  */
 public class WindowView extends AbstractMasterView <JFrame> {
     @Override
@@ -31,23 +31,17 @@ public class WindowView extends AbstractMasterView <JFrame> {
         for (int i = 0; i < views.length; i++) {
             this.addView(views[i]);
         }
-        this.initialize();
-    }
-
-    /**
-     * Initializing.
-     */
-    protected void initialize() {
-        JFrame frame = new JFrame();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setIconImage(new ImageIcon(this.getClass().getResource("/ene/resources/images/icon.png")).getImage());
-        this.setCoreComponent(frame);
-        this.setTitle(getString("WINDOW_TITLE"));
     }
 
     @Override
     public void render() {
-        JFrame masterComponent = this.getCoreComponent();
+        // Prepare core component.
+        JFrame frame = new JFrame();
+        this.setCoreComponent(frame);
+        this.setTitle(getString("WINDOW_TITLE"));
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setIconImage(new ImageIcon(this.getClass().getResource("/ene/resources/images/icon.png")).getImage());
+        // Merge partial content components.
         JPanel contentPane = new JPanel(new BorderLayout());
         for (View partialView : this.getAllViews()) {
             partialView.render();
@@ -55,8 +49,9 @@ public class WindowView extends AbstractMasterView <JFrame> {
                 (Component) partialView.getCoreComponent(), partialView.getLayoutPosition()
             );
         }
-        masterComponent.setContentPane(contentPane);
-        masterComponent.pack();
-        masterComponent.setVisible(true);
+        frame.setContentPane(contentPane);
+        frame.pack();
+        // Ready to show.
+        frame.setVisible(true);
     }
 }

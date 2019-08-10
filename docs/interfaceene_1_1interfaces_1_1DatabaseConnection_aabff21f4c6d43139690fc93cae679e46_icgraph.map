@@ -1,0 +1,6 @@
+<map id="ene.interfaces.DatabaseConnection.execute" name="ene.interfaces.DatabaseConnection.execute">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html#aa40dceee9b0024082b71ab641a087c2e" title="ene.controllers.LibraryController.save\lToFile" alt="" coords="333,31,572,72"/>
+<area shape="rect" id="node3" href="$classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" title="ene.controllers.LibraryController.add" alt="" coords="631,13,862,39"/>
+<area shape="rect" id="node5" href="$classene_1_1controllers_1_1LibraryController.html#aac7853b4f42ee8c4d8704e036eca61a0" title="ene.controllers.LibraryController.remove" alt="" coords="620,63,873,90"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="921,5,1105,47"/>
+</map>

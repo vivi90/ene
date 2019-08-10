@@ -15,6 +15,7 @@ Usage
 -----
 Just compile it.
 Currently it supports only WAV files.
+The library database is saved in a local SQLite file, called `library.db`.
 
 Requirements
 ------------

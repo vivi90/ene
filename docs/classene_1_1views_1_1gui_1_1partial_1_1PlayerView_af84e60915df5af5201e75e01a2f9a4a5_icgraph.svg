@@ -8,16 +8,16 @@
  viewBox="0.00 0.00 318.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>ene.views.gui.partial.PlayerView.resetProgress</title>
-<!-- Node66 -->
+<!-- Node46 -->
 <g id="node1" class="node">
-<title>Node66</title>
+<title>Node46</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-30.5 137,-30.5 137,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
 <text text-anchor="middle" x="68.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.resetProgress</text>
 </g>
-<!-- Node67 -->
+<!-- Node47 -->
 <g id="node2" class="node">
-<title>Node67</title>
+<title>Node47</title>
 <g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" target="_top" xlink:title="ene.views.gui.partial.Player\lView.update">
 <polygon fill="none" stroke="#000000" points="173,-.5 173,-30.5 310,-30.5 310,-.5 173,-.5"/>
 <text text-anchor="start" x="181" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -25,9 +25,9 @@
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node67 -->
+<!-- Node46&#45;&gt;Node47 -->
 <g id="edge1" class="edge">
-<title>Node66&#45;&gt;Node67</title>
+<title>Node46&#45;&gt;Node47</title>
 <path fill="none" stroke="#191970" d="M147.5941,-15.5C156.0314,-15.5 164.5633,-15.5 172.8657,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="147.3713,-12.0001 137.3713,-15.5 147.3712,-19.0001 147.3713,-12.0001"/>
 </g>

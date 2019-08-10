@@ -1,0 +1,7 @@
+<map id="ene.controllers.LibraryController.LibraryController" name="ene.controllers.LibraryController.LibraryController">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html#a109265deb8d32fc7def5c8010efc5af1" title="ene.controllers.LibraryController.load\lFromFile" alt="" coords="264,30,499,71"/>
+<area shape="rect" id="node5" href="$classene_1_1controllers_1_1LibraryController.html#a7176f972e9f365ceb157a1da752b9e2e" title="ene.controllers.LibraryController.set\lDatabaseFilename" alt="" coords="267,95,495,137"/>
+<area shape="rect" id="node6" href="$classene_1_1controllers_1_1AbstractController.html#aeb538130c72b3c48f6574443db04eed5" title="ene.controllers.Abstract\lController\&lt; LibraryModel\l \&gt;::setModel" alt="" coords="299,161,463,217"/>
+<area shape="rect" id="node3" href="$interfaceene_1_1interfaces_1_1DatabaseConnection.html#a09a4dba7ac52632cc125c9c555c64c4f" title="ene.interfaces.DatabaseConnection.query" alt="" coords="547,5,813,32"/>
+<area shape="rect" id="node4" href="$classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd" title="ene.controllers.Abstract\lController\&lt; LibraryModel\l \&gt;::getModel" alt="" coords="598,56,762,112"/>
+</map>

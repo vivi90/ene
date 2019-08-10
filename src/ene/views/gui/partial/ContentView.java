@@ -7,7 +7,7 @@ import java.awt.Component;
 
 /**
  * Content view.
- * @version 4.0.0
+ * @version 4.1.0
  * @since 0.13.0
  */
 public class ContentView extends AbstractMasterView <JTabbedPane> {
@@ -19,19 +19,14 @@ public class ContentView extends AbstractMasterView <JTabbedPane> {
         for (int i = 0; i < views.length; i++) {
             this.addView(views[i]);
         }
-        this.initialize();
-    }
-
-    /**
-     * Initializing.
-     */
-    protected void initialize() {
-        this.setCoreComponent(new JTabbedPane());
     }
 
     @Override
     public void render() {
-        JTabbedPane contentPane = this.getCoreComponent();
+        // Prepare core component.
+        JTabbedPane contentPane = new JTabbedPane();
+        this.setCoreComponent(contentPane);
+        // Merge partial content components.
         for (View partialView : this.getAllViews()) {
             partialView.render();
             contentPane.add(

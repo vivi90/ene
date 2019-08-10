@@ -1,12 +1,11 @@
 <map id="ene.AbstractObject.consoleOutput" name="ene.AbstractObject.consoleOutput">
 <area shape="rect" id="node2" href="$classene_1_1AbstractObject.html#aff9619cf289ec83735b6c6ca2c12e020" title="ene.AbstractObject.debug\lInfoAbout" alt="" coords="261,150,435,191"/>
-<area shape="rect" id="node10" href="$classene_1_1Application.html#a096fa8803429fdb43c79cde1705b489f" title="ene.Application.processArguments" alt="" coords="236,277,460,304"/>
+<area shape="rect" id="node9" href="$classene_1_1Application.html#a096fa8803429fdb43c79cde1705b489f" title="ene.Application.processArguments" alt="" coords="236,277,460,304"/>
 <area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="515,5,709,32"/>
 <area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html#a7d0471082171de01773a1da88cb3652d" title="ene.models.PlayerModel.start" alt="" coords="515,56,709,83"/>
 <area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#afdcaa5e17ecdfbccad3ac8e702914e00" title="ene.models.PlayerModel.pause" alt="" coords="510,107,714,133"/>
 <area shape="rect" id="node6" href="$classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1" title="ene.models.PlayerModel.update" alt="" coords="508,157,716,184"/>
 <area shape="rect" id="node7" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aebe5720136b8b2215b6ad365c723843e" title="ene.views.gui.partial.Abstract\lTrackListView.valueChanged" alt="" coords="515,209,709,250"/>
-<area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6a20ce866e62ced7476b666fe891b10a" title="ene.views.gui.partial.Player\lView.initialize" alt="" coords="521,274,703,315"/>
-<area shape="rect" id="node9" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a87a7a4837fc2b68df6bf06984881a7ea" title="ene.views.gui.partial.Player\lView.PlayerView" alt="" coords="764,274,947,315"/>
-<area shape="rect" id="node11" href="$classene_1_1Application.html#a336bc7b9857591df7cc547781aacbf10" title="ene.Application.main" alt="" coords="541,340,683,367"/>
+<area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" title="ene.views.gui.partial.Player\lView.render" alt="" coords="521,274,703,315"/>
+<area shape="rect" id="node10" href="$classene_1_1Application.html#a336bc7b9857591df7cc547781aacbf10" title="ene.Application.main" alt="" coords="541,340,683,367"/>
 </map>

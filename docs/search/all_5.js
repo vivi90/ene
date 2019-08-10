@@ -11,6 +11,7 @@ var searchData=
   ['getclip',['getClip',['../classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45',1,'ene::models::PlayerModel']]],
   ['getconnection',['getConnection',['../classene_1_1databases_1_1SQLDatabase.html#abdb5873f35a6bb7a89a6a3daca111410',1,'ene::databases::SQLDatabase']]],
   ['getcorecomponent',['getCoreComponent',['../interfaceene_1_1interfaces_1_1View.html#a92667eeeb7f90c33f542760ed7b4ef36',1,'ene.interfaces.View.getCoreComponent()'],['../classene_1_1views_1_1AbstractView.html#a8b774594825c8749280b5b17013ad7dc',1,'ene.views.AbstractView.getCoreComponent()']]],
+  ['getdatabasefilename',['getDatabaseFilename',['../classene_1_1controllers_1_1LibraryController.html#a510cf010821311fd17a441739179e99f',1,'ene::controllers::LibraryController']]],
   ['getfilename',['getFilename',['../classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d',1,'ene::models::TrackModel']]],
   ['getgenre',['getGenre',['../classene_1_1models_1_1TrackModel.html#a2c57f7fe3f410c0e914af9a79de57346',1,'ene::models::TrackModel']]],
   ['getlastevent',['getLastEvent',['../classene_1_1models_1_1PlayerModel.html#a7473339fab83ab3b9445dcc2006a110f',1,'ene::models::PlayerModel']]],

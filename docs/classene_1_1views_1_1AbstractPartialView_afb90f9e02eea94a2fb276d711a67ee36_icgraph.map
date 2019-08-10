@@ -1,11 +1,9 @@
 <map id="ene.views.AbstractPartialView.getModel" name="ene.views.AbstractPartialView.getModel">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6e6e521f258ad6e3f2e06ed96180efb6" title="ene.views.gui.partial.Library\lView.initialize" alt="" coords="229,5,413,47"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a363a0a2db7ab4295ef38bb667038a6f8" title="ene.views.gui.partial.Library\lView.update" alt="" coords="229,71,413,112"/>
-<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" title="ene.views.gui.partial.Player\lView.update" alt="" coords="699,159,881,200"/>
-<area shape="rect" id="node6" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af324f1c0b5648dab2400b4c0ab33f3ca" title="ene.views.gui.partial.Player\lView.updateProgress" alt="" coords="230,188,413,229"/>
-<area shape="rect" id="node10" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aebe5720136b8b2215b6ad365c723843e" title="ene.views.gui.partial.Abstract\lTrackListView.valueChanged" alt="" coords="224,253,419,295"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="467,5,651,47"/>
-<area shape="rect" id="node7" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6a20ce866e62ced7476b666fe891b10a" title="ene.views.gui.partial.Player\lView.initialize" alt="" coords="467,253,650,295"/>
-<area shape="rect" id="node9" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af84e60915df5af5201e75e01a2f9a4a5" title="ene.views.gui.partial.Player\lView.resetProgress" alt="" coords="467,188,650,229"/>
-<area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a87a7a4837fc2b68df6bf06984881a7ea" title="ene.views.gui.partial.Player\lView.PlayerView" alt="" coords="699,253,881,295"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="467,8,651,49"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a363a0a2db7ab4295ef38bb667038a6f8" title="ene.views.gui.partial.Library\lView.update" alt="" coords="229,37,413,78"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" title="ene.views.gui.partial.Player\lView.update" alt="" coords="699,125,881,166"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af324f1c0b5648dab2400b4c0ab33f3ca" title="ene.views.gui.partial.Player\lView.updateProgress" alt="" coords="230,154,413,196"/>
+<area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aebe5720136b8b2215b6ad365c723843e" title="ene.views.gui.partial.Abstract\lTrackListView.valueChanged" alt="" coords="224,220,419,261"/>
+<area shape="rect" id="node6" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af84e60915df5af5201e75e01a2f9a4a5" title="ene.views.gui.partial.Player\lView.resetProgress" alt="" coords="467,154,650,196"/>
+<area shape="rect" id="node7" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" title="ene.views.gui.partial.Player\lView.render" alt="" coords="467,220,650,261"/>
 </map>

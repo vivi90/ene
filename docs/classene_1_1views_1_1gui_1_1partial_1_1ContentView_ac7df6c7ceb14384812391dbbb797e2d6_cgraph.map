@@ -1,5 +1,3 @@
 <map id="ene.views.gui.partial.ContentView.ContentView" name="ene.views.gui.partial.ContentView.ContentView">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1AbstractMasterView.html#a7e49af73fded3d801ff31b7591e0d5a8" title="ene.views.AbstractMaster\lView.addView" alt="" coords="252,5,427,47"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#aab911c4ec74346df8f4bc8c6d5016fa4" title="ene.views.gui.partial.Content\lView.initialize" alt="" coords="244,71,435,112"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1AbstractView.html#aa9bee221c279bc8a9dbada91184d8181" title="ene.views.AbstractView.set\lCoreComponent" alt="" coords="483,71,668,112"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1AbstractMasterView.html#a7e49af73fded3d801ff31b7591e0d5a8" title="ene.views.AbstractMaster\lView.addView" alt="" coords="244,5,419,47"/>
 </map>

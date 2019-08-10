@@ -1,5 +1,6 @@
 package ene.databases;
 
+import java.util.Properties;
 import ene.AbstractObject;
 import ene.interfaces.DatabaseConnection;
 import java.sql.Connection;
@@ -14,7 +15,7 @@ import java.util.Map;
 
 /**
  * JDBC SQL database.
- * @version 1.0.0
+ * @version 1.1.0
  */
 public class SQLDatabase extends AbstractObject implements DatabaseConnection {
     /**
@@ -63,9 +64,24 @@ public class SQLDatabase extends AbstractObject implements DatabaseConnection {
      * Constructor.
      * @param url A database url of the form jdbc:subprotocol:subname.
      * @param statementTimeout Statement timeout in seconds.
+     * @version 1.0.0
      */
     public SQLDatabase(String url, int statementTimeout) throws Exception {
         this.setConnection(DriverManager.getConnection(url));
+        this.setStatement(this.getConnection().createStatement());
+        this.getStatement().setQueryTimeout(statementTimeout);
+    }
+
+    /**
+     * Constructor.
+     * @param url A database url of the form jdbc:subprotocol:subname.
+     * @param statementTimeout Statement timeout in seconds.
+     * @param properties Properties instance.
+     * @since 0.16.0
+     * @version 1.0.0
+     */
+    public SQLDatabase(String url, int statementTimeout, Properties properties) throws Exception {
+        this.setConnection(DriverManager.getConnection(url, properties));
         this.setStatement(this.getConnection().createStatement());
         this.getStatement().setQueryTimeout(statementTimeout);
     }

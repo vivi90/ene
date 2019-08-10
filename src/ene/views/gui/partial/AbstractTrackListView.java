@@ -14,7 +14,7 @@ import ene.interfaces.Controller;
 /**
  * Track list view.
  * @since 0.14.0
- * @version 1.0.0
+ * @version 2.0.0
  */
 abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackListModel> implements ListSelectionListener {
     /**
@@ -124,7 +124,4 @@ abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackL
             }
         }
     }
-
-    @Override
-    public void render() {}
 }

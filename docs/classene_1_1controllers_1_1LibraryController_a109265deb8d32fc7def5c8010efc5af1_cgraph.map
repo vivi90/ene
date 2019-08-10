@@ -1,0 +1,4 @@
+<map id="ene.controllers.LibraryController.loadFromFile" name="ene.controllers.LibraryController.loadFromFile">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd" title="ene.controllers.Abstract\lController\&lt; LibraryModel\l \&gt;::getModel" alt="" coords="339,5,503,61"/>
+<area shape="rect" id="node3" href="$interfaceene_1_1interfaces_1_1DatabaseConnection.html#a09a4dba7ac52632cc125c9c555c64c4f" title="ene.interfaces.DatabaseConnection.query" alt="" coords="288,85,555,112"/>
+</map>

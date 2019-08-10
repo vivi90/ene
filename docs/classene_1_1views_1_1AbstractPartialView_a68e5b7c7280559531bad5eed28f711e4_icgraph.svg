@@ -8,16 +8,16 @@
  viewBox="0.00 0.00 310.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>ene.views.AbstractPartialView.setModel</title>
-<!-- Node12 -->
+<!-- Node10 -->
 <g id="node1" class="node">
-<title>Node12</title>
+<title>Node10</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-24.5 0,-54.5 128,-54.5 128,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.AbstractPartial</text>
 <text text-anchor="middle" x="64" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.setModel</text>
 </g>
-<!-- Node13 -->
+<!-- Node11 -->
 <g id="node2" class="node">
-<title>Node13</title>
+<title>Node11</title>
 <g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" target="_top" xlink:title="ene.views.gui.partial.Library\lView.LibraryView">
 <polygon fill="none" stroke="#000000" points="164,-49.5 164,-79.5 302,-79.5 302,-49.5 164,-49.5"/>
 <text text-anchor="start" x="172" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
@@ -25,15 +25,15 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
+<!-- Node10&#45;&gt;Node11 -->
 <g id="edge1" class="edge">
-<title>Node12&#45;&gt;Node13</title>
+<title>Node10&#45;&gt;Node11</title>
 <path fill="none" stroke="#191970" d="M138.5155,-50.523C146.9026,-51.7637 155.4228,-53.0241 163.7393,-54.2543"/>
 <polygon fill="#191970" stroke="#191970" points="138.7783,-47.0239 128.3738,-49.0227 137.7539,-53.9485 138.7783,-47.0239"/>
 </g>
-<!-- Node14 -->
+<!-- Node12 -->
 <g id="node3" class="node">
-<title>Node14</title>
+<title>Node12</title>
 <g id="a_node3"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a87a7a4837fc2b68df6bf06984881a7ea" target="_top" xlink:title="ene.views.gui.partial.Player\lView.PlayerView">
 <polygon fill="none" stroke="#000000" points="164.5,-.5 164.5,-30.5 301.5,-30.5 301.5,-.5 164.5,-.5"/>
 <text text-anchor="start" x="172.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -41,9 +41,9 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node14 -->
+<!-- Node10&#45;&gt;Node12 -->
 <g id="edge2" class="edge">
-<title>Node12&#45;&gt;Node14</title>
+<title>Node10&#45;&gt;Node12</title>
 <path fill="none" stroke="#191970" d="M138.3996,-28.9344C147.0144,-27.711 155.7712,-26.4674 164.305,-25.2555"/>
 <polygon fill="#191970" stroke="#191970" points="137.7823,-25.4868 128.3738,-30.3582 138.7666,-32.4173 137.7823,-25.4868"/>
 </g>

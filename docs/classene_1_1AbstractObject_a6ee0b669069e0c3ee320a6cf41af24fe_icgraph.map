@@ -1,10 +1,9 @@
 <map id="ene.AbstractObject.isDebugModeEnabled" name="ene.AbstractObject.isDebugModeEnabled">
-<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html#aff9619cf289ec83735b6c6ca2c12e020" title="ene.AbstractObject.debug\lInfoAbout" alt="" coords="240,140,413,181"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6a20ce866e62ced7476b666fe891b10a" title="ene.views.gui.partial.Player\lView.initialize" alt="" coords="474,5,657,47"/>
-<area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="469,71,662,98"/>
-<area shape="rect" id="node6" href="$classene_1_1models_1_1PlayerModel.html#afdcaa5e17ecdfbccad3ac8e702914e00" title="ene.models.PlayerModel.pause" alt="" coords="463,122,667,149"/>
-<area shape="rect" id="node7" href="$classene_1_1models_1_1PlayerModel.html#a7d0471082171de01773a1da88cb3652d" title="ene.models.PlayerModel.start" alt="" coords="468,173,663,199"/>
-<area shape="rect" id="node8" href="$classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1" title="ene.models.PlayerModel.update" alt="" coords="461,223,669,250"/>
-<area shape="rect" id="node9" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aebe5720136b8b2215b6ad365c723843e" title="ene.views.gui.partial.Abstract\lTrackListView.valueChanged" alt="" coords="468,275,663,316"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a87a7a4837fc2b68df6bf06984881a7ea" title="ene.views.gui.partial.Player\lView.PlayerView" alt="" coords="717,5,900,47"/>
+<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html#aff9619cf289ec83735b6c6ca2c12e020" title="ene.AbstractObject.debug\lInfoAbout" alt="" coords="240,137,413,178"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="469,5,662,32"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html#afdcaa5e17ecdfbccad3ac8e702914e00" title="ene.models.PlayerModel.pause" alt="" coords="463,56,667,83"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" title="ene.views.gui.partial.Player\lView.render" alt="" coords="474,107,657,149"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1PlayerModel.html#a7d0471082171de01773a1da88cb3652d" title="ene.models.PlayerModel.start" alt="" coords="468,173,663,200"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1" title="ene.models.PlayerModel.update" alt="" coords="461,224,669,251"/>
+<area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aebe5720136b8b2215b6ad365c723843e" title="ene.views.gui.partial.Abstract\lTrackListView.valueChanged" alt="" coords="468,275,663,317"/>
 </map>

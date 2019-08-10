@@ -1,5 +1,4 @@
 <map id="ene.controllers.LibraryController.addDirectoryContent" name="ene.controllers.LibraryController.addDirectoryContent">
 <area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" title="ene.controllers.LibraryController.add" alt="" coords="284,13,515,39"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6e6e521f258ad6e3f2e06ed96180efb6" title="ene.views.gui.partial.Library\lView.initialize" alt="" coords="563,5,747,47"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="795,5,979,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="563,5,747,47"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="ene.views.gui.partial.LibraryView.loadContent" name="ene.views.gui.partial.LibraryView.loadContent">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6e6e521f258ad6e3f2e06ed96180efb6" title="ene.views.gui.partial.Library\lView.initialize" alt="" coords="237,5,421,47"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a363a0a2db7ab4295ef38bb667038a6f8" title="ene.views.gui.partial.Library\lView.update" alt="" coords="237,71,421,112"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="469,5,653,47"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="469,5,653,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a363a0a2db7ab4295ef38bb667038a6f8" title="ene.views.gui.partial.Library\lView.update" alt="" coords="237,35,421,76"/>
 </map>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['savetofile',['saveToFile',['../classene_1_1controllers_1_1LibraryController.html#aa40dceee9b0024082b71ab641a087c2e',1,'ene::controllers::LibraryController']]],
   ['scan',['scan',['../classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352',1,'ene::controllers::LibraryController']]],
   ['search',['search',['../classene_1_1models_1_1LibraryModel.html#accd8b9321b02639dbb2970022556d324',1,'ene::models::LibraryModel']]],
   ['setallviews',['setAllViews',['../interfaceene_1_1interfaces_1_1MasterView.html#a4e56a7a3c1b442a80d2fb512222cd97b',1,'ene.interfaces.MasterView.setAllViews()'],['../classene_1_1views_1_1AbstractMasterView.html#acc8385a0b11e37819c5230fc7a21dd9f',1,'ene.views.AbstractMasterView.setAllViews()']]],
@@ -7,6 +8,7 @@ var searchData=
   ['setclip',['setClip',['../classene_1_1models_1_1PlayerModel.html#a5617391131179365729686dc4eea1ea1',1,'ene::models::PlayerModel']]],
   ['setconnection',['setConnection',['../classene_1_1databases_1_1SQLDatabase.html#a735699c8b1cd003a88881f0324e679b2',1,'ene::databases::SQLDatabase']]],
   ['setcorecomponent',['setCoreComponent',['../interfaceene_1_1interfaces_1_1View.html#a1555a57d179865907362476e621a426a',1,'ene.interfaces.View.setCoreComponent()'],['../classene_1_1views_1_1AbstractView.html#aa9bee221c279bc8a9dbada91184d8181',1,'ene.views.AbstractView.setCoreComponent()']]],
+  ['setdatabasefilename',['setDatabaseFilename',['../classene_1_1controllers_1_1LibraryController.html#a7176f972e9f365ceb157a1da752b9e2e',1,'ene::controllers::LibraryController']]],
   ['setfilename',['setFilename',['../classene_1_1models_1_1TrackModel.html#adcb5ee61c35e73b04879409a43c4b753',1,'ene::models::TrackModel']]],
   ['setgenre',['setGenre',['../classene_1_1models_1_1TrackModel.html#acfe29ae2331320c5c60824a1bb4e1ba7',1,'ene::models::TrackModel']]],
   ['setlastevent',['setLastEvent',['../classene_1_1models_1_1PlayerModel.html#a96f182616ef8371e8402acc510034183',1,'ene::models::PlayerModel']]],
@@ -20,7 +22,7 @@ var searchData=
   ['settablecontent',['setTableContent',['../classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a13acee6cff5a5298c925eb01aef3339b',1,'ene::views::gui::partial::AbstractTrackListView']]],
   ['settitle',['setTitle',['../interfaceene_1_1interfaces_1_1View.html#a8516214c496a9e15bc6d65e710988d92',1,'ene.interfaces.View.setTitle()'],['../classene_1_1models_1_1TrackModel.html#a1e8a6872b5dcf826ba463a663a8249f1',1,'ene.models.TrackModel.setTitle()'],['../classene_1_1views_1_1AbstractView.html#a95a682cf88e2d16d42d56d84bb360e91',1,'ene.views.AbstractView.setTitle()'],['../classene_1_1views_1_1gui_1_1WindowView.html#ab0f6dcadbede5ac1c47e346bf2df3593',1,'ene.views.gui.WindowView.setTitle()']]],
   ['settrackposition',['setTrackPosition',['../classene_1_1models_1_1PlayerModel.html#ae58085790604570d46621f019a8e0e78',1,'ene::models::PlayerModel']]],
-  ['sqldatabase',['SQLDatabase',['../classene_1_1databases_1_1SQLDatabase.html',1,'ene.databases.SQLDatabase'],['../classene_1_1databases_1_1SQLDatabase.html#a91ac1bd655b300b6d01c858c023cce3e',1,'ene.databases.SQLDatabase.SQLDatabase()']]],
+  ['sqldatabase',['SQLDatabase',['../classene_1_1databases_1_1SQLDatabase.html',1,'ene.databases.SQLDatabase'],['../classene_1_1databases_1_1SQLDatabase.html#a91ac1bd655b300b6d01c858c023cce3e',1,'ene.databases.SQLDatabase.SQLDatabase(String url, int statementTimeout)'],['../classene_1_1databases_1_1SQLDatabase.html#a6d516f155266ee73125830e942105c7e',1,'ene.databases.SQLDatabase.SQLDatabase(String url, int statementTimeout, Properties properties)']]],
   ['sqldatabase_2ejava',['SQLDatabase.java',['../SQLDatabase_8java.html',1,'']]],
   ['start',['start',['../classene_1_1models_1_1PlayerModel.html#a7d0471082171de01773a1da88cb3652d',1,'ene::models::PlayerModel']]],
   ['statement',['statement',['../classene_1_1databases_1_1SQLDatabase.html#a57856d59ed8ee19db6be8f5996ee814b',1,'ene::databases::SQLDatabase']]]

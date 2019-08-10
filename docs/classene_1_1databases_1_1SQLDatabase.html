@@ -29,7 +29,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ene
-   &#160;<span id="projectnumber">0.15.1</span>
+   &#160;<span id="projectnumber">0.16.0</span>
    </div>
    <div id="projectbrief">Simple extensible music library.</div>
   </td>
@@ -93,18 +93,20 @@ $(document).ready(function(){initNavTree('classene_1_1databases_1_1SQLDatabase.h
 <div class="dynheader">
 Inheritance diagram for ene.databases.SQLDatabase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classene_1_1databases_1_1SQLDatabase__inherit__graph.svg" width="435" height="390"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classene_1_1databases_1_1SQLDatabase__inherit__graph.svg" width="435" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ene.databases.SQLDatabase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classene_1_1databases_1_1SQLDatabase__coll__graph.svg" width="655" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classene_1_1databases_1_1SQLDatabase__coll__graph.svg" width="655" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a91ac1bd655b300b6d01c858c023cce3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a91ac1bd655b300b6d01c858c023cce3e">SQLDatabase</a> (String url, int statementTimeout)  throws Exception </td></tr>
 <tr class="separator:a91ac1bd655b300b6d01c858c023cce3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d516f155266ee73125830e942105c7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a6d516f155266ee73125830e942105c7e">SQLDatabase</a> (String url, int statementTimeout, Properties properties)  throws Exception </td></tr>
+<tr class="separator:a6d516f155266ee73125830e942105c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2325d6243e5001ba6a2762d98a6aa003"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a2325d6243e5001ba6a2762d98a6aa003">execute</a> (String <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a57856d59ed8ee19db6be8f5996ee814b">statement</a>)  throws Exception </td></tr>
 <tr class="separator:a2325d6243e5001ba6a2762d98a6aa003"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fc326bb48771501b425d26e44d40671"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a4fc326bb48771501b425d26e44d40671">query</a> (String <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a57856d59ed8ee19db6be8f5996ee814b">statement</a>)  throws Exception </td></tr>
@@ -149,12 +151,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a3d19b9dc26b575f876c282b200fb4da7 inherit pro_static_attribs_classene_1_1AbstractObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>JDBC SQL database. </p><dl class="section version"><dt>Version</dt><dd>1.0.0 </dd></dl>
+<div class="textblock"><p>JDBC SQL database. </p><dl class="section version"><dt>Version</dt><dd>1.1.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00019">19</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00020">20</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a91ac1bd655b300b6d01c858c023cce3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91ac1bd655b300b6d01c858c023cce3e">&#9670;&nbsp;</a></span>SQLDatabase()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ac1bd655b300b6d01c858c023cce3e">&#9670;&nbsp;</a></span>SQLDatabase() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,14 +187,68 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section version"><dt>Version</dt><dd>1.0.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00067">67</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00069">69</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#abdb5873f35a6bb7a89a6a3daca111410">ene.databases.SQLDatabase.getConnection()</a>, <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#aef5181c3d691141c8f9694106d4fe0ee">ene.databases.SQLDatabase.getStatement()</a>, <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a735699c8b1cd003a88881f0324e679b2">ene.databases.SQLDatabase.setConnection()</a>, and <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#af13c91c98bec1fe20b0b3f417f50503c">ene.databases.SQLDatabase.setStatement()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classene_1_1databases_1_1SQLDatabase_a91ac1bd655b300b6d01c858c023cce3e_cgraph.svg" width="471" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6d516f155266ee73125830e942105c7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d516f155266ee73125830e942105c7e">&#9670;&nbsp;</a></span>SQLDatabase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ene.databases.SQLDatabase.SQLDatabase </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>statementTimeout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Properties&#160;</td>
+          <td class="paramname"><em>properties</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>A database url of the form jdbc:subprotocol:subname. </td></tr>
+    <tr><td class="paramname">statementTimeout</td><td>Statement timeout in seconds. </td></tr>
+    <tr><td class="paramname">properties</td><td>Properties instance. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.16.0 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0.0 </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00083">83</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+
+<p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#abdb5873f35a6bb7a89a6a3daca111410">ene.databases.SQLDatabase.getConnection()</a>, <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#aef5181c3d691141c8f9694106d4fe0ee">ene.databases.SQLDatabase.getStatement()</a>, <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a735699c8b1cd003a88881f0324e679b2">ene.databases.SQLDatabase.setConnection()</a>, and <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#af13c91c98bec1fe20b0b3f417f50503c">ene.databases.SQLDatabase.setStatement()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classene_1_1databases_1_1SQLDatabase_a6d516f155266ee73125830e942105c7e_cgraph.svg" width="471" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -223,7 +279,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="interfaceene_1_1interfaces_1_1DatabaseConnection.html#aabff21f4c6d43139690fc93cae679e46">ene.interfaces.DatabaseConnection</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00074">74</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00090">90</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#aef5181c3d691141c8f9694106d4fe0ee">ene.databases.SQLDatabase.getStatement()</a>.</p>
 <div class="dynheader">
@@ -258,7 +314,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Returns the connection instance. </p><dl class="section return"><dt>Returns</dt><dd>Connection instance. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00042">42</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00043">43</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a97da01b2cf4389f20e26075d998eed41">ene.databases.SQLDatabase.connection</a>.</p>
 
@@ -295,7 +351,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Returns the statement instance. </p><dl class="section return"><dt>Returns</dt><dd>Statement instance. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00058">58</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00059">59</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a57856d59ed8ee19db6be8f5996ee814b">ene.databases.SQLDatabase.statement</a>.</p>
 
@@ -333,7 +389,7 @@ Here is the caller graph for this function:</div>
 
 <p>Implements <a class="el" href="interfaceene_1_1interfaces_1_1DatabaseConnection.html#a09a4dba7ac52632cc125c9c555c64c4f">ene.interfaces.DatabaseConnection</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00079">79</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00095">95</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#aef5181c3d691141c8f9694106d4fe0ee">ene.databases.SQLDatabase.getStatement()</a>.</p>
 <div class="dynheader">
@@ -374,7 +430,7 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00034">34</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00035">35</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a97da01b2cf4389f20e26075d998eed41">ene.databases.SQLDatabase.connection</a>.</p>
 
@@ -417,7 +473,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00050">50</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00051">51</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">References <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a57856d59ed8ee19db6be8f5996ee814b">ene.databases.SQLDatabase.statement</a>.</p>
 
@@ -452,7 +508,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Connection instance. </p>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00023">23</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00024">24</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#abdb5873f35a6bb7a89a6a3daca111410">ene.databases.SQLDatabase.getConnection()</a>, and <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a735699c8b1cd003a88881f0324e679b2">ene.databases.SQLDatabase.setConnection()</a>.</p>
 
@@ -479,7 +535,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p>Statement instance. </p>
 
-<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00028">28</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SQLDatabase_8java_source.html#l00029">29</a> of file <a class="el" href="SQLDatabase_8java_source.html">SQLDatabase.java</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#aef5181c3d691141c8f9694106d4fe0ee">ene.databases.SQLDatabase.getStatement()</a>, and <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#af13c91c98bec1fe20b0b3f417f50503c">ene.databases.SQLDatabase.setStatement()</a>.</p>
 
@@ -494,7 +550,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceene.html">ene</a></li><li class="navelem"><a class="el" href="namespaceene_1_1databases.html">databases</a></li><li class="navelem"><a class="el" href="classene_1_1databases_1_1SQLDatabase.html">SQLDatabase</a></li>
-    <li class="footer">Generated on Wed Aug 7 2019 23:27:39 for Ene by
+    <li class="footer">Generated on Sat Aug 10 2019 16:03:24 for Ene by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

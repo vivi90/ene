@@ -26,7 +26,7 @@ import javax.swing.JTextField;
 
 /**
  * Library view.
- * @version 2.1.0
+ * @version 2.2.0
  * @since 0.13.0
  */
 public class LibraryView extends AbstractTrackListView {
@@ -56,6 +56,7 @@ public class LibraryView extends AbstractTrackListView {
      * @param model Library model instance.
      * @param libraryController Library controller instance.
      * @param playerController Player controller instance.
+     * @version 1.1.0
      */
     public LibraryView(Model model, Controller libraryController, Controller playerController) {
         model.addView(this);
@@ -63,14 +64,29 @@ public class LibraryView extends AbstractTrackListView {
         this.setTitle(getString("PANE_LIBRARY_TITLE"));
         this.setLibraryController(libraryController);
         this.setPlayerController(playerController);
-        this.initialize();
         this.setLayoutPosition(BorderLayout.CENTER);
     }
 
     /**
-     * Initializing.
+     * Loads the table content from the model.
+     * @param tracks Map of Tracks.
      */
-    protected void initialize() {
+    protected void loadContent(Map<String, TrackModel> tracks) {
+        DefaultTableModel tableContent = this.getTableContent();
+        tableContent.setRowCount(0);
+        for (Map.Entry<String, TrackModel> entry : tracks.entrySet()) {
+            TrackModel track = entry.getValue();
+            tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre(), track.getFilename().toString()});
+        }
+    }
+
+    @Override
+    public void update() {
+        this.loadContent(this.getModel().getAll());
+    }
+
+    @Override
+    public void render() {
         // Prepare base panel.
         JPanel libraryPanel = new JPanel(new BorderLayout());
         this.setCoreComponent(libraryPanel);
@@ -136,23 +152,7 @@ public class LibraryView extends AbstractTrackListView {
         this.hideColumn(table, 3); // Hides UUID.
         this.setTable(table);
         libraryPanel.add(new JScrollPane(table), BorderLayout.CENTER);
-    }
-
-    /**
-     * Loads the table content from the model.
-     * @param tracks Map of Tracks.
-     */
-    protected void loadContent(Map<String, TrackModel> tracks) {
-        DefaultTableModel tableContent = this.getTableContent();
-        tableContent.setRowCount(0);
-        for (Map.Entry<String, TrackModel> entry : tracks.entrySet()) {
-            TrackModel track = entry.getValue();
-            tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre(), track.getFilename().toString()});
-        }
-    }
-
-    @Override
-    public void update() {
-        this.loadContent(this.getModel().getAll());
+        // Ready to get data.
+        this.update();
     }
 }

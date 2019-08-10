@@ -1,6 +1,7 @@
 var classene_1_1databases_1_1SQLDatabase =
 [
     [ "SQLDatabase", "classene_1_1databases_1_1SQLDatabase.html#a91ac1bd655b300b6d01c858c023cce3e", null ],
+    [ "SQLDatabase", "classene_1_1databases_1_1SQLDatabase.html#a6d516f155266ee73125830e942105c7e", null ],
     [ "execute", "classene_1_1databases_1_1SQLDatabase.html#a2325d6243e5001ba6a2762d98a6aa003", null ],
     [ "getConnection", "classene_1_1databases_1_1SQLDatabase.html#abdb5873f35a6bb7a89a6a3daca111410", null ],
     [ "getStatement", "classene_1_1databases_1_1SQLDatabase.html#aef5181c3d691141c8f9694106d4fe0ee", null ],

@@ -5,7 +5,6 @@ var classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView =
     [ "getTable", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aeea3d90287745704cda06893c94b9666", null ],
     [ "getTableContent", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a709dd0b919d5e537076fe18ad992f25f", null ],
     [ "hideColumn", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a2b9e7e6496c9675f9094dea99e1e469d", null ],
-    [ "render", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a7945092b910c908688ac65057cda4382", null ],
     [ "setPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ae113e108119ef9f8d6f8b32c308f31ab", null ],
     [ "setTable", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a597363a2069558d6801c75be622b1988", null ],
     [ "setTableContent", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a13acee6cff5a5298c925eb01aef3339b", null ],

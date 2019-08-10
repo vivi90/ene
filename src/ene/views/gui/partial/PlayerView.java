@@ -21,7 +21,7 @@ import javax.swing.border.EmptyBorder;
 
 /**
  * Player view.
- * @version 2.0.1
+ * @version 2.1.1
  */
 public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     /**
@@ -74,55 +74,13 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
      * Constructor.
      * @param model Player model instance.
      * @param playerController Player controller instance.
+     * @version 1.1.0
      */
     public PlayerView(Model model, Controller playerController) {
         model.addView(this);
         this.setModel(model);
         this.setPlayerController(playerController);
         this.setLayoutPosition(BorderLayout.SOUTH);
-        this.initialize();
-    }
-
-    /**
-     * Initializing.
-     */
-    protected void initialize() {
-        // Panel
-        JPanel panel = new JPanel(new BorderLayout(10, 0));
-        panel.setBorder(new EmptyBorder(5, 5, 5, 5));
-        this.setCoreComponent(panel);
-        // Play button.
-        this.playButton = new JButton(getString("PLAY_BUTTON_START"));
-        this.playButton.setFocusPainted(false);
-        this.playButton.addActionListener(event -> {
-            debugInfoAbout(event);
-            this.getPlayerController().togglePlayback();
-        });
-        panel.add(this.playButton, BorderLayout.WEST);
-        // Progress slider.
-        JSlider slider = this.progressSlider = new JSlider(0, 100, 0);
-        this.progressSlider.setUI(new MetalSliderUI() {
-            @Override
-            protected void scrollDueToClickInTrack(int direction) {
-                slider.setValue(this.valueForXPosition(slider.getMousePosition().x));
-            }
-        });
-        this.progressSlider.addChangeListener(event -> {
-            this.getPlayerController().changeTrackPosition(progressSlider.getValue());
-        });
-        panel.add(this.progressSlider, BorderLayout.CENTER);
-        // Progress label.
-        this.progressLabel = new JLabel("--:-- / --:--");
-        this.progressLabel.setHorizontalAlignment(SwingConstants.RIGHT);
-        this.trackTimeFormat = new SimpleDateFormat("mm:ss");
-        this.trackTimeFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
-        panel.add(this.progressLabel, BorderLayout.EAST);
-        // Progress refresh timer.
-        this.progressTimer = new Timer(100, event -> {
-            this.updateProgress();
-        });
-        // Prepare player controls.
-        this.disablePlayerControls();
     }
 
     /**
@@ -201,5 +159,42 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     }
 
     @Override
-    public void render() {}
+    public void render() {
+        // Panel
+        JPanel panel = new JPanel(new BorderLayout(10, 0));
+        panel.setBorder(new EmptyBorder(5, 5, 5, 5));
+        this.setCoreComponent(panel);
+        // Play button.
+        this.playButton = new JButton(getString("PLAY_BUTTON_START"));
+        this.playButton.setFocusPainted(false);
+        this.playButton.addActionListener(event -> {
+            debugInfoAbout(event);
+            this.getPlayerController().togglePlayback();
+        });
+        panel.add(this.playButton, BorderLayout.WEST);
+        // Progress slider.
+        JSlider slider = this.progressSlider = new JSlider(0, 100, 0);
+        this.progressSlider.setUI(new MetalSliderUI() {
+            @Override
+            protected void scrollDueToClickInTrack(int direction) {
+                slider.setValue(this.valueForXPosition(slider.getMousePosition().x));
+            }
+        });
+        this.progressSlider.addChangeListener(event -> {
+            this.getPlayerController().changeTrackPosition(progressSlider.getValue());
+        });
+        panel.add(this.progressSlider, BorderLayout.CENTER);
+        // Progress label.
+        this.progressLabel = new JLabel("--:-- / --:--");
+        this.progressLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+        this.trackTimeFormat = new SimpleDateFormat("mm:ss");
+        this.trackTimeFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+        panel.add(this.progressLabel, BorderLayout.EAST);
+        // Progress refresh timer.
+        this.progressTimer = new Timer(100, event -> {
+            this.updateProgress();
+        });
+        // Prepare player controls.
+        this.disablePlayerControls();
+    }
 }

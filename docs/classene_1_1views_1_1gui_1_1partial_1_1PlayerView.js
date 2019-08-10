@@ -5,7 +5,6 @@ var classene_1_1views_1_1gui_1_1partial_1_1PlayerView =
     [ "enablePlayerControls", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a3098a851f88f8b9ce6d4e2fcacdf55c9", null ],
     [ "formatTimeToString", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a5214bb8084cfb78242868039e33f78ef", null ],
     [ "getPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a4dc768b48e41f0ea98929d8069ef790a", null ],
-    [ "initialize", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6a20ce866e62ced7476b666fe891b10a", null ],
     [ "render", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35", null ],
     [ "resetProgress", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af84e60915df5af5201e75e01a2f9a4a5", null ],
     [ "setPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af4c9cd0cd87bb0f2274266872c3ab2d4", null ],

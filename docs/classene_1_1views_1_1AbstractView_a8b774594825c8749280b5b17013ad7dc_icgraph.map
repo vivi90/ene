@@ -1,10 +1,6 @@
 <map id="ene.views.AbstractView.getCoreComponent" name="ene.views.AbstractView.getCoreComponent">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1WindowView.html#a2f281419aedc07356781392658155ad9" title="ene.views.gui.WindowView.get\lTitle" alt="" coords="248,5,452,47"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6e6e521f258ad6e3f2e06ed96180efb6" title="ene.views.gui.partial.Library\lView.initialize" alt="" coords="258,71,442,112"/>
-<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#a7615ef3421a9f5a70e4929ec72132020" title="ene.views.gui.partial.Content\lView.render" alt="" coords="255,136,445,177"/>
-<area shape="rect" id="node6" href="$classene_1_1views_1_1gui_1_1WindowView.html#a2ce6d135f47d21b01c91eeeac2e5c52a" title="ene.views.gui.WindowView.render" alt="" coords="239,202,461,229"/>
-<area shape="rect" id="node7" href="$classene_1_1views_1_1gui_1_1WindowView.html#ab0f6dcadbede5ac1c47e346bf2df3593" title="ene.views.gui.WindowView.set\lTitle" alt="" coords="248,253,452,295"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="534,71,718,112"/>
-<area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1WindowView.html#ab1f007806dcd28e2e4486eb29231fa21" title="ene.views.gui.WindowView.initialize" alt="" coords="509,261,743,287"/>
-<area shape="rect" id="node9" href="$classene_1_1views_1_1gui_1_1WindowView.html#a0d3e57ee4c8c74d85618d82de8087545" title="ene.views.gui.WindowView.\lWindowView" alt="" coords="791,253,977,295"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1WindowView.html#a2f281419aedc07356781392658155ad9" title="ene.views.gui.WindowView.get\lTitle" alt="" coords="239,5,443,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="249,71,433,112"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1WindowView.html#ab0f6dcadbede5ac1c47e346bf2df3593" title="ene.views.gui.WindowView.set\lTitle" alt="" coords="239,136,443,177"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1WindowView.html#a2ce6d135f47d21b01c91eeeac2e5c52a" title="ene.views.gui.WindowView.render" alt="" coords="491,143,713,170"/>
 </map>

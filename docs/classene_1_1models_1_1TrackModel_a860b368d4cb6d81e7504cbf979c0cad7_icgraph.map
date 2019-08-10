@@ -1,8 +1,7 @@
 <map id="ene.models.TrackModel.detectTitle" name="ene.models.TrackModel.detectTitle">
 <area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html#a8ebea67eb61c84ee6a4825fa98fe870b" title="ene.controllers.LibraryController.addFile" alt="" coords="255,13,507,39"/>
 <area shape="rect" id="node3" href="$classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" title="ene.controllers.LibraryController.add" alt="" coords="1120,13,1351,39"/>
-<area shape="rect" id="node6" href="$classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352" title="ene.controllers.LibraryController.scan" alt="" coords="555,38,793,65"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6e6e521f258ad6e3f2e06ed96180efb6" title="ene.views.gui.partial.Library\lView.initialize" alt="" coords="1399,5,1583,47"/>
-<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="1631,5,1815,47"/>
-<area shape="rect" id="node7" href="$classene_1_1controllers_1_1LibraryController.html#a6bc70daa48b96db79d5524113a49cd3e" title="ene.controllers.LibraryController.add\lDirectoryContent" alt="" coords="841,35,1072,76"/>
+<area shape="rect" id="node5" href="$classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352" title="ene.controllers.LibraryController.scan" alt="" coords="555,38,793,65"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="1399,5,1583,47"/>
+<area shape="rect" id="node6" href="$classene_1_1controllers_1_1LibraryController.html#a6bc70daa48b96db79d5524113a49cd3e" title="ene.controllers.LibraryController.add\lDirectoryContent" alt="" coords="841,35,1072,76"/>
 </map>

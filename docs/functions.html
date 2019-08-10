@@ -29,7 +29,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ene
-   &#160;<span id="projectnumber">0.15.1</span>
+   &#160;<span id="projectnumber">0.16.0</span>
    </div>
    <div id="projectbrief">Simple extensible music library.</div>
   </td>
@@ -132,6 +132,15 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
+<li>DATABASE_TABLE
+: <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a233a3d77917057f7fbcb0ec13b3c2b14">ene.controllers.LibraryController</a>
+</li>
+<li>DATABASE_TIMEOUT
+: <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a7c5ee93f11b12b81423b33994c2638c5">ene.controllers.LibraryController</a>
+</li>
+<li>databaseFilename
+: <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a5dc2493dedb31aaac0320e3e57f4548b">ene.controllers.LibraryController</a>
+</li>
 <li>debugInfoAbout()
 : <a class="el" href="classene_1_1AbstractObject.html#aff9619cf289ec83735b6c6ca2c12e020">ene.AbstractObject</a>
 </li>
@@ -219,6 +228,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="interfaceene_1_1interfaces_1_1View.html#a92667eeeb7f90c33f542760ed7b4ef36">ene.interfaces.View&lt; CoreComponentType &gt;</a>
 , <a class="el" href="classene_1_1views_1_1AbstractView.html#a8b774594825c8749280b5b17013ad7dc">ene.views.AbstractView&lt; CoreComponentType &gt;</a>
 </li>
+<li>getDatabaseFilename()
+: <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a510cf010821311fd17a441739179e99f">ene.controllers.LibraryController</a>
+</li>
 <li>getFilename()
 : <a class="el" href="classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d">ene.models.TrackModel</a>
 </li>
@@ -286,12 +298,6 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
-<li>initialize()
-: <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#aab911c4ec74346df8f4bc8c6d5016fa4">ene.views.gui.partial.ContentView</a>
-, <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6e6e521f258ad6e3f2e06ed96180efb6">ene.views.gui.partial.LibraryView</a>
-, <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6a20ce866e62ced7476b666fe891b10a">ene.views.gui.partial.PlayerView</a>
-, <a class="el" href="classene_1_1views_1_1gui_1_1WindowView.html#ab1f007806dcd28e2e4486eb29231fa21">ene.views.gui.WindowView</a>
-</li>
 <li>isDebugModeEnabled()
 : <a class="el" href="classene_1_1AbstractObject.html#a6ee0b669069e0c3ee320a6cf41af24fe">ene.AbstractObject</a>
 </li>
@@ -304,6 +310,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>layoutPosition
 : <a class="el" href="classene_1_1views_1_1AbstractView.html#ad1454e46ee2eb8f514f26e78e3190198">ene.views.AbstractView&lt; CoreComponentType &gt;</a>
+</li>
+<li>LIBRARY_DATABASE_FILE
+: <a class="el" href="classene_1_1Application.html#a08f196b1f081a3aa1a316daf8f5223e6">ene.Application</a>
 </li>
 <li>LibraryController()
 : <a class="el" href="classene_1_1controllers_1_1LibraryController.html#af59acb98eeac06354a4534939ee65577">ene.controllers.LibraryController</a>
@@ -320,6 +329,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>loadContent()
 : <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a734cbc08cf36ed3d48cb106b77ecf28b">ene.views.gui.partial.LibraryView</a>
+</li>
+<li>loadFromFile()
+: <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a109265deb8d32fc7def5c8010efc5af1">ene.controllers.LibraryController</a>
 </li>
 </ul>
 
@@ -389,8 +401,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>render()
 : <a class="el" href="interfaceene_1_1interfaces_1_1View.html#a07f4a88fc3afe00cd3c090f89cc04ca0">ene.interfaces.View&lt; CoreComponentType &gt;</a>
-, <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a7945092b910c908688ac65057cda4382">ene.views.gui.partial.AbstractTrackListView</a>
 , <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#a7615ef3421a9f5a70e4929ec72132020">ene.views.gui.partial.ContentView</a>
+, <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41">ene.views.gui.partial.LibraryView</a>
 , <a class="el" href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35">ene.views.gui.partial.PlayerView</a>
 , <a class="el" href="classene_1_1views_1_1gui_1_1WindowView.html#a2ce6d135f47d21b01c91eeeac2e5c52a">ene.views.gui.WindowView</a>
 </li>
@@ -404,6 +416,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>saveToFile()
+: <a class="el" href="classene_1_1controllers_1_1LibraryController.html#aa40dceee9b0024082b71ab641a087c2e">ene.controllers.LibraryController</a>
+</li>
 <li>scan()
 : <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352">ene.controllers.LibraryController</a>
 </li>
@@ -426,6 +441,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>setCoreComponent()
 : <a class="el" href="interfaceene_1_1interfaces_1_1View.html#a1555a57d179865907362476e621a426a">ene.interfaces.View&lt; CoreComponentType &gt;</a>
 , <a class="el" href="classene_1_1views_1_1AbstractView.html#aa9bee221c279bc8a9dbada91184d8181">ene.views.AbstractView&lt; CoreComponentType &gt;</a>
+</li>
+<li>setDatabaseFilename()
+: <a class="el" href="classene_1_1controllers_1_1LibraryController.html#a7176f972e9f365ceb157a1da752b9e2e">ene.controllers.LibraryController</a>
 </li>
 <li>setFilename()
 : <a class="el" href="classene_1_1models_1_1TrackModel.html#adcb5ee61c35e73b04879409a43c4b753">ene.models.TrackModel</a>
@@ -475,7 +493,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="classene_1_1models_1_1PlayerModel.html#ae58085790604570d46621f019a8e0e78">ene.models.PlayerModel</a>
 </li>
 <li>SQLDatabase()
-: <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a91ac1bd655b300b6d01c858c023cce3e">ene.databases.SQLDatabase</a>
+: <a class="el" href="classene_1_1databases_1_1SQLDatabase.html#a6d516f155266ee73125830e942105c7e">ene.databases.SQLDatabase</a>
 </li>
 <li>start()
 : <a class="el" href="classene_1_1models_1_1PlayerModel.html#a7d0471082171de01773a1da88cb3652d">ene.models.PlayerModel</a>
@@ -552,7 +570,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 7 2019 23:27:39 for Ene by
+    <li class="footer">Generated on Sat Aug 10 2019 16:03:24 for Ene by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
