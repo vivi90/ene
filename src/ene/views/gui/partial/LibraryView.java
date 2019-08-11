@@ -1,5 +1,6 @@
 package ene.views.gui.partial;
 
+import javax.swing.table.TableRowSorter;
 import ene.views.gui.partial.AbstractTrackListView;
 import ene.controllers.LibraryController;
 import ene.interfaces.Controller;
@@ -26,7 +27,7 @@ import javax.swing.JTextField;
 
 /**
  * Library view.
- * @version 2.2.0
+ * @version 2.3.0
  * @since 0.13.0
  */
 public class LibraryView extends AbstractTrackListView {
@@ -145,12 +146,16 @@ public class LibraryView extends AbstractTrackListView {
         // Prepare table content.
         DefaultTableModel tableContent = this.getTableContent();
         tableContent.setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE"), getString("TABLE_COLUMN_FILENAME")});
+        // Prepare table row sorter.
+        TableRowSorter<DefaultTableModel> tableRowSorter = new TableRowSorter<>(tableContent);
+        this.setTableRowSorter(tableRowSorter);
         // Prepare table.
         JTable table = new JTable(tableContent);
+        this.setTable(table);
+        table.setRowSorter(tableRowSorter);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         table.getSelectionModel().addListSelectionListener(this);
         this.hideColumn(table, 3); // Hides UUID.
-        this.setTable(table);
         libraryPanel.add(new JScrollPane(table), BorderLayout.CENTER);
         // Ready to get data.
         this.update();

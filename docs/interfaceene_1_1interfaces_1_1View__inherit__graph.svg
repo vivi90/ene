@@ -233,32 +233,35 @@
 <!-- Node9 -->
 <g id="node10" class="node">
 <title>Node9</title>
-<g id="a_node10"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html" target="_top" xlink:title="{ene::views::gui::partial\l::AbstractTrackListView\l\&lt; JPanel, TrackListModel \&gt;\n|# table\l# tableContent\l# playerController\l|+ valueChanged()\l# setTable()\l# getTable()\l# setTableContent()\l# getTableContent()\l# setPlayerController()\l# getPlayerController()\l# hideColumn()\l# getSelectedFilename()\l}">
-<polygon fill="none" stroke="#000000" points="837,-167 837,-356 974,-356 974,-167 837,-167"/>
-<text text-anchor="start" x="845" y="-344" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene::views::gui::partial</text>
-<text text-anchor="start" x="845" y="-333" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::AbstractTrackListView</text>
-<text text-anchor="middle" x="905.5" y="-322" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; JPanel, TrackListModel &gt;</text>
-<polyline fill="none" stroke="#000000" points="837,-315 974,-315 "/>
-<text text-anchor="start" x="845" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># table</text>
-<text text-anchor="start" x="845" y="-292" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># tableContent</text>
-<text text-anchor="start" x="845" y="-281" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># playerController</text>
-<polyline fill="none" stroke="#000000" points="837,-274 974,-274 "/>
-<text text-anchor="start" x="845" y="-262" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ valueChanged()</text>
-<text text-anchor="start" x="845" y="-251" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setTable()</text>
-<text text-anchor="start" x="845" y="-240" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getTable()</text>
-<text text-anchor="start" x="845" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setTableContent()</text>
-<text text-anchor="start" x="845" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getTableContent()</text>
-<text text-anchor="start" x="845" y="-207" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setPlayerController()</text>
-<text text-anchor="start" x="845" y="-196" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getPlayerController()</text>
-<text text-anchor="start" x="845" y="-185" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># hideColumn()</text>
-<text text-anchor="start" x="845" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getSelectedFilename()</text>
+<g id="a_node10"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html" target="_top" xlink:title="{ene::views::gui::partial\l::AbstractTrackListView\l\&lt; JPanel, TrackListModel \&gt;\n|# table\l# tableRowSorter\l# tableContent\l# playerController\l|+ valueChanged()\l# setTable()\l# getTable()\l# setTableContent()\l# getTableContent()\l# setTableRowSorter()\l# getTableRowSorter()\l# setPlayerController()\l# getPlayerController()\l# hideColumn()\l# getSelectedFilename()\l}">
+<polygon fill="none" stroke="#000000" points="837,-150.5 837,-372.5 974,-372.5 974,-150.5 837,-150.5"/>
+<text text-anchor="start" x="845" y="-360.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene::views::gui::partial</text>
+<text text-anchor="start" x="845" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::AbstractTrackListView</text>
+<text text-anchor="middle" x="905.5" y="-338.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; JPanel, TrackListModel &gt;</text>
+<polyline fill="none" stroke="#000000" points="837,-331.5 974,-331.5 "/>
+<text text-anchor="start" x="845" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># table</text>
+<text text-anchor="start" x="845" y="-308.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># tableRowSorter</text>
+<text text-anchor="start" x="845" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># tableContent</text>
+<text text-anchor="start" x="845" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># playerController</text>
+<polyline fill="none" stroke="#000000" points="837,-279.5 974,-279.5 "/>
+<text text-anchor="start" x="845" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ valueChanged()</text>
+<text text-anchor="start" x="845" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setTable()</text>
+<text text-anchor="start" x="845" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getTable()</text>
+<text text-anchor="start" x="845" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setTableContent()</text>
+<text text-anchor="start" x="845" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getTableContent()</text>
+<text text-anchor="start" x="845" y="-212.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setTableRowSorter()</text>
+<text text-anchor="start" x="845" y="-201.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getTableRowSorter()</text>
+<text text-anchor="start" x="845" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setPlayerController()</text>
+<text text-anchor="start" x="845" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getPlayerController()</text>
+<text text-anchor="start" x="845" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># hideColumn()</text>
+<text text-anchor="start" x="845" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getSelectedFilename()</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge9" class="edge">
 <title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M909.1484,-410.3553C908.7381,-393.6142 908.275,-374.7216 907.82,-356.1552"/>
+<path fill="none" stroke="#191970" d="M909.1503,-410.4313C908.8618,-398.661 908.5472,-385.8244 908.2275,-372.7838"/>
 <polygon fill="none" stroke="#191970" points="905.6525,-410.5676 909.3965,-420.4788 912.6504,-410.396 905.6525,-410.5676"/>
 </g>
 <!-- Node11 -->
@@ -360,8 +363,8 @@
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge10" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M905.5,-156.7721C905.5,-141.5035 905.5,-126.3009 905.5,-112.5203"/>
-<polygon fill="none" stroke="#191970" points="902.0001,-156.8009 905.5,-166.8009 909.0001,-156.8009 902.0001,-156.8009"/>
+<path fill="none" stroke="#191970" d="M905.5,-140.0055C905.5,-130.5834 905.5,-121.3832 905.5,-112.7385"/>
+<polygon fill="none" stroke="#191970" points="902.0001,-140.3008 905.5,-150.3008 909.0001,-140.3009 902.0001,-140.3008"/>
 </g>
 <!-- Node14&#45;&gt;Node2 -->
 <g id="edge15" class="edge">
@@ -393,7 +396,7 @@
 <!-- Node15&#45;&gt;Node9 -->
 <g id="edge17" class="edge">
 <title>Node15&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M729.4092,-416.526C734.5001,-406.9051 741.0777,-397.7239 749.5,-391 777.304,-368.8028 798.0081,-392.8999 827.5,-373 834.6478,-368.177 841.3429,-362.4626 847.5692,-356.2092"/>
+<path fill="none" stroke="#191970" d="M729.4092,-416.526C734.5001,-406.9051 741.0777,-397.7239 749.5,-391 777.304,-368.8028 798.0081,-392.8999 827.5,-373 830.7312,-370.8197 833.8699,-368.4573 836.9146,-365.9453"/>
 <polygon fill="none" stroke="#191970" points="726.1225,-415.2867 724.9722,-425.8189 732.4394,-418.3028 726.1225,-415.2867"/>
 </g>
 <!-- Node15&#45;&gt;Node11 -->

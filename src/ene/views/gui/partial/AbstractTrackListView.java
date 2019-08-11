@@ -10,17 +10,23 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import ene.controllers.PlayerController;
 import ene.interfaces.Controller;
+import javax.swing.table.TableRowSorter;
 
 /**
  * Track list view.
  * @since 0.14.0
- * @version 2.0.0
+ * @version 2.1.0
  */
 abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackListModel> implements ListSelectionListener {
     /**
      * Table instance.
      */
     protected JTable table;
+
+    /**
+     * Table row sorter instance.
+     */
+    protected TableRowSorter<DefaultTableModel> tableRowSorter;
 
     /**
      * Table content instance.
@@ -75,6 +81,23 @@ abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackL
     }
 
     /**
+     * Sets the table row sorter instance.
+     * @param tableRowSorter Table row sorter instance.
+     * @since 0.18.0
+     */
+    protected void setTableRowSorter(TableRowSorter<DefaultTableModel> tableRowSorter) {
+        this.tableRowSorter = tableRowSorter;
+    }
+
+    /**
+     * Returns the table row sorter instance.
+     * @return Table row sorter instance.
+     * @since 0.18.0
+     */
+    protected TableRowSorter<DefaultTableModel> getTableRowSorter() {
+        return this.tableRowSorter;
+    }
+    /**
      * Sets the player controller instance.
      * @param playerController Player controller instance.
      */
@@ -105,9 +128,17 @@ abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackL
      * Returns the selected filename.
      * @return Selected filename or empty string, if nothing is selected.
      * @since 0.12.0
+     * @version 1.1.0
      */
     protected String getSelectedFilename() {
-        int selectedRow = this.getTable().getSelectedRow();
+        JTable table = this.getTable();
+        DefaultTableModel tableContent = this.getTableContent();
+        int selectedRow = -1;
+        if (this.getTableRowSorter() == null) {
+            selectedRow = table.getSelectedRow();
+        } else {
+            selectedRow = table.convertRowIndexToModel(table.getSelectedRow());
+        }
         if (selectedRow > -1) {
             return (String) tableContent.getValueAt(selectedRow, 3);
         } else {

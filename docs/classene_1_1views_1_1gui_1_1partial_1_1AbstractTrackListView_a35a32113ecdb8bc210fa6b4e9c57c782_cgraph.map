@@ -1,3 +1,5 @@
 <map id="ene.views.gui.partial.AbstractTrackListView.getSelectedFilename" name="ene.views.gui.partial.AbstractTrackListView.getSelectedFilename">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aeea3d90287745704cda06893c94b9666" title="ene.views.gui.partial.Abstract\lTrackListView.getTable" alt="" coords="284,5,479,47"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aeea3d90287745704cda06893c94b9666" title="ene.views.gui.partial.Abstract\lTrackListView.getTable" alt="" coords="297,5,492,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a709dd0b919d5e537076fe18ad992f25f" title="ene.views.gui.partial.Abstract\lTrackListView.getTableContent" alt="" coords="292,71,497,112"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#abb6fc383a050c8c908502156536ce518" title="ene.views.gui.partial.Abstract\lTrackListView.getTableRowSorter" alt="" coords="284,136,505,177"/>
 </map>

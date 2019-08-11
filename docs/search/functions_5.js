@@ -24,6 +24,7 @@ var searchData=
   ['getstring',['getString',['../interfaceene_1_1interfaces_1_1Localization.html#ae7d5c65647a8bd1ca0c27b3279b0751c',1,'ene::interfaces::Localization']]],
   ['gettable',['getTable',['../classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aeea3d90287745704cda06893c94b9666',1,'ene::views::gui::partial::AbstractTrackListView']]],
   ['gettablecontent',['getTableContent',['../classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a709dd0b919d5e537076fe18ad992f25f',1,'ene::views::gui::partial::AbstractTrackListView']]],
+  ['gettablerowsorter',['getTableRowSorter',['../classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#abb6fc383a050c8c908502156536ce518',1,'ene::views::gui::partial::AbstractTrackListView']]],
   ['gettitle',['getTitle',['../interfaceene_1_1interfaces_1_1View.html#a657e3f1314fad049777e3e9eb2a3aa80',1,'ene.interfaces.View.getTitle()'],['../classene_1_1models_1_1TrackModel.html#a5bac0e2b6c87c93eef2802d9d10bf3c1',1,'ene.models.TrackModel.getTitle()'],['../classene_1_1views_1_1AbstractView.html#ab6cd580b6c6cc288fe68717fe16e3777',1,'ene.views.AbstractView.getTitle()'],['../classene_1_1views_1_1gui_1_1WindowView.html#a2f281419aedc07356781392658155ad9',1,'ene.views.gui.WindowView.getTitle()']]],
   ['gettracklength',['getTrackLength',['../classene_1_1models_1_1PlayerModel.html#ac32610c7511e6187ae364f64e1cf290b',1,'ene::models::PlayerModel']]],
   ['gettrackposition',['getTrackPosition',['../classene_1_1models_1_1PlayerModel.html#a3108500012be901007a2e809761ac136',1,'ene::models::PlayerModel']]]

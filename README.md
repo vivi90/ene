@@ -3,7 +3,7 @@ Ene
 
 About
 -----
-This project is a simple music library as a homework in the context of my computer science studies.
+This project is a simple music library as a homework in the context of our computer science studies.
 For more details about the source code please check out the documentation: https://vivi90.github.io/ene
 (Also available as PDF download: https://vivi90.github.io/ene/ene.pdf)
 
@@ -16,6 +16,13 @@ Usage
 Just compile it.
 Currently it supports only WAV files.
 The library database is saved in a local SQLite file, called `library.db`.
+
+Features
+--------
+* Create simple music library
+* Play tracks
+* Sort tracks by artist, title or genre (ascending or descending)
+* Filter tracks by artist, title or genre
 
 Requirements
 ------------
