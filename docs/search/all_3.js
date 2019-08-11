@@ -2,6 +2,7 @@ var searchData=
 [
   ['controllers',['controllers',['../namespaceene_1_1controllers.html',1,'ene']]],
   ['databases',['databases',['../namespaceene_1_1databases.html',1,'ene']]],
+  ['edit',['edit',['../classene_1_1controllers_1_1LibraryController.html#a9e4da87d9fab61b162c2f57e97852be5',1,'ene::controllers::LibraryController']]],
   ['enabledebugmode',['enableDebugMode',['../classene_1_1AbstractObject.html#a3a6c641ec379167c42fed40e2c9b3d36',1,'ene::AbstractObject']]],
   ['enableplayercontrols',['enablePlayerControls',['../classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a3098a851f88f8b9ce6d4e2fcacdf55c9',1,'ene::views::gui::partial::PlayerView']]],
   ['ene',['ene',['../namespaceene.html',1,'']]],

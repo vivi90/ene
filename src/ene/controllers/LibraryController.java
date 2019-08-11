@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * Library controller.
- * @version 3.1.0
+ * @version 3.2.0
  */
 public class LibraryController extends AbstractController <LibraryModel> {
     /**
@@ -178,6 +178,18 @@ public class LibraryController extends AbstractController <LibraryModel> {
         successful = this.getModel().remove(filename);
         if (successful && !databaseFilename.isEmpty()) successful = this.saveToFile(databaseFilename);
         return successful;
+    }
+
+    /**
+     * Edits a track in the library.
+     * @param track Updated track model instance.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 0.20.0
+     * @version 1.0.0
+     */
+    public boolean edit(TrackModel track) {
+        this.getModel().add(track);
+        return this.saveToFile(databaseFilename);
     }
 
     /**

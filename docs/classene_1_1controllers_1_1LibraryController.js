@@ -5,6 +5,7 @@ var classene_1_1controllers_1_1LibraryController =
     [ "add", "classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4", null ],
     [ "addDirectoryContent", "classene_1_1controllers_1_1LibraryController.html#a6bc70daa48b96db79d5524113a49cd3e", null ],
     [ "addFile", "classene_1_1controllers_1_1LibraryController.html#a8ebea67eb61c84ee6a4825fa98fe870b", null ],
+    [ "edit", "classene_1_1controllers_1_1LibraryController.html#a9e4da87d9fab61b162c2f57e97852be5", null ],
     [ "getDatabaseFilename", "classene_1_1controllers_1_1LibraryController.html#a510cf010821311fd17a441739179e99f", null ],
     [ "loadFromFile", "classene_1_1controllers_1_1LibraryController.html#a109265deb8d32fc7def5c8010efc5af1", null ],
     [ "remove", "classene_1_1controllers_1_1LibraryController.html#aac7853b4f42ee8c4d8704e036eca61a0", null ],

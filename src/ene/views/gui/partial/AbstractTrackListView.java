@@ -15,7 +15,7 @@ import javax.swing.table.TableRowSorter;
 /**
  * Track list view.
  * @since 0.14.0
- * @version 2.1.0
+ * @version 2.1.1
  */
 abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackListModel> implements ListSelectionListener {
     /**
@@ -128,16 +128,20 @@ abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackL
      * Returns the selected filename.
      * @return Selected filename or empty string, if nothing is selected.
      * @since 0.12.0
-     * @version 1.1.0
+     * @version 1.1.1
      */
     protected String getSelectedFilename() {
         JTable table = this.getTable();
         DefaultTableModel tableContent = this.getTableContent();
-        int selectedRow = -1;
+        int selectedRow;
         if (this.getTableRowSorter() == null) {
             selectedRow = table.getSelectedRow();
         } else {
-            selectedRow = table.convertRowIndexToModel(table.getSelectedRow());
+            try {
+                selectedRow = table.convertRowIndexToModel(table.getSelectedRow());
+            } catch (Exception exception) {
+                selectedRow = -1;
+            }
         }
         if (selectedRow > -1) {
             return (String) tableContent.getValueAt(selectedRow, 3);

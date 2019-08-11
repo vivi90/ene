@@ -1,7 +1,5 @@
 package ene.views.gui.partial;
 
-import java.awt.Toolkit;
-import java.awt.Font;
 import javax.swing.table.TableRowSorter;
 import ene.views.gui.partial.AbstractTrackListView;
 import ene.controllers.LibraryController;
@@ -29,7 +27,7 @@ import javax.swing.JTextField;
 
 /**
  * Library view.
- * @version 2.3.0
+ * @version 2.5.0
  * @since 0.13.0
  */
 public class LibraryView extends AbstractTrackListView {
@@ -110,6 +108,40 @@ public class LibraryView extends AbstractTrackListView {
             ));
             if (addDialog.showOpenDialog(libraryPanel) == JFileChooser.APPROVE_OPTION) {
                 this.getLibraryController().add(addDialog.getSelectedFile().getAbsolutePath());
+            }
+        });
+        controlPanel.add(Box.createRigidArea(new Dimension(0, 5)));
+        JButton editButton = new JButton(getString("TABLE_BUTTON_EDIT"));
+        controlPanel.add(editButton);
+        editButton.setFocusPainted(false);
+        editButton.addActionListener(event -> {
+            String selectedFilename = this.getSelectedFilename();
+            if (!selectedFilename.isEmpty()) {
+                TrackModel selectedTrack = this.getModel().get(selectedFilename);
+                JTextField title = new JTextField(selectedTrack.getTitle());
+                JTextField artist = new JTextField(selectedTrack.getArtist());
+                JTextField genre = new JTextField(selectedTrack.getGenre());
+                JOptionPane editDialog = new JOptionPane(
+                    new Object[]{
+                        getString("TABLE_COLUMN_TITLE"), title,
+                        getString("TABLE_COLUMN_ARTIST"), artist,
+                        getString("TABLE_COLUMN_GENRE"), genre
+                    },
+                    JOptionPane.WARNING_MESSAGE,
+                    JOptionPane.OK_CANCEL_OPTION
+                );
+                editDialog.createDialog(this.getCoreComponent(), getString("TABLE_DIALOG_EDIT_TITLE")).setVisible(true);
+                Object result = editDialog.getValue();
+                if (result != null) {
+                    if ((int) result == JOptionPane.OK_OPTION) {
+                        this.getLibraryController().edit(new TrackModel(
+                            selectedFilename,
+                            artist.getText(),
+                            title.getText(),
+                            genre.getText()
+                        ));
+                    }
+                }
             }
         });
         controlPanel.add(Box.createRigidArea(new Dimension(0, 5)));

@@ -8,31 +8,31 @@
  viewBox="0.00 0.00 760.00 400.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 396.5)">
 <title>ene.models.TrackModel.getFilename</title>
-<!-- Node34 -->
+<!-- Node35 -->
 <g id="node1" class="node">
-<title>Node34</title>
+<title>Node35</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-181.5 0,-211.5 137,-211.5 137,-181.5 0,-181.5"/>
 <text text-anchor="start" x="8" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.TrackModel.get</text>
 <text text-anchor="middle" x="68.5" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Filename</text>
 </g>
-<!-- Node35 -->
+<!-- Node36 -->
 <g id="node2" class="node">
-<title>Node35</title>
+<title>Node36</title>
 <g id="a_node2"><a xlink:href="classene_1_1models_1_1TrackListModel.html#a57554d49b1182a9138b871617ce57e9a" target="_top" xlink:title="ene.models.TrackListModel.add">
 <polygon fill="none" stroke="#000000" points="185,-373 185,-392 340,-392 340,-373 185,-373"/>
 <text text-anchor="middle" x="262.5" y="-380" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.TrackListModel.add</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node35 -->
+<!-- Node35&#45;&gt;Node36 -->
 <g id="edge1" class="edge">
-<title>Node34&#45;&gt;Node35</title>
+<title>Node35&#45;&gt;Node36</title>
 <path fill="none" stroke="#191970" d="M76.7807,-221.1337C90.5727,-258.1939 121.895,-327.7497 173,-363.5 178.4666,-367.3242 184.5486,-370.405 190.8968,-372.8833"/>
 <polygon fill="#191970" stroke="#191970" points="80.0295,-219.8247 73.3536,-211.5977 73.442,-222.1921 80.0295,-219.8247"/>
 </g>
-<!-- Node36 -->
+<!-- Node37 -->
 <g id="node3" class="node">
-<title>Node36</title>
+<title>Node37</title>
 <g id="a_node3"><a xlink:href="classene_1_1models_1_1LibraryModel.html#a3165afccddf54c681f89de1a18356fd5" target="_top" xlink:title="ene.models.LibraryModel.get\lByArtist">
 <polygon fill="none" stroke="#000000" points="191.5,-323.5 191.5,-353.5 333.5,-353.5 333.5,-323.5 191.5,-323.5"/>
 <text text-anchor="start" x="199.5" y="-341.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.LibraryModel.get</text>
@@ -40,15 +40,15 @@
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node36 -->
+<!-- Node35&#45;&gt;Node37 -->
 <g id="edge2" class="edge">
-<title>Node34&#45;&gt;Node36</title>
+<title>Node35&#45;&gt;Node37</title>
 <path fill="none" stroke="#191970" d="M83.1932,-220.1666C101.1137,-247.0499 133.9017,-290.3131 173,-314.5 178.746,-318.0546 185.0156,-321.0888 191.4824,-323.6777"/>
 <polygon fill="#191970" stroke="#191970" points="86.0883,-218.1985 77.6981,-211.7288 80.2225,-222.0186 86.0883,-218.1985"/>
 </g>
-<!-- Node37 -->
+<!-- Node38 -->
 <g id="node4" class="node">
-<title>Node37</title>
+<title>Node38</title>
 <g id="a_node4"><a xlink:href="classene_1_1models_1_1LibraryModel.html#a98e2135ca9f08c127e5df33e002fc877" target="_top" xlink:title="ene.models.LibraryModel.get\lByGenre">
 <polygon fill="none" stroke="#000000" points="191.5,-274.5 191.5,-304.5 333.5,-304.5 333.5,-274.5 191.5,-274.5"/>
 <text text-anchor="start" x="199.5" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.LibraryModel.get</text>
@@ -56,15 +56,15 @@
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node37 -->
+<!-- Node35&#45;&gt;Node38 -->
 <g id="edge3" class="edge">
-<title>Node34&#45;&gt;Node37</title>
+<title>Node35&#45;&gt;Node38</title>
 <path fill="none" stroke="#191970" d="M95.5707,-217.9071C115.8761,-233.0589 144.8964,-252.8558 173,-265.5 180.4821,-268.8663 188.5351,-271.8438 196.6346,-274.4539"/>
 <polygon fill="#191970" stroke="#191970" points="97.5125,-214.9871 87.43,-211.7322 93.2821,-220.5642 97.5125,-214.9871"/>
 </g>
-<!-- Node38 -->
+<!-- Node39 -->
 <g id="node5" class="node">
-<title>Node38</title>
+<title>Node39</title>
 <g id="a_node5"><a xlink:href="classene_1_1models_1_1LibraryModel.html#a54d2e007cb15c20e66cdc3d23c6c2db6" target="_top" xlink:title="ene.models.LibraryModel.get\lByTitle">
 <polygon fill="none" stroke="#000000" points="191.5,-225.5 191.5,-255.5 333.5,-255.5 333.5,-225.5 191.5,-225.5"/>
 <text text-anchor="start" x="199.5" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.LibraryModel.get</text>
@@ -72,30 +72,30 @@
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node38 -->
+<!-- Node35&#45;&gt;Node39 -->
 <g id="edge4" class="edge">
-<title>Node34&#45;&gt;Node38</title>
+<title>Node35&#45;&gt;Node39</title>
 <path fill="none" stroke="#191970" d="M144.638,-213.7684C161.6869,-217.6352 179.6383,-221.7066 196.2481,-225.4738"/>
 <polygon fill="#191970" stroke="#191970" points="145.2477,-210.3179 134.7212,-211.5192 143.6993,-217.1445 145.2477,-210.3179"/>
 </g>
-<!-- Node39 -->
+<!-- Node40 -->
 <g id="node6" class="node">
-<title>Node39</title>
+<title>Node40</title>
 <g id="a_node6"><a xlink:href="classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" target="_top" xlink:title="ene.models.PlayerModel.load">
 <polygon fill="none" stroke="#000000" points="190,-187 190,-206 335,-206 335,-187 190,-187"/>
 <text text-anchor="middle" x="262.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.load</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node39 -->
+<!-- Node35&#45;&gt;Node40 -->
 <g id="edge5" class="edge">
-<title>Node34&#45;&gt;Node39</title>
+<title>Node35&#45;&gt;Node40</title>
 <path fill="none" stroke="#191970" d="M147.327,-196.5C161.4292,-196.5 176.0629,-196.5 189.9776,-196.5"/>
 <polygon fill="#191970" stroke="#191970" points="147.1702,-193.0001 137.1702,-196.5 147.1701,-200.0001 147.1702,-193.0001"/>
 </g>
-<!-- Node40 -->
+<!-- Node41 -->
 <g id="node7" class="node">
-<title>Node40</title>
+<title>Node41</title>
 <g id="a_node7"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a734cbc08cf36ed3d48cb106b77ecf28b" target="_top" xlink:title="ene.views.gui.partial.Library\lView.loadContent">
 <polygon fill="none" stroke="#000000" points="193.5,-137.5 193.5,-167.5 331.5,-167.5 331.5,-137.5 193.5,-137.5"/>
 <text text-anchor="start" x="201.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
@@ -103,15 +103,15 @@
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node40 -->
+<!-- Node35&#45;&gt;Node41 -->
 <g id="edge6" class="edge">
-<title>Node34&#45;&gt;Node40</title>
+<title>Node35&#45;&gt;Node41</title>
 <path fill="none" stroke="#191970" d="M144.638,-179.2316C161.6869,-175.3648 179.6383,-171.2934 196.2481,-167.5262"/>
 <polygon fill="#191970" stroke="#191970" points="143.6993,-175.8555 134.7212,-181.4808 145.2477,-182.6821 143.6993,-175.8555"/>
 </g>
-<!-- Node43 -->
+<!-- Node44 -->
 <g id="node10" class="node">
-<title>Node43</title>
+<title>Node44</title>
 <g id="a_node10"><a xlink:href="classene_1_1controllers_1_1LibraryController.html#aa40dceee9b0024082b71ab641a087c2e" target="_top" xlink:title="ene.controllers.LibraryController.save\lToFile">
 <polygon fill="none" stroke="#000000" points="173,-88.5 173,-118.5 352,-118.5 352,-88.5 173,-88.5"/>
 <text text-anchor="start" x="181" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController.save</text>
@@ -119,116 +119,137 @@
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node43 -->
+<!-- Node35&#45;&gt;Node44 -->
 <g id="edge10" class="edge">
-<title>Node34&#45;&gt;Node43</title>
+<title>Node35&#45;&gt;Node44</title>
 <path fill="none" stroke="#191970" d="M96.0359,-175.2344C116.3651,-160.3909 145.2153,-141.0626 173,-128.5 181.2321,-124.7779 190.1454,-121.488 199.0479,-118.6192"/>
 <polygon fill="#191970" stroke="#191970" points="93.8201,-172.5202 87.8731,-181.2886 97.9901,-178.1427 93.8201,-172.5202"/>
 </g>
-<!-- Node46 -->
-<g id="node13" class="node">
-<title>Node46</title>
-<g id="a_node13"><a xlink:href="classene_1_1models_1_1LibraryModel.html#accd8b9321b02639dbb2970022556d324" target="_top" xlink:title="ene.models.LibraryModel.search">
+<!-- Node48 -->
+<g id="node14" class="node">
+<title>Node48</title>
+<g id="a_node14"><a xlink:href="classene_1_1models_1_1LibraryModel.html#accd8b9321b02639dbb2970022556d324" target="_top" xlink:title="ene.models.LibraryModel.search">
 <polygon fill="none" stroke="#000000" points="183.5,-50 183.5,-69 341.5,-69 341.5,-50 183.5,-50"/>
 <text text-anchor="middle" x="262.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.LibraryModel.search</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node46 -->
-<g id="edge14" class="edge">
-<title>Node34&#45;&gt;Node46</title>
-<path fill="none" stroke="#191970" d="M82.6888,-172.9C100.3357,-145.7015 133.0643,-101.77 173,-78.5 179.5878,-74.6614 186.8516,-71.5943 194.3064,-69.1443"/>
-<polygon fill="#191970" stroke="#191970" points="79.6821,-171.1062 77.2938,-181.4283 85.5978,-174.8485 79.6821,-171.1062"/>
+<!-- Node35&#45;&gt;Node48 -->
+<g id="edge16" class="edge">
+<title>Node35&#45;&gt;Node48</title>
+<path fill="none" stroke="#191970" d="M83.0648,-172.7439C100.8647,-145.816 133.5395,-102.6637 173,-79.5 180.4145,-75.1476 188.6833,-71.7415 197.1161,-69.0761"/>
+<polygon fill="#191970" stroke="#191970" points="80.0887,-170.9009 77.6102,-181.2017 85.9715,-174.6948 80.0887,-170.9009"/>
 </g>
-<!-- Node47 -->
-<g id="node14" class="node">
-<title>Node47</title>
-<g id="a_node14"><a xlink:href="classene_1_1models_1_1TrackModel.html#a0a42aa27708a22d669893b6152be8d20" target="_top" xlink:title="ene.models.TrackModel.to\lString">
+<!-- Node49 -->
+<g id="node15" class="node">
+<title>Node49</title>
+<g id="a_node15"><a xlink:href="classene_1_1models_1_1TrackModel.html#a0a42aa27708a22d669893b6152be8d20" target="_top" xlink:title="ene.models.TrackModel.to\lString">
 <polygon fill="none" stroke="#000000" points="196.5,-.5 196.5,-30.5 328.5,-30.5 328.5,-.5 196.5,-.5"/>
 <text text-anchor="start" x="204.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.TrackModel.to</text>
 <text text-anchor="middle" x="262.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">String</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node47 -->
-<g id="edge15" class="edge">
-<title>Node34&#45;&gt;Node47</title>
+<!-- Node35&#45;&gt;Node49 -->
+<g id="edge17" class="edge">
+<title>Node35&#45;&gt;Node49</title>
 <path fill="none" stroke="#191970" d="M78.2694,-172.1096C93.3651,-137.5602 125.6507,-74.7686 173,-40.5 180.0574,-35.3923 188.1197,-31.327 196.449,-28.0917"/>
 <polygon fill="#191970" stroke="#191970" points="74.9858,-170.8879 74.3036,-181.4608 81.4302,-173.6211 74.9858,-170.8879"/>
 </g>
-<!-- Node41 -->
-<g id="node8" class="node">
-<title>Node41</title>
-<g id="a_node8"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a363a0a2db7ab4295ef38bb667038a6f8" target="_top" xlink:title="ene.views.gui.partial.Library\lView.update">
-<polygon fill="none" stroke="#000000" points="414,-175.5 414,-205.5 552,-205.5 552,-175.5 414,-175.5"/>
-<text text-anchor="start" x="422" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
-<text text-anchor="middle" x="483" y="-182.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.update</text>
-</a>
-</g>
-</g>
-<!-- Node40&#45;&gt;Node41 -->
-<g id="edge7" class="edge">
-<title>Node40&#45;&gt;Node41</title>
-<path fill="none" stroke="#191970" d="M341.6212,-166.1354C365.1859,-170.1964 390.8173,-174.6136 413.704,-178.5578"/>
-<polygon fill="#191970" stroke="#191970" points="342.1118,-162.6684 331.6626,-164.4192 340.9229,-169.5667 342.1118,-162.6684"/>
-</g>
 <!-- Node42 -->
-<g id="node9" class="node">
+<g id="node8" class="node">
 <title>Node42</title>
-<g id="a_node9"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" target="_top" xlink:title="ene.views.gui.partial.Library\lView.render">
-<polygon fill="none" stroke="#000000" points="614,-131.5 614,-161.5 752,-161.5 752,-131.5 614,-131.5"/>
-<text text-anchor="start" x="622" y="-149.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
-<text text-anchor="middle" x="683" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.render</text>
+<g id="a_node8"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a363a0a2db7ab4295ef38bb667038a6f8" target="_top" xlink:title="ene.views.gui.partial.Library\lView.update">
+<polygon fill="none" stroke="#000000" points="414,-181.5 414,-211.5 552,-211.5 552,-181.5 414,-181.5"/>
+<text text-anchor="start" x="422" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
+<text text-anchor="middle" x="483" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.update</text>
 </a>
 </g>
-</g>
-<!-- Node40&#45;&gt;Node42 -->
-<g id="edge9" class="edge">
-<title>Node40&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M342.253,-151.362C420.6979,-150.2427 539.2306,-148.5514 613.8096,-147.4873"/>
-<polygon fill="#191970" stroke="#191970" points="341.886,-147.8668 331.937,-151.5092 341.986,-154.8661 341.886,-147.8668"/>
 </g>
 <!-- Node41&#45;&gt;Node42 -->
-<g id="edge8" class="edge">
+<g id="edge7" class="edge">
 <title>Node41&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M561.4928,-173.2316C579.069,-169.3648 597.5756,-165.2934 614.6991,-161.5262"/>
-<polygon fill="#191970" stroke="#191970" points="560.2837,-169.9138 551.2693,-175.4808 561.7878,-176.7503 560.2837,-169.9138"/>
+<path fill="none" stroke="#191970" d="M341.6212,-168.2884C365.1859,-172.9906 390.8173,-178.1053 413.704,-182.6722"/>
+<polygon fill="#191970" stroke="#191970" points="342.1542,-164.8258 331.6626,-166.3012 340.7843,-171.6904 342.1542,-164.8258"/>
 </g>
-<!-- Node44 -->
-<g id="node11" class="node">
-<title>Node44</title>
-<g id="a_node11"><a xlink:href="classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" target="_top" xlink:title="ene.controllers.LibraryController.add">
-<polygon fill="none" stroke="#000000" points="396.5,-99 396.5,-118 569.5,-118 569.5,-99 396.5,-99"/>
-<text text-anchor="middle" x="483" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController.add</text>
+<!-- Node43 -->
+<g id="node9" class="node">
+<title>Node43</title>
+<g id="a_node9"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" target="_top" xlink:title="ene.views.gui.partial.Library\lView.render">
+<polygon fill="none" stroke="#000000" points="614,-118.5 614,-148.5 752,-148.5 752,-118.5 614,-118.5"/>
+<text text-anchor="start" x="622" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
+<text text-anchor="middle" x="683" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.render</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node44 -->
-<g id="edge11" class="edge">
-<title>Node43&#45;&gt;Node44</title>
-<path fill="none" stroke="#191970" d="M362.4816,-105.7672C373.7516,-106.0227 385.166,-106.2815 396.2482,-106.5328"/>
-<polygon fill="#191970" stroke="#191970" points="362.2626,-102.2614 352.1858,-105.5337 362.1038,-109.2596 362.2626,-102.2614"/>
+<!-- Node41&#45;&gt;Node43 -->
+<g id="edge9" class="edge">
+<title>Node41&#45;&gt;Node43</title>
+<path fill="none" stroke="#191970" d="M342.253,-148.8964C420.6979,-145.3519 539.2306,-139.9961 613.8096,-136.6263"/>
+<polygon fill="#191970" stroke="#191970" points="341.7688,-145.4146 331.937,-149.3625 342.0848,-152.4075 341.7688,-145.4146"/>
+</g>
+<!-- Node42&#45;&gt;Node43 -->
+<g id="edge8" class="edge">
+<title>Node42&#45;&gt;Node43</title>
+<path fill="none" stroke="#191970" d="M540.5778,-178.363C570.6185,-168.9002 606.929,-157.4624 635.368,-148.5041"/>
+<polygon fill="#191970" stroke="#191970" points="539.1373,-175.1471 530.6509,-181.49 541.2405,-181.8237 539.1373,-175.1471"/>
 </g>
 <!-- Node45 -->
-<g id="node12" class="node">
+<g id="node11" class="node">
 <title>Node45</title>
-<g id="a_node12"><a xlink:href="classene_1_1controllers_1_1LibraryController.html#aac7853b4f42ee8c4d8704e036eca61a0" target="_top" xlink:title="ene.controllers.LibraryController.remove">
-<polygon fill="none" stroke="#000000" points="388,-61 388,-80 578,-80 578,-61 388,-61"/>
-<text text-anchor="middle" x="483" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController.remove</text>
+<g id="a_node11"><a xlink:href="classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" target="_top" xlink:title="ene.controllers.LibraryController.add">
+<polygon fill="none" stroke="#000000" points="396.5,-105 396.5,-124 569.5,-124 569.5,-105 396.5,-105"/>
+<text text-anchor="middle" x="483" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController.add</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node45 -->
-<g id="edge13" class="edge">
-<title>Node43&#45;&gt;Node45</title>
-<path fill="none" stroke="#191970" d="M362.2865,-88.566C381.7026,-85.6602 401.5555,-82.689 419.4072,-80.0173"/>
-<polygon fill="#191970" stroke="#191970" points="361.5576,-85.136 352.1858,-90.0776 362.5937,-92.0589 361.5576,-85.136"/>
+<!-- Node44&#45;&gt;Node45 -->
+<g id="edge11" class="edge">
+<title>Node44&#45;&gt;Node45</title>
+<path fill="none" stroke="#191970" d="M362.4816,-108.4877C373.7516,-109.05 385.166,-109.6194 396.2482,-110.1722"/>
+<polygon fill="#191970" stroke="#191970" points="362.3478,-104.9768 352.1858,-107.9741 361.999,-111.9681 362.3478,-104.9768"/>
 </g>
-<!-- Node44&#45;&gt;Node42 -->
+<!-- Node46 -->
+<g id="node12" class="node">
+<title>Node46</title>
+<g id="a_node12"><a xlink:href="classene_1_1controllers_1_1LibraryController.html#a9e4da87d9fab61b162c2f57e97852be5" target="_top" xlink:title="ene.controllers.LibraryController.edit">
+<polygon fill="none" stroke="#000000" points="396.5,-67 396.5,-86 569.5,-86 569.5,-67 396.5,-67"/>
+<text text-anchor="middle" x="483" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController.edit</text>
+</a>
+</g>
+</g>
+<!-- Node44&#45;&gt;Node46 -->
+<g id="edge13" class="edge">
+<title>Node44&#45;&gt;Node46</title>
+<path fill="none" stroke="#191970" d="M362.1762,-91.2948C376.6817,-89.5186 391.4336,-87.7122 405.415,-86.0002"/>
+<polygon fill="#191970" stroke="#191970" points="361.6862,-87.8285 352.1858,-92.5181 362.5371,-94.7766 361.6862,-87.8285"/>
+</g>
+<!-- Node47 -->
+<g id="node13" class="node">
+<title>Node47</title>
+<g id="a_node13"><a xlink:href="classene_1_1controllers_1_1LibraryController.html#aac7853b4f42ee8c4d8704e036eca61a0" target="_top" xlink:title="ene.controllers.LibraryController.remove">
+<polygon fill="none" stroke="#000000" points="388,-29 388,-48 578,-48 578,-29 388,-29"/>
+<text text-anchor="middle" x="483" y="-36" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController.remove</text>
+</a>
+</g>
+</g>
+<!-- Node44&#45;&gt;Node47 -->
+<g id="edge15" class="edge">
+<title>Node44&#45;&gt;Node47</title>
+<path fill="none" stroke="#191970" d="M334.0446,-85.3025C340.1872,-83.2033 346.2472,-80.9338 352,-78.5 369.0594,-71.2828 370.6821,-64.0727 388,-57.5 398.1428,-53.6505 409.2052,-50.5347 420.0799,-48.0272"/>
+<polygon fill="#191970" stroke="#191970" points="332.7793,-82.0336 324.3561,-88.4602 334.9485,-88.6891 332.7793,-82.0336"/>
+</g>
+<!-- Node45&#45;&gt;Node43 -->
 <g id="edge12" class="edge">
-<title>Node44&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M543.1995,-119.9379C565.4659,-124.1685 590.8784,-128.9969 613.8754,-133.3663"/>
-<polygon fill="#191970" stroke="#191970" points="543.6879,-116.4682 533.2103,-118.04 542.3812,-123.3451 543.6879,-116.4682"/>
+<title>Node45&#45;&gt;Node43</title>
+<path fill="none" stroke="#191970" d="M579.6515,-123.6819C591.1701,-124.7762 602.7481,-125.8761 613.7731,-126.9234"/>
+<polygon fill="#191970" stroke="#191970" points="579.8459,-120.1847 569.5597,-122.7232 579.1838,-127.1533 579.8459,-120.1847"/>
+</g>
+<!-- Node46&#45;&gt;Node43 -->
+<g id="edge14" class="edge">
+<title>Node46&#45;&gt;Node43</title>
+<path fill="none" stroke="#191970" d="M547.889,-88.1264C558.0276,-90.331 568.3408,-92.8026 578,-95.5 600.7797,-101.8613 625.6942,-110.7898 645.5353,-118.3938"/>
+<polygon fill="#191970" stroke="#191970" points="548.3456,-84.6459 537.8393,-86.0123 546.9046,-91.496 548.3456,-84.6459"/>
 </g>
 </g>
 </svg>

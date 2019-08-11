@@ -186,32 +186,33 @@
 <!-- Node4 -->
 <g id="node5" class="node">
 <title>Node4</title>
-<g id="a_node5"><a xlink:href="classene_1_1controllers_1_1LibraryController.html" target="_top" xlink:title="{ene.controllers.LibraryController\n|# databaseFilename\l# DATABASE_TIMEOUT\l# DATABASE_TABLE\l|+ LibraryController()\l+ LibraryController()\l+ loadFromFile()\l+ saveToFile()\l+ add()\l+ remove()\l# setDatabaseFilename()\l# getDatabaseFilename()\l# addFile()\l# addDirectoryContent()\l# scan()\l}">
-<polygon fill="none" stroke="#000000" points="0,-167 0,-356 155,-356 155,-167 0,-167"/>
-<text text-anchor="middle" x="77.5" y="-344" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController</text>
-<polyline fill="none" stroke="#000000" points="0,-337 155,-337 "/>
-<text text-anchor="start" x="8" y="-325" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># databaseFilename</text>
-<text text-anchor="start" x="8" y="-314" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># DATABASE_TIMEOUT</text>
-<text text-anchor="start" x="8" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># DATABASE_TABLE</text>
-<polyline fill="none" stroke="#000000" points="0,-296 155,-296 "/>
-<text text-anchor="start" x="8" y="-284" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ LibraryController()</text>
-<text text-anchor="start" x="8" y="-273" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ LibraryController()</text>
-<text text-anchor="start" x="8" y="-262" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ loadFromFile()</text>
-<text text-anchor="start" x="8" y="-251" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ saveToFile()</text>
-<text text-anchor="start" x="8" y="-240" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ add()</text>
-<text text-anchor="start" x="8" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ remove()</text>
-<text text-anchor="start" x="8" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setDatabaseFilename()</text>
-<text text-anchor="start" x="8" y="-207" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getDatabaseFilename()</text>
-<text text-anchor="start" x="8" y="-196" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># addFile()</text>
-<text text-anchor="start" x="8" y="-185" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># addDirectoryContent()</text>
-<text text-anchor="start" x="8" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># scan()</text>
+<g id="a_node5"><a xlink:href="classene_1_1controllers_1_1LibraryController.html" target="_top" xlink:title="{ene.controllers.LibraryController\n|# databaseFilename\l# DATABASE_TIMEOUT\l# DATABASE_TABLE\l|+ LibraryController()\l+ LibraryController()\l+ loadFromFile()\l+ saveToFile()\l+ add()\l+ remove()\l+ edit()\l# setDatabaseFilename()\l# getDatabaseFilename()\l# addFile()\l# addDirectoryContent()\l# scan()\l}">
+<polygon fill="none" stroke="#000000" points="0,-161.5 0,-361.5 155,-361.5 155,-161.5 0,-161.5"/>
+<text text-anchor="middle" x="77.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.LibraryController</text>
+<polyline fill="none" stroke="#000000" points="0,-342.5 155,-342.5 "/>
+<text text-anchor="start" x="8" y="-330.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># databaseFilename</text>
+<text text-anchor="start" x="8" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># DATABASE_TIMEOUT</text>
+<text text-anchor="start" x="8" y="-308.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># DATABASE_TABLE</text>
+<polyline fill="none" stroke="#000000" points="0,-301.5 155,-301.5 "/>
+<text text-anchor="start" x="8" y="-289.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ LibraryController()</text>
+<text text-anchor="start" x="8" y="-278.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ LibraryController()</text>
+<text text-anchor="start" x="8" y="-267.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ loadFromFile()</text>
+<text text-anchor="start" x="8" y="-256.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ saveToFile()</text>
+<text text-anchor="start" x="8" y="-245.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ add()</text>
+<text text-anchor="start" x="8" y="-234.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ remove()</text>
+<text text-anchor="start" x="8" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ edit()</text>
+<text text-anchor="start" x="8" y="-212.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># setDatabaseFilename()</text>
+<text text-anchor="start" x="8" y="-201.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># getDatabaseFilename()</text>
+<text text-anchor="start" x="8" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># addFile()</text>
+<text text-anchor="start" x="8" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># addDirectoryContent()</text>
+<text text-anchor="start" x="8" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># scan()</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M84.8093,-476.3113C83.6586,-442.4951 82.0996,-396.676 80.7169,-356.0401"/>
+<path fill="none" stroke="#191970" d="M84.81,-476.3324C83.7125,-444.0784 82.2432,-400.8986 80.9099,-361.7119"/>
 <polygon fill="none" stroke="#191970" points="81.3145,-476.5265 85.1526,-486.4017 88.3104,-476.2884 81.3145,-476.5265"/>
 </g>
 <!-- Node6 -->
