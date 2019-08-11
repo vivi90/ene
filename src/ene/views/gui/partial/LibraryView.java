@@ -1,5 +1,7 @@
 package ene.views.gui.partial;
 
+import java.awt.Toolkit;
+import java.awt.Font;
 import javax.swing.table.TableRowSorter;
 import ene.views.gui.partial.AbstractTrackListView;
 import ene.controllers.LibraryController;
@@ -152,6 +154,7 @@ public class LibraryView extends AbstractTrackListView {
         // Prepare table.
         JTable table = new JTable(tableContent);
         this.setTable(table);
+        table.setRowHeight(table.getFont().getSize());
         table.setRowSorter(tableRowSorter);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         table.getSelectionModel().addListSelectionListener(this);
