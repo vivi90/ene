@@ -1,6 +1,7 @@
 <map id="ene.views.AbstractView.setCoreComponent" name="ene.views.AbstractView.setCoreComponent">
 <area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1ContentView.html#a7615ef3421a9f5a70e4929ec72132020" title="ene.views.gui.partial.Content\lView.render" alt="" coords="255,5,445,47"/>
 <area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1WindowView.html#a2ce6d135f47d21b01c91eeeac2e5c52a" title="ene.views.gui.WindowView.render" alt="" coords="239,71,461,98"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="258,123,442,164"/>
-<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" title="ene.views.gui.partial.Player\lView.render" alt="" coords="259,188,441,229"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a8d541ff3e91c1492b2e47cc7272ca56d" title="ene.views.gui.partial.Playlist\lView.render" alt="" coords="256,123,444,164"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="258,188,442,229"/>
+<area shape="rect" id="node6" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" title="ene.views.gui.partial.Player\lView.render" alt="" coords="259,253,441,295"/>
 </map>

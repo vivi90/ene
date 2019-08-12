@@ -1,19 +1,19 @@
 package ene.models;
 
 import ene.models.AbstractModel;
-import java.util.Map;
-import java.util.HashMap;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 
 /**
  * Track list model.
  * @since 0.11.0
- * @version 1.0.0
+ * @version 2.0.0
  */
 public class TrackListModel extends AbstractModel {
     /**
      * All tracks.
      */
-    protected Map<String, TrackModel> tracks = new HashMap<>();
+    protected NavigableMap<String, TrackModel> tracks = new TreeMap<>();
 
     /**
      * Adds a track.
@@ -48,10 +48,21 @@ public class TrackListModel extends AbstractModel {
     }
 
     /**
+     * Checks if a track exists.
+     * @param filename File path.
+     * @return Returns TRUE, if exists. Otherwise FALSE.
+     * @since 1.0.0
+     * @version 1.0.0
+     */
+    public boolean has(String filename) {
+        return this.getAll().containsKey(filename);
+    }
+
+    /**
      * Returns all tracks.
      * @return Tracks.
      */
-    public Map<String, TrackModel> getAll() {
+    public NavigableMap<String, TrackModel> getAll() {
         return this.tracks;
     }
 }

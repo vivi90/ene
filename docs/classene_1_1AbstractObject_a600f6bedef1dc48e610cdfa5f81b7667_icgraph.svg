@@ -8,15 +8,15 @@
  viewBox="0.00 0.00 487.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>ene.AbstractObject.delay</title>
-<!-- Node22 -->
+<!-- Node32 -->
 <g id="node1" class="node">
-<title>Node22</title>
+<title>Node32</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-30 0,-49 127,-49 127,-30 0,-30"/>
 <text text-anchor="middle" x="63.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.AbstractObject.delay</text>
 </g>
-<!-- Node23 -->
+<!-- Node33 -->
 <g id="node2" class="node">
-<title>Node23</title>
+<title>Node33</title>
 <g id="a_node2"><a xlink:href="classene_1_1models_1_1PlayerModel.html#ac32610c7511e6187ae364f64e1cf290b" target="_top" xlink:title="ene.models.PlayerModel.get\lTrackLength">
 <polygon fill="none" stroke="#000000" points="163,-49.5 163,-79.5 303,-79.5 303,-49.5 163,-49.5"/>
 <text text-anchor="start" x="171" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.get</text>
@@ -24,15 +24,15 @@
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
+<!-- Node32&#45;&gt;Node33 -->
 <g id="edge1" class="edge">
-<title>Node22&#45;&gt;Node23</title>
+<title>Node32&#45;&gt;Node33</title>
 <path fill="none" stroke="#191970" d="M137.0399,-50.3466C145.5878,-51.6073 154.2907,-52.891 162.7922,-54.1449"/>
 <polygon fill="#191970" stroke="#191970" points="137.5015,-46.8769 127.0978,-48.8802 136.48,-53.802 137.5015,-46.8769"/>
 </g>
-<!-- Node25 -->
+<!-- Node35 -->
 <g id="node4" class="node">
-<title>Node25</title>
+<title>Node35</title>
 <g id="a_node4"><a xlink:href="classene_1_1models_1_1PlayerModel.html#a3108500012be901007a2e809761ac136" target="_top" xlink:title="ene.models.PlayerModel.get\lTrackPosition">
 <polygon fill="none" stroke="#000000" points="163,-.5 163,-30.5 303,-30.5 303,-.5 163,-.5"/>
 <text text-anchor="start" x="171" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.get</text>
@@ -40,15 +40,15 @@
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node25 -->
+<!-- Node32&#45;&gt;Node35 -->
 <g id="edge3" class="edge">
-<title>Node22&#45;&gt;Node25</title>
+<title>Node32&#45;&gt;Node35</title>
 <path fill="none" stroke="#191970" d="M137.0399,-29.0873C145.5878,-27.8769 154.2907,-26.6447 162.7922,-25.4409"/>
 <polygon fill="#191970" stroke="#191970" points="136.5083,-25.6275 127.0978,-30.495 137.4897,-32.5584 136.5083,-25.6275"/>
 </g>
-<!-- Node24 -->
+<!-- Node34 -->
 <g id="node3" class="node">
-<title>Node24</title>
+<title>Node34</title>
 <g id="a_node3"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" target="_top" xlink:title="ene.views.gui.partial.Player\lView.update">
 <polygon fill="none" stroke="#000000" points="340.5,-49.5 340.5,-79.5 477.5,-79.5 477.5,-49.5 340.5,-49.5"/>
 <text text-anchor="start" x="348.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -56,21 +56,21 @@
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
+<!-- Node33&#45;&gt;Node34 -->
 <g id="edge2" class="edge">
-<title>Node23&#45;&gt;Node24</title>
+<title>Node33&#45;&gt;Node34</title>
 <path fill="none" stroke="#191970" d="M313.2193,-64.5C322.2725,-64.5 331.4364,-64.5 340.3238,-64.5"/>
 <polygon fill="#191970" stroke="#191970" points="313.0656,-61.0001 303.0656,-64.5 313.0655,-68.0001 313.0656,-61.0001"/>
 </g>
-<!-- Node25&#45;&gt;Node24 -->
+<!-- Node35&#45;&gt;Node34 -->
 <g id="edge5" class="edge">
-<title>Node25&#45;&gt;Node24</title>
+<title>Node35&#45;&gt;Node34</title>
 <path fill="none" stroke="#191970" d="M297.011,-33.3212C316.0137,-38.6118 336.6322,-44.3522 354.9372,-49.4484"/>
 <polygon fill="#191970" stroke="#191970" points="297.8143,-29.9118 287.2419,-30.6014 295.9368,-36.6554 297.8143,-29.9118"/>
 </g>
-<!-- Node26 -->
+<!-- Node36 -->
 <g id="node5" class="node">
-<title>Node26</title>
+<title>Node36</title>
 <g id="a_node5"><a xlink:href="classene_1_1models_1_1PlayerModel.html#ae58085790604570d46621f019a8e0e78" target="_top" xlink:title="ene.models.PlayerModel.set\lTrackPosition">
 <polygon fill="none" stroke="#000000" points="339,-.5 339,-30.5 479,-30.5 479,-.5 339,-.5"/>
 <text text-anchor="start" x="347" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.set</text>
@@ -78,9 +78,9 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
+<!-- Node35&#45;&gt;Node36 -->
 <g id="edge4" class="edge">
-<title>Node25&#45;&gt;Node26</title>
+<title>Node35&#45;&gt;Node36</title>
 <path fill="none" stroke="#191970" d="M313.1006,-15.5C321.7058,-15.5 330.4124,-15.5 338.888,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="313.0656,-12.0001 303.0656,-15.5 313.0655,-19.0001 313.0656,-12.0001"/>
 </g>

@@ -1,5 +1,5 @@
 <map id="ene.views.gui.partial.PlayerView.getPlayerController" name="ene.views.gui.partial.PlayerView.getPlayerController">
 <area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" title="ene.views.gui.partial.Player\lView.render" alt="" coords="236,5,419,47"/>
 <area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af84e60915df5af5201e75e01a2f9a4a5" title="ene.views.gui.partial.Player\lView.resetProgress" alt="" coords="236,71,419,112"/>
-<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" title="ene.views.gui.partial.Player\lView.update" alt="" coords="467,71,649,112"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" title="ene.views.gui.partial.Player\lView.update" alt="" coords="467,100,649,141"/>
 </map>

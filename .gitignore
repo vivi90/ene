@@ -1,3 +1,4 @@
 bin/*
 !bin/*.jar
 library.db
+playlist.m3u

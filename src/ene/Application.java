@@ -1,5 +1,8 @@
 package ene;
 
+import ene.views.gui.partial.PlaylistView;
+import ene.models.PlaylistModel;
+import ene.controllers.PlaylistController;
 import ene.AbstractObject;
 import ene.controllers.LibraryController;
 import ene.controllers.PlayerController;
@@ -16,13 +19,18 @@ import ene.views.gui.WindowView;
 /**
  * Bootstrap class.
  * @since 0.8.0
- * @version 1.2.0
+ * @version 1.3.0
  */
 public class Application extends AbstractObject {
     /**
-     * Library database file name.
+     * Library database file path.
      */
     protected static final String LIBRARY_DATABASE_FILE = "library.db";
+
+    /**
+     * Playlist file path.
+     */
+    protected static final String PLAYLIST_FILE = "playlist.m3u";
 
     /**
      * Entry point.
@@ -59,16 +67,19 @@ public class Application extends AbstractObject {
 
     /**
      * Runs application.
-     * @version 1.1.0
+     * @version 1.2.0
      */
     protected static void run() {
         Model playerModel = new PlayerModel();
         Model libraryModel = new LibraryModel();
+        Model playlistModel = new PlaylistModel();
         Controller playerController = new PlayerController(playerModel);
         Controller libraryController = new LibraryController(libraryModel, LIBRARY_DATABASE_FILE);
-        View libraryView = new LibraryView(libraryModel, libraryController, playerController);
+        Controller playlistController = new PlaylistController(playlistModel, PLAYLIST_FILE);
+        View libraryView = new LibraryView(libraryModel, libraryController, playlistController, playerController);
+        View playlistView = new PlaylistView(playlistModel, playlistController, playerController);
         View playerView = new PlayerView(playerModel, playerController);
-        View windowView = new WindowView(new ContentView(libraryView), playerView);
+        View windowView = new WindowView(new ContentView(libraryView, playlistView), playerView);
         windowView.render();
     }
 }

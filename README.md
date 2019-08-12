@@ -7,6 +7,10 @@ This project is a simple music library as a homework in the context of our compu
 For more details about the source code please check out the documentation: https://vivi90.github.io/ene
 (Also available as PDF download: https://vivi90.github.io/ene/ene.pdf)
 
+_![Screenshot library tab](docs/images/screenshot_library.png)_
+
+_![Screenshot playlist tab](docs/images/screenshot_playlist.png)_
+
 Naming
 ------
 We have named it after the character 'Ene' from the anime 'Mekakucity Actors'.
@@ -16,13 +20,16 @@ Usage
 Just compile it.
 Currently it supports only WAV files.
 The library database is saved in a local SQLite file, called `library.db`.
+The playlist file is called `playlist.m3u`.
 
 Features
 --------
-* Create simple music library
+* Create a simple music library
 * Play tracks
 * Sort tracks by artist, title or genre (ascending or descending)
 * Filter tracks by artist, title or genre
+* Create a playlist
+* Currently available translations: English & German
 
 Requirements
 ------------

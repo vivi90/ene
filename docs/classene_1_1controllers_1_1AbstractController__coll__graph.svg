@@ -8,9 +8,9 @@
  viewBox="0.00 0.00 365.00 353.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 349)">
 <title>ene.controllers.AbstractController&lt; ModelType &gt;</title>
-<!-- Node7 -->
+<!-- Node9 -->
 <g id="node1" class="node">
-<title>Node7</title>
+<title>Node9</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="147,-.5 147,-79.5 272,-79.5 272,-.5 147,-.5"/>
 <text text-anchor="start" x="155" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.controllers.Abstract</text>
 <text text-anchor="middle" x="209.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Controller&lt; ModelType &gt;</text>
@@ -20,9 +20,9 @@
 <text text-anchor="start" x="155" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ setModel()</text>
 <text text-anchor="start" x="155" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getModel()</text>
 </g>
-<!-- Node8 -->
+<!-- Node10 -->
 <g id="node2" class="node">
-<title>Node8</title>
+<title>Node10</title>
 <g id="a_node2"><a xlink:href="classene_1_1AbstractObject.html" target="_top" xlink:title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}">
 <polygon fill="none" stroke="#000000" points="0,-127.5 0,-239.5 127,-239.5 127,-127.5 0,-127.5"/>
 <text text-anchor="middle" x="63.5" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.AbstractObject</text>
@@ -38,15 +38,15 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node7 -->
+<!-- Node10&#45;&gt;Node9 -->
 <g id="edge1" class="edge">
-<title>Node8&#45;&gt;Node7</title>
+<title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="#191970" d="M128.0303,-120.0746C141.9812,-106.3626 156.3504,-92.2395 169.0626,-79.745"/>
 <polygon fill="none" stroke="#191970" points="125.4625,-117.6909 120.784,-127.1969 130.3693,-122.6833 125.4625,-117.6909"/>
 </g>
-<!-- Node9 -->
+<!-- Node11 -->
 <g id="node3" class="node">
-<title>Node9</title>
+<title>Node11</title>
 <polygon fill="none" stroke="#bfbfbf" points="25,-287.5 25,-344.5 102,-344.5 102,-287.5 25,-287.5"/>
 <text text-anchor="middle" x="63.5" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">static boolean</text>
 <polyline fill="none" stroke="#bfbfbf" points="25,-325.5 102,-325.5 "/>
@@ -54,16 +54,16 @@
 <polyline fill="none" stroke="#bfbfbf" points="25,-306.5 102,-306.5 "/>
 <text text-anchor="middle" x="63.5" y="-294.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
+<!-- Node11&#45;&gt;Node10 -->
 <g id="edge2" class="edge">
-<title>Node9&#45;&gt;Node8</title>
+<title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M63.5,-287.2495C63.5,-276.8031 63.5,-264.502 63.5,-252.0912"/>
 <polygon fill="none" stroke="#404040" points="63.5001,-251.7084 59.5,-245.7085 63.5,-239.7084 67.5,-245.7084 63.5001,-251.7084"/>
 <text text-anchor="middle" x="110.5" y="-261" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> #debugModeEnabled</text>
 </g>
-<!-- Node10 -->
+<!-- Node12 -->
 <g id="node4" class="node">
-<title>Node10</title>
+<title>Node12</title>
 <g id="a_node4"><a xlink:href="interfaceene_1_1interfaces_1_1Controller.html" target="_top" xlink:title="{ene::interfaces::Controller\l\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}">
 <polygon fill="none" stroke="#000000" points="145,-144 145,-223 274,-223 274,-144 145,-144"/>
 <text text-anchor="start" x="153" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene::interfaces::Controller</text>
@@ -76,15 +76,15 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node7 -->
+<!-- Node12&#45;&gt;Node9 -->
 <g id="edge3" class="edge">
-<title>Node10&#45;&gt;Node7</title>
+<title>Node12&#45;&gt;Node9</title>
 <path fill="none" stroke="#191970" d="M209.5,-133.8088C209.5,-116.2088 209.5,-96.6472 209.5,-79.9608"/>
 <polygon fill="none" stroke="#191970" points="206.0001,-133.9081 209.5,-143.9081 213.0001,-133.9082 206.0001,-133.9081"/>
 </g>
-<!-- Node11 -->
+<!-- Node13 -->
 <g id="node5" class="node">
-<title>Node11</title>
+<title>Node13</title>
 <polygon fill="none" stroke="#bfbfbf" points="292,-155 292,-212 357,-212 357,-155 292,-155"/>
 <text text-anchor="middle" x="324.5" y="-200" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ModelType</text>
 <polyline fill="none" stroke="#bfbfbf" points="292,-193 357,-193 "/>
@@ -92,9 +92,9 @@
 <polyline fill="none" stroke="#bfbfbf" points="292,-174 357,-174 "/>
 <text text-anchor="middle" x="324.5" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
 </g>
-<!-- Node11&#45;&gt;Node7 -->
+<!-- Node13&#45;&gt;Node9 -->
 <g id="edge4" class="edge">
-<title>Node11&#45;&gt;Node7</title>
+<title>Node13&#45;&gt;Node9</title>
 <path fill="none" stroke="#404040" d="M304.2741,-154.7283C297.7822,-145.7398 290.4664,-135.8605 283.5,-127 273.6361,-114.4541 262.6601,-101.1976 252.2463,-88.9173"/>
 <polygon fill="none" stroke="#404040" points="252.209,-88.8736 245.2716,-86.9055 244.4201,-79.7448 251.3575,-81.7129 252.209,-88.8736"/>
 <text text-anchor="middle" x="285" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> #model</text>

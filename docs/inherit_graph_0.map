@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classene_1_1controllers_1_1AbstractController.html" title="ene.controllers.Abstract\lController\&lt; LibraryModel \&gt;" alt="" coords="5,5,181,47"/>
-<area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html" title="ene.controllers.LibraryController" alt="" coords="229,13,436,39"/>
+<area shape="rect" id="node1" href="$classene_1_1controllers_1_1AbstractController.html" title="ene.controllers.Abstract\lController\&lt; PlayerModel \&gt;" alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1PlayerController.html" title="ene.controllers.PlayerController" alt="" coords="228,13,432,39"/>
 </map>

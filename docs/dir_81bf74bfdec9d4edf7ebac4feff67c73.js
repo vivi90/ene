@@ -9,5 +9,8 @@ var dir_81bf74bfdec9d4edf7ebac4feff67c73 =
     [ "package-info.java", "controllers_2package-info_8java.html", null ],
     [ "PlayerController.java", "PlayerController_8java.html", [
       [ "PlayerController", "classene_1_1controllers_1_1PlayerController.html", "classene_1_1controllers_1_1PlayerController" ]
+    ] ],
+    [ "PlaylistController.java", "PlaylistController_8java.html", [
+      [ "PlaylistController", "classene_1_1controllers_1_1PlaylistController.html", "classene_1_1controllers_1_1PlaylistController" ]
     ] ]
 ];

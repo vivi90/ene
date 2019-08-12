@@ -1,0 +1,7 @@
+<map id="ene.controllers.PlaylistController.getPlaylistFilename" name="ene.controllers.PlaylistController.getPlaylistFilename">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1PlaylistController.html#ad5e0bbbd2de4359b178fdf0458447d77" title="ene.controllers.Playlist\lController.add" alt="" coords="249,37,404,79"/>
+<area shape="rect" id="node6" href="$classene_1_1controllers_1_1PlaylistController.html#a903d7a6767c934b2f06715634b9944d3" title="ene.controllers.Playlist\lController.remove" alt="" coords="249,103,404,144"/>
+<area shape="rect" id="node3" href="$classene_1_1controllers_1_1PlaylistController.html#a67b252ccabbac520eaafe9f90e8f0d43" title="ene.controllers.Playlist\lController.loadFromFile" alt="" coords="465,5,623,47"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="452,71,636,112"/>
+<area shape="rect" id="node4" href="$classene_1_1controllers_1_1PlaylistController.html#a35b450f65c048707c1ad0ed44f1077f0" title="ene.controllers.Playlist\lController.PlaylistController" alt="" coords="684,5,865,47"/>
+</map>

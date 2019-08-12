@@ -8,9 +8,9 @@
  viewBox="0.00 0.00 131.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>ene.interfaces.Controller&lt; ModelType &gt;</title>
-<!-- Node6 -->
+<!-- Node8 -->
 <g id="node1" class="node">
-<title>Node6</title>
+<title>Node8</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-79.5 123,-79.5 123,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.interfaces.Controller</text>
 <text text-anchor="middle" x="61.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; ModelType &gt;</text>

@@ -1,3 +1,6 @@
 <map id="ene.models.PlayerModel.setClip" name="ene.models.PlayerModel.setClip">
-<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="264,5,457,32"/>
+<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="264,71,457,98"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#acfe1fde39cea80b94ae65ed401706d70" title="ene.models.PlayerModel.load\lPlaylist" alt="" coords="518,5,711,47"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html#a384fd9a2e98fc581e8221659257a8dd4" title="ene.models.PlayerModel.next" alt="" coords="517,71,712,98"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#a7242e20d537405f031ec8d18e7faf8fc" title="ene.models.PlayerModel.previous" alt="" coords="505,122,724,149"/>
 </map>

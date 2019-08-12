@@ -8,9 +8,9 @@
  viewBox="0.00 0.00 190.00 270.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 266)">
 <title>ene.interfaces.PartialView&lt; CoreComponentType, ModelType &gt;</title>
-<!-- Node8 -->
+<!-- Node9 -->
 <g id="node1" class="node">
-<title>Node8</title>
+<title>Node9</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-90.5 182,-90.5 182,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.interfaces.PartialView</text>
 <text text-anchor="middle" x="91" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; CoreComponentType, ModelType &gt;</text>
@@ -21,9 +21,9 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getModel()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ update()</text>
 </g>
-<!-- Node9 -->
+<!-- Node10 -->
 <g id="node2" class="node">
-<title>Node9</title>
+<title>Node10</title>
 <g id="a_node2"><a xlink:href="interfaceene_1_1interfaces_1_1View.html" target="_top" xlink:title="{ene::interfaces::View\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l+ render()\l}">
 <polygon fill="none" stroke="#000000" points="27,-127.5 27,-261.5 155,-261.5 155,-127.5 27,-127.5"/>
 <text text-anchor="start" x="35" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene::interfaces::View</text>
@@ -41,9 +41,9 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
+<!-- Node10&#45;&gt;Node9 -->
 <g id="edge1" class="edge">
-<title>Node9&#45;&gt;Node8</title>
+<title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="#191970" d="M91,-117.2384C91,-108.2246 91,-99.2648 91,-90.8878"/>
 <polygon fill="none" stroke="#191970" points="87.5001,-117.41 91,-127.41 94.5001,-117.41 87.5001,-117.41"/>
 </g>

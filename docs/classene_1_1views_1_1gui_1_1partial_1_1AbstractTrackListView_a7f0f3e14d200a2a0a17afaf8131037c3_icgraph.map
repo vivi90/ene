@@ -1,0 +1,5 @@
+<map id="ene.views.gui.partial.AbstractTrackListView.setColumnWidth" name="ene.views.gui.partial.AbstractTrackListView.setColumnWidth">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a2b9e7e6496c9675f9094dea99e1e469d" title="ene.views.gui.partial.Abstract\lTrackListView.hideColumn" alt="" coords="260,64,455,105"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a8d541ff3e91c1492b2e47cc7272ca56d" title="ene.views.gui.partial.Playlist\lView.render" alt="" coords="503,5,691,47"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="505,71,689,112"/>
+</map>

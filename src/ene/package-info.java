@@ -1,5 +1,5 @@
 /**
  * Simple music library.
- * @version 0.20.0
+ * @version 1.0.0
  */
 package ene;

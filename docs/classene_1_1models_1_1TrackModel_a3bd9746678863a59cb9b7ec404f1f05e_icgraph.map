@@ -1,0 +1,11 @@
+<map id="ene.models.TrackModel.cutFilenameFromPath" name="ene.models.TrackModel.cutFilenameFromPath">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1TrackModel.html#ab0db9bf0054a77ed2879695a379e3bd9" title="ene.models.TrackModel.detect\lArtist" alt="" coords="236,60,437,101"/>
+<area shape="rect" id="node10" href="$classene_1_1models_1_1TrackModel.html#a860b368d4cb6d81e7504cbf979c0cad7" title="ene.models.TrackModel.detect\lTitle" alt="" coords="236,125,437,167"/>
+<area shape="rect" id="node3" href="$classene_1_1controllers_1_1LibraryController.html#a8ebea67eb61c84ee6a4825fa98fe870b" title="ene.controllers.LibraryController.addFile" alt="" coords="485,70,737,97"/>
+<area shape="rect" id="node8" href="$classene_1_1controllers_1_1PlaylistController.html#a67b252ccabbac520eaafe9f90e8f0d43" title="ene.controllers.Playlist\lController.loadFromFile" alt="" coords="533,123,690,164"/>
+<area shape="rect" id="node4" href="$classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" title="ene.controllers.LibraryController.add" alt="" coords="1351,42,1581,69"/>
+<area shape="rect" id="node6" href="$classene_1_1controllers_1_1LibraryController.html#a3a8b922c846a9b770b67f478ea0e5352" title="ene.controllers.LibraryController.scan" alt="" coords="785,17,1024,43"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="1629,35,1813,76"/>
+<area shape="rect" id="node7" href="$classene_1_1controllers_1_1LibraryController.html#a6bc70daa48b96db79d5524113a49cd3e" title="ene.controllers.LibraryController.add\lDirectoryContent" alt="" coords="1072,5,1303,47"/>
+<area shape="rect" id="node9" href="$classene_1_1controllers_1_1PlaylistController.html#a35b450f65c048707c1ad0ed44f1077f0" title="ene.controllers.Playlist\lController.PlaylistController" alt="" coords="814,123,995,164"/>
+</map>

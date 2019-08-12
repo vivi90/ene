@@ -9,5 +9,7 @@ var searchData=
   ['contentview_2ejava',['ContentView.java',['../ContentView_8java.html',1,'']]],
   ['controller',['Controller',['../interfaceene_1_1interfaces_1_1Controller.html',1,'ene::interfaces']]],
   ['controller_2ejava',['Controller.java',['../Controller_8java.html',1,'']]],
-  ['corecomponent',['coreComponent',['../classene_1_1views_1_1AbstractView.html#aaf24a8ab2fe4f75d3020782a8f759b46',1,'ene::views::AbstractView']]]
+  ['corecomponent',['coreComponent',['../classene_1_1views_1_1AbstractView.html#aaf24a8ab2fe4f75d3020782a8f759b46',1,'ene::views::AbstractView']]],
+  ['currenttrack',['currentTrack',['../classene_1_1models_1_1PlayerModel.html#a84dd8180f6005a47ec7f3cbfa5c73260',1,'ene.models.PlayerModel.currentTrack()'],['../classene_1_1models_1_1PlaylistModel.html#aae6819ebee390fb3ea4112f8e9177e0f',1,'ene.models.PlaylistModel.currentTrack()']]],
+  ['cutfilenamefrompath',['cutFilenameFromPath',['../classene_1_1models_1_1TrackModel.html#a3bd9746678863a59cb9b7ec404f1f05e',1,'ene::models::TrackModel']]]
 ];

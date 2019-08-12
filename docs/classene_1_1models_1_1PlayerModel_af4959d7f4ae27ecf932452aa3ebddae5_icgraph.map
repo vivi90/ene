@@ -1,0 +1,5 @@
+<map id="ene.models.PlayerModel.getCurrentTrack" name="ene.models.PlayerModel.getCurrentTrack">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a46b869b84db253abe071d06cb4629925" title="ene.views.gui.partial.Player\lView.isCurrentTrackPartOfCurrent\lPlaylist" alt="" coords="240,27,463,83"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a3098a851f88f8b9ce6d4e2fcacdf55c9" title="ene.views.gui.partial.Player\lView.enablePlayerControls" alt="" coords="511,5,693,47"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" title="ene.views.gui.partial.Player\lView.update" alt="" coords="741,35,924,76"/>
+</map>

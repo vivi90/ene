@@ -1,6 +1,6 @@
 <map id="ene.models.TrackListModel" name="ene.models.TrackListModel">
-<area shape="rect" id="node5" href="$classene_1_1models_1_1LibraryModel.html" title="{ene.models.LibraryModel\n||+ getByArtist()\l+ getByTitle()\l+ getByGenre()\l+ search()\l}" alt="" coords="5,513,172,635"/>
-<area shape="rect" id="node6" href="$classene_1_1models_1_1PlaylistModel.html" title="{ene.models.PlaylistModel\n|~ name\l|+ setName()\l+ getName()\l}" alt="" coords="197,528,367,620"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1LibraryModel.html" title="{ene.models.LibraryModel\n||+ getByArtist()\l+ getByTitle()\l+ getByGenre()\l+ search()\l}" alt="" coords="5,528,172,649"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1PlaylistModel.html" title="{ene.models.PlaylistModel\n|# currentTrack\l|+ setCurrentTrack()\l+ getCurrentTrack()\l+ previousTrack()\l+ nextTrack()\l}" alt="" coords="197,528,367,649"/>
 <area shape="rect" id="node2" href="$classene_1_1models_1_1AbstractModel.html" title="{ene.models.AbstractModel\n|# views\l|+ addView()\l# changed()\l}" alt="" coords="96,204,273,296"/>
 <area shape="rect" id="node3" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n|# debugModeEnabled\l|+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="11,5,180,156"/>
 <area shape="rect" id="node4" href="$interfaceene_1_1interfaces_1_1Model.html" title="{ene.interfaces.Model\n||+ addView()\l}" alt="" coords="204,42,347,119"/>

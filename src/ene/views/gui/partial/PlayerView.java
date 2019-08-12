@@ -21,7 +21,7 @@ import javax.swing.border.EmptyBorder;
 
 /**
  * Player view.
- * @version 2.1.1
+ * @version 2.2.1
  */
 public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     /**
@@ -30,9 +30,19 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     protected PlayerController playerController;
 
     /**
-     * Play/Stop button.
+     * Previous button.
+     */
+    protected JButton previousButton;
+
+    /**
+     * Play/Pause button.
      */
     protected JButton playButton;
+
+    /**
+     * Next button.
+     */
+    protected JButton nextButton;
 
     /**
      * Progress slider.
@@ -87,6 +97,10 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
      * Enables player controls.
      */
     protected void enablePlayerControls() {
+        if (isCurrentTrackPartOfCurrentPlaylist(this.getModel())) {
+            this.previousButton.setEnabled(true);
+            this.nextButton.setEnabled(true);
+        }
         this.playButton.setEnabled(true);
         this.progressSlider.setEnabled(true);
         this.progressLabel.setEnabled(true);
@@ -96,7 +110,9 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
      * Disables player controls.
      */
     protected void disablePlayerControls() {
+        this.previousButton.setEnabled(false);
         this.playButton.setEnabled(false);
+        this.nextButton.setEnabled(false);
         this.progressSlider.setEnabled(false);
         this.progressLabel.setEnabled(false);
     }
@@ -152,9 +168,34 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
         // Track paused.
         } else if (lastEventType == Type.STOP) {
             PlayerModel playerModel = this.getModel();
-            if (playerModel.getTrackPosition() == playerModel.getTrackLength()) this.resetProgress();
+            if (playerModel.getTrackPosition() == playerModel.getTrackLength()) {
+                if (isCurrentTrackPartOfCurrentPlaylist(playerModel)) {
+                    this.getPlayerController().next();
+                    this.getPlayerController().togglePlayback();
+                } else {
+                    this.resetProgress();
+                }
+            }
             this.progressTimer.stop();
             this.playButton.setText(getString("PLAY_BUTTON_START"));
+        }
+    }
+
+    /**
+     * Checks, if the current track a part of the current playlist is.
+     * @return Returns TRUE, if it is a part of. Otherwise FALSE.
+     * @since 1.0.0
+     * @version 1.0.0
+     */
+    protected boolean isCurrentTrackPartOfCurrentPlaylist(PlayerModel player) {
+        if (player.getPlaylist() != null) {
+            if (player.getPlaylist().has(player.getCurrentTrack().getFilename())) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
         }
     }
 
@@ -164,14 +205,32 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
         JPanel panel = new JPanel(new BorderLayout(10, 0));
         panel.setBorder(new EmptyBorder(5, 5, 5, 5));
         this.setCoreComponent(panel);
-        // Play button.
+        // Control buttons.
+        JPanel controlButtonPanel = new JPanel();
+        panel.add(controlButtonPanel, BorderLayout.WEST);
+        this.previousButton = new JButton(getString("PREVIOUS_BUTTON"));
+        controlButtonPanel.add(this.previousButton);
+        this.previousButton.setFocusPainted(false);
+        this.previousButton.addActionListener(event -> {
+            debugInfoAbout(event);
+            this.getPlayerController().previous();
+            this.getPlayerController().togglePlayback();
+        });
         this.playButton = new JButton(getString("PLAY_BUTTON_START"));
+        controlButtonPanel.add(playButton);
         this.playButton.setFocusPainted(false);
         this.playButton.addActionListener(event -> {
             debugInfoAbout(event);
             this.getPlayerController().togglePlayback();
         });
-        panel.add(this.playButton, BorderLayout.WEST);
+        this.nextButton = new JButton(getString("NEXT_BUTTON"));
+        controlButtonPanel.add(this.nextButton);
+        this.nextButton.setFocusPainted(false);
+        this.nextButton.addActionListener(event -> {
+            debugInfoAbout(event);
+            this.getPlayerController().next();
+            this.getPlayerController().togglePlayback();
+        });
         // Progress slider.
         JSlider slider = this.progressSlider = new JSlider(0, 100, 0);
         this.progressSlider.setUI(new MetalSliderUI() {

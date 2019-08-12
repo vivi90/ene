@@ -1,4 +1,6 @@
 <map id="ene.views.gui.partial.AbstractTrackListView.getSelectedFilename" name="ene.views.gui.partial.AbstractTrackListView.getSelectedFilename">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="289,5,473,47"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aebe5720136b8b2215b6ad365c723843e" title="ene.views.gui.partial.Abstract\lTrackListView.valueChanged" alt="" coords="284,71,479,112"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a108f11521a24d840a4aeb31190c0a34e" title="ene.views.gui.partial.Playlist\lView.mousePressed" alt="" coords="288,5,476,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ad66634518c60ff157ef83d7dd9d7b4c6" title="ene.views.gui.partial.Abstract\lTrackListView.mousePressed" alt="" coords="284,71,480,112"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a8d541ff3e91c1492b2e47cc7272ca56d" title="ene.views.gui.partial.Playlist\lView.render" alt="" coords="288,136,476,177"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="290,201,474,243"/>
 </map>

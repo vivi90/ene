@@ -8,16 +8,16 @@
  viewBox="0.00 0.00 320.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>ene.views.gui.partial.LibraryView.getLibraryController</title>
-<!-- Node10 -->
+<!-- Node11 -->
 <g id="node1" class="node">
-<title>Node10</title>
+<title>Node11</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-30.5 138,-30.5 138,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
 <text text-anchor="middle" x="69" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.getLibraryController</text>
 </g>
-<!-- Node11 -->
+<!-- Node12 -->
 <g id="node2" class="node">
-<title>Node11</title>
+<title>Node12</title>
 <g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" target="_top" xlink:title="ene.views.gui.partial.Library\lView.render">
 <polygon fill="none" stroke="#000000" points="174,-.5 174,-30.5 312,-30.5 312,-.5 174,-.5"/>
 <text text-anchor="start" x="182" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
@@ -25,9 +25,9 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node11 -->
+<!-- Node11&#45;&gt;Node12 -->
 <g id="edge1" class="edge">
-<title>Node10&#45;&gt;Node11</title>
+<title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="#191970" d="M148.0349,-15.5C156.6249,-15.5 165.3194,-15.5 173.7795,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="148.0194,-12.0001 138.0193,-15.5 148.0193,-19.0001 148.0194,-12.0001"/>
 </g>

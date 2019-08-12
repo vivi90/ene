@@ -1,5 +1,6 @@
 <map id="ene.controllers.LibraryController.getDatabaseFilename" name="ene.controllers.LibraryController.getDatabaseFilename">
-<area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" title="ene.controllers.LibraryController.add" alt="" coords="293,13,523,39"/>
-<area shape="rect" id="node4" href="$classene_1_1controllers_1_1LibraryController.html#aac7853b4f42ee8c4d8704e036eca61a0" title="ene.controllers.LibraryController.remove" alt="" coords="281,63,535,90"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="583,5,767,47"/>
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1LibraryController.html#aa0d66e53872a376fe6d456eb070de8d4" title="ene.controllers.LibraryController.add" alt="" coords="293,5,523,32"/>
+<area shape="rect" id="node4" href="$classene_1_1controllers_1_1LibraryController.html#a9e4da87d9fab61b162c2f57e97852be5" title="ene.controllers.LibraryController.edit" alt="" coords="293,56,523,83"/>
+<area shape="rect" id="node5" href="$classene_1_1controllers_1_1LibraryController.html#aac7853b4f42ee8c4d8704e036eca61a0" title="ene.controllers.LibraryController.remove" alt="" coords="281,107,535,133"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="583,23,767,65"/>
 </map>

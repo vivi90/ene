@@ -1,17 +1,25 @@
 var classene_1_1models_1_1PlayerModel =
 [
     [ "getClip", "classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45", null ],
+    [ "getCurrentTrack", "classene_1_1models_1_1PlayerModel.html#af4959d7f4ae27ecf932452aa3ebddae5", null ],
     [ "getLastEvent", "classene_1_1models_1_1PlayerModel.html#a7473339fab83ab3b9445dcc2006a110f", null ],
+    [ "getPlaylist", "classene_1_1models_1_1PlayerModel.html#a85b0de48a8e962642825c254f9c47fb0", null ],
     [ "getTrackLength", "classene_1_1models_1_1PlayerModel.html#ac32610c7511e6187ae364f64e1cf290b", null ],
     [ "getTrackPosition", "classene_1_1models_1_1PlayerModel.html#a3108500012be901007a2e809761ac136", null ],
     [ "load", "classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5", null ],
+    [ "loadPlaylist", "classene_1_1models_1_1PlayerModel.html#acfe1fde39cea80b94ae65ed401706d70", null ],
+    [ "next", "classene_1_1models_1_1PlayerModel.html#a384fd9a2e98fc581e8221659257a8dd4", null ],
     [ "pause", "classene_1_1models_1_1PlayerModel.html#afdcaa5e17ecdfbccad3ac8e702914e00", null ],
+    [ "previous", "classene_1_1models_1_1PlayerModel.html#a7242e20d537405f031ec8d18e7faf8fc", null ],
     [ "setClip", "classene_1_1models_1_1PlayerModel.html#a5617391131179365729686dc4eea1ea1", null ],
+    [ "setCurrentTrack", "classene_1_1models_1_1PlayerModel.html#a921a00136726aee3bcababbd6c9b2e3e", null ],
     [ "setLastEvent", "classene_1_1models_1_1PlayerModel.html#a96f182616ef8371e8402acc510034183", null ],
+    [ "setPlaylist", "classene_1_1models_1_1PlayerModel.html#a65e4ceddca16c50f226118cf259cd8fb", null ],
     [ "setTrackPosition", "classene_1_1models_1_1PlayerModel.html#ae58085790604570d46621f019a8e0e78", null ],
     [ "start", "classene_1_1models_1_1PlayerModel.html#a7d0471082171de01773a1da88cb3652d", null ],
     [ "update", "classene_1_1models_1_1PlayerModel.html#a108968d6fd2beb7e322bba50028d32b1", null ],
     [ "clip", "classene_1_1models_1_1PlayerModel.html#a4e81a9c5e77dfd15dd6a0297b6897366", null ],
+    [ "currentTrack", "classene_1_1models_1_1PlayerModel.html#a84dd8180f6005a47ec7f3cbfa5c73260", null ],
     [ "lastEvent", "classene_1_1models_1_1PlayerModel.html#afa7758a76ab47668e170f92d4f0425f9", null ],
-    [ "trackLength", "classene_1_1models_1_1PlayerModel.html#a5695cfc13b11bb7660d515f5bcbdf7ce", null ]
+    [ "playlist", "classene_1_1models_1_1PlayerModel.html#a72b46829e648fd939fbead42d3c3a3ca", null ]
 ];

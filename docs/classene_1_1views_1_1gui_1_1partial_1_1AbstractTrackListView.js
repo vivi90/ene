@@ -6,6 +6,12 @@ var classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView =
     [ "getTableContent", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a709dd0b919d5e537076fe18ad992f25f", null ],
     [ "getTableRowSorter", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#abb6fc383a050c8c908502156536ce518", null ],
     [ "hideColumn", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a2b9e7e6496c9675f9094dea99e1e469d", null ],
+    [ "mouseClicked", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ad3c819b6353f096dc816bf7584ce13bf", null ],
+    [ "mouseEntered", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#acc4de715526c7dbf31f91e720d01f2e9", null ],
+    [ "mouseExited", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a517f357c8c6faa3cad0221e06e7ac796", null ],
+    [ "mousePressed", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ad66634518c60ff157ef83d7dd9d7b4c6", null ],
+    [ "mouseReleased", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a3efdedc0013faa56efc8a8a510f3ef67", null ],
+    [ "setColumnWidth", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a7f0f3e14d200a2a0a17afaf8131037c3", null ],
     [ "setPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ae113e108119ef9f8d6f8b32c308f31ab", null ],
     [ "setTable", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a597363a2069558d6801c75be622b1988", null ],
     [ "setTableContent", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a13acee6cff5a5298c925eb01aef3339b", null ],
@@ -13,6 +19,7 @@ var classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView =
     [ "valueChanged", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aebe5720136b8b2215b6ad365c723843e", null ],
     [ "playerController", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a1edc0404407346f48972ff0a8962e6fc", null ],
     [ "table", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a67a794682800798409c25e0e4797ed99", null ],
+    [ "TABLE_COLUMN_FILENAME", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ac48d6cfbd2d79793b07c107f9719b280", null ],
     [ "tableContent", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a752c7c14da9a141ca7561aab9a37e580", null ],
     [ "tableRowSorter", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a1edc986593fe65177567373c38c74862", null ]
 ];

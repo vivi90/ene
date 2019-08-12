@@ -8,16 +8,16 @@
  viewBox="0.00 0.00 664.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>ene.views.gui.partial.PlayerView.formatTimeToString</title>
-<!-- Node14 -->
+<!-- Node21 -->
 <g id="node1" class="node">
-<title>Node14</title>
+<title>Node21</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-24.5 0,-54.5 137,-54.5 137,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
 <text text-anchor="middle" x="68.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.formatTimeToString</text>
 </g>
-<!-- Node15 -->
+<!-- Node22 -->
 <g id="node2" class="node">
-<title>Node15</title>
+<title>Node22</title>
 <g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af324f1c0b5648dab2400b4c0ab33f3ca" target="_top" xlink:title="ene.views.gui.partial.Player\lView.updateProgress">
 <polygon fill="none" stroke="#000000" points="173,-24.5 173,-54.5 310,-54.5 310,-24.5 173,-24.5"/>
 <text text-anchor="start" x="181" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -25,15 +25,15 @@
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node15 -->
+<!-- Node21&#45;&gt;Node22 -->
 <g id="edge1" class="edge">
-<title>Node14&#45;&gt;Node15</title>
+<title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="#191970" d="M147.5941,-39.5C156.0314,-39.5 164.5633,-39.5 172.8657,-39.5"/>
 <polygon fill="#191970" stroke="#191970" points="147.3713,-36.0001 137.3713,-39.5 147.3712,-43.0001 147.3713,-36.0001"/>
 </g>
-<!-- Node16 -->
+<!-- Node23 -->
 <g id="node3" class="node">
-<title>Node16</title>
+<title>Node23</title>
 <g id="a_node3"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af84e60915df5af5201e75e01a2f9a4a5" target="_top" xlink:title="ene.views.gui.partial.Player\lView.resetProgress">
 <polygon fill="none" stroke="#000000" points="346,-49.5 346,-79.5 483,-79.5 483,-49.5 346,-49.5"/>
 <text text-anchor="start" x="354" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -41,15 +41,15 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node16 -->
+<!-- Node22&#45;&gt;Node23 -->
 <g id="edge2" class="edge">
-<title>Node15&#45;&gt;Node16</title>
+<title>Node22&#45;&gt;Node23</title>
 <path fill="none" stroke="#191970" d="M320.316,-50.8896C328.8439,-52.1219 337.4721,-53.3688 345.8657,-54.5817"/>
 <polygon fill="#191970" stroke="#191970" points="320.7691,-47.4188 310.3713,-49.4525 319.7679,-54.3468 320.7691,-47.4188"/>
 </g>
-<!-- Node18 -->
+<!-- Node25 -->
 <g id="node5" class="node">
-<title>Node18</title>
+<title>Node25</title>
 <g id="a_node5"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" target="_top" xlink:title="ene.views.gui.partial.Player\lView.render">
 <polygon fill="none" stroke="#000000" points="346,-.5 346,-30.5 483,-30.5 483,-.5 346,-.5"/>
 <text text-anchor="start" x="354" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -57,15 +57,15 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node18 -->
+<!-- Node22&#45;&gt;Node25 -->
 <g id="edge4" class="edge">
-<title>Node15&#45;&gt;Node18</title>
+<title>Node22&#45;&gt;Node25</title>
 <path fill="none" stroke="#191970" d="M320.316,-28.566C328.8439,-27.3829 337.4721,-26.1859 345.8657,-25.0215"/>
 <polygon fill="#191970" stroke="#191970" points="319.7954,-25.1046 310.3713,-29.9456 320.7574,-32.0382 319.7954,-25.1046"/>
 </g>
-<!-- Node17 -->
+<!-- Node24 -->
 <g id="node4" class="node">
-<title>Node17</title>
+<title>Node24</title>
 <g id="a_node4"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" target="_top" xlink:title="ene.views.gui.partial.Player\lView.update">
 <polygon fill="none" stroke="#000000" points="519,-49.5 519,-79.5 656,-79.5 656,-49.5 519,-49.5"/>
 <text text-anchor="start" x="527" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -73,9 +73,9 @@
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node17 -->
+<!-- Node23&#45;&gt;Node24 -->
 <g id="edge3" class="edge">
-<title>Node16&#45;&gt;Node17</title>
+<title>Node23&#45;&gt;Node24</title>
 <path fill="none" stroke="#191970" d="M493.5941,-64.5C502.0314,-64.5 510.5633,-64.5 518.8657,-64.5"/>
 <polygon fill="#191970" stroke="#191970" points="493.3713,-61.0001 483.3713,-64.5 493.3712,-68.0001 493.3713,-61.0001"/>
 </g>

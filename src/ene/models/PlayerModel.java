@@ -2,6 +2,7 @@ package ene.models;
 
 import ene.models.AbstractModel;
 import ene.models.TrackModel;
+import ene.models.PlaylistModel;
 import java.io.File;
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
@@ -10,12 +11,23 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
+import javax.sound.sampled.LineEvent.Type;
 
 /**
  * Player model.
- * @version 1.0.0
+ * @version 1.1.0
  */
 public class PlayerModel extends AbstractModel implements LineListener {
+    /**
+     * Current track instance.
+     */
+    TrackModel currentTrack;
+
+    /**
+     * Playlist model instance.
+     */
+    PlaylistModel playlist;
+
     /**
      * Clip instance.
      */
@@ -27,9 +39,38 @@ public class PlayerModel extends AbstractModel implements LineListener {
     LineEvent lastEvent;
 
     /**
-     * Track length.
+     * Sets the current track model instance.
+     * @param track Track model instance.
      */
-    int trackLength;
+    protected void setCurrentTrack(TrackModel track) {
+        this.currentTrack = track;
+    }
+
+    /**
+     * Returns the current track model instance.
+     * @return Track model instance.
+     * @since 1.0.0
+     */
+    public TrackModel getCurrentTrack() {
+        return this.currentTrack;
+    }
+
+    /**
+     * Sets the playlist model instance.
+     * @param playlist Playlist model instance.
+     */
+    protected void setPlaylist(PlaylistModel playlist) {
+        this.playlist = playlist;
+    }
+
+    /**
+     * Returns the playlist model instance.
+     * @return Playlist model instance.
+     * @since 1.0.0
+     */
+    public PlaylistModel getPlaylist() {
+        return this.playlist;
+    }
 
     /**
      * Sets the clip.
@@ -90,13 +131,27 @@ public class PlayerModel extends AbstractModel implements LineListener {
     }
 
     /**
+     * Loads playlist.
+     * @param playlist Playlist model instance.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 1.0.0
+     * @version 1.0.0
+     */
+    public boolean loadPlaylist(PlaylistModel playlist) {
+        this.setPlaylist(playlist);
+        return this.load(playlist.getCurrentTrack());
+    }
+
+    /**
      * Load track.
      * Implementation inpired by: https://www.tutorials.de/threads/kontinuierlich-laufende-hintergrundmusik-in-java.359029
      * @param track Track model instance.
      * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @version 1.0.0
      */
     public boolean load(TrackModel track) {
         debugInfoAbout(track);
+        this.setCurrentTrack(track);
         try {
             Clip clip = this.getClip();
             if (clip != null) if (clip.isOpen()) clip.close();
@@ -131,6 +186,38 @@ public class PlayerModel extends AbstractModel implements LineListener {
             return false;
         }
         return true;
+    }
+
+    /**
+     * Jumps to the previous track.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 1.0.0
+     * @version 1.0.0
+     */
+    public boolean previous() {
+        PlaylistModel playlist = this.getPlaylist();
+        if (playlist != null) {
+            playlist.previousTrack();
+            return this.load(playlist.getCurrentTrack());
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * Jumps to the next track.
+     * @return Returns TRUE, if successful. Otherwise FALSE.
+     * @since 1.0.0
+     * @version 1.0.0
+     */
+    public boolean next() {
+        PlaylistModel playlist = this.getPlaylist();
+        if (playlist != null) {
+            playlist.nextTrack();
+            return this.load(playlist.getCurrentTrack());
+        } else {
+            return false;
+        }
     }
 
     /**

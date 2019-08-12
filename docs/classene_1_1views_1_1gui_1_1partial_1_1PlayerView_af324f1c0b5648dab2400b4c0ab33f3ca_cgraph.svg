@@ -8,16 +8,16 @@
  viewBox="0.00 0.00 318.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>ene.views.gui.partial.PlayerView.updateProgress</title>
-<!-- Node67 -->
+<!-- Node93 -->
 <g id="node1" class="node">
-<title>Node67</title>
+<title>Node93</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-24.5 0,-54.5 137,-54.5 137,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
 <text text-anchor="middle" x="68.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.updateProgress</text>
 </g>
-<!-- Node68 -->
+<!-- Node94 -->
 <g id="node2" class="node">
-<title>Node68</title>
+<title>Node94</title>
 <g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a5214bb8084cfb78242868039e33f78ef" target="_top" xlink:title="ene.views.gui.partial.Player\lView.formatTimeToString">
 <polygon fill="none" stroke="#000000" points="173,-49.5 173,-79.5 310,-79.5 310,-49.5 173,-49.5"/>
 <text text-anchor="start" x="181" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -25,15 +25,15 @@
 </a>
 </g>
 </g>
-<!-- Node67&#45;&gt;Node68 -->
+<!-- Node93&#45;&gt;Node94 -->
 <g id="edge1" class="edge">
-<title>Node67&#45;&gt;Node68</title>
+<title>Node93&#45;&gt;Node94</title>
 <path fill="none" stroke="#191970" d="M137.3713,-49.4525C145.7692,-50.6661 154.3987,-51.9131 162.9246,-53.1452"/>
 <polygon fill="#191970" stroke="#191970" points="162.4679,-56.6155 172.8657,-54.5817 163.4691,-49.6874 162.4679,-56.6155"/>
 </g>
-<!-- Node69 -->
+<!-- Node95 -->
 <g id="node3" class="node">
-<title>Node69</title>
+<title>Node95</title>
 <g id="a_node3"><a xlink:href="classene_1_1views_1_1AbstractPartialView.html#afb90f9e02eea94a2fb276d711a67ee36" target="_top" xlink:title="ene.views.AbstractPartial\lView.getModel">
 <polygon fill="none" stroke="#000000" points="177.5,-.5 177.5,-30.5 305.5,-30.5 305.5,-.5 177.5,-.5"/>
 <text text-anchor="start" x="185.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.AbstractPartial</text>
@@ -41,9 +41,9 @@
 </a>
 </g>
 </g>
-<!-- Node67&#45;&gt;Node69 -->
+<!-- Node93&#45;&gt;Node95 -->
 <g id="edge2" class="edge">
-<title>Node67&#45;&gt;Node69</title>
+<title>Node93&#45;&gt;Node95</title>
 <path fill="none" stroke="#191970" d="M137.3713,-29.9456C147.162,-28.5873 157.2675,-27.1854 167.1566,-25.8135"/>
 <polygon fill="#191970" stroke="#191970" points="167.9374,-29.2388 177.3616,-24.3978 166.9755,-22.3052 167.9374,-29.2388"/>
 </g>

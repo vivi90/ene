@@ -1,6 +1,7 @@
 var classene_1_1models_1_1TrackModel =
 [
     [ "TrackModel", "classene_1_1models_1_1TrackModel.html#abcdd0235436de2871b905818aaff4873", null ],
+    [ "cutFilenameFromPath", "classene_1_1models_1_1TrackModel.html#a3bd9746678863a59cb9b7ec404f1f05e", null ],
     [ "detectArtist", "classene_1_1models_1_1TrackModel.html#ab0db9bf0054a77ed2879695a379e3bd9", null ],
     [ "detectTitle", "classene_1_1models_1_1TrackModel.html#a860b368d4cb6d81e7504cbf979c0cad7", null ],
     [ "getArtist", "classene_1_1models_1_1TrackModel.html#a04afba3cc5098c28ebd394fb7ac920ba", null ],

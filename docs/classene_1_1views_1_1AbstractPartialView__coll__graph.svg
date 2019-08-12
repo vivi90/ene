@@ -8,9 +8,9 @@
  viewBox="0.00 0.00 652.00 568.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 564)">
 <title>ene.views.AbstractPartialView&lt; CoreComponentType, ModelType &gt;</title>
-<!-- Node11 -->
+<!-- Node12 -->
 <g id="node1" class="node">
-<title>Node11</title>
+<title>Node12</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="234.5,-.5 234.5,-90.5 377.5,-90.5 377.5,-.5 234.5,-.5"/>
 <text text-anchor="start" x="242.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.AbstractPartial</text>
 <text text-anchor="start" x="242.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View&lt; CoreComponentType,</text>
@@ -21,9 +21,9 @@
 <text text-anchor="start" x="242.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ setModel()</text>
 <text text-anchor="start" x="242.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getModel()</text>
 </g>
-<!-- Node12 -->
+<!-- Node13 -->
 <g id="node2" class="node">
-<title>Node12</title>
+<title>Node13</title>
 <g id="a_node2"><a xlink:href="classene_1_1views_1_1AbstractView.html" target="_top" xlink:title="{ene::views::AbstractView\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l}">
 <polygon fill="none" stroke="#000000" points="242,-138.5 242,-261.5 370,-261.5 370,-138.5 242,-138.5"/>
 <text text-anchor="start" x="250" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene::views::AbstractView</text>
@@ -40,15 +40,15 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
+<!-- Node13&#45;&gt;Node12 -->
 <g id="edge1" class="edge">
-<title>Node12&#45;&gt;Node11</title>
+<title>Node13&#45;&gt;Node12</title>
 <path fill="none" stroke="#191970" d="M306,-128.2776C306,-115.4506 306,-102.4193 306,-90.608"/>
 <polygon fill="none" stroke="#191970" points="302.5001,-128.4935 306,-138.4936 309.5001,-128.4936 302.5001,-128.4935"/>
 </g>
-<!-- Node13 -->
+<!-- Node14 -->
 <g id="node3" class="node">
-<title>Node13</title>
+<title>Node14</title>
 <g id="a_node3"><a xlink:href="classene_1_1AbstractObject.html" target="_top" xlink:title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}">
 <polygon fill="none" stroke="#000000" points="486.5,-331.5 486.5,-443.5 613.5,-443.5 613.5,-331.5 486.5,-331.5"/>
 <text text-anchor="middle" x="550" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.AbstractObject</text>
@@ -64,15 +64,15 @@
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node12 -->
+<!-- Node14&#45;&gt;Node13 -->
 <g id="edge2" class="edge">
-<title>Node13&#45;&gt;Node12</title>
+<title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="#191970" d="M518.598,-322.7558C507.8379,-306.5293 494.3078,-290.7111 478,-280 440.9859,-255.6887 420.0752,-280.8431 380,-262 376.6632,-260.431 373.3533,-258.6739 370.0905,-256.7724"/>
 <polygon fill="none" stroke="#191970" points="515.6691,-324.6728 523.9724,-331.2536 521.5853,-320.9312 515.6691,-324.6728"/>
 </g>
-<!-- Node14 -->
+<!-- Node15 -->
 <g id="node4" class="node">
-<title>Node14</title>
+<title>Node15</title>
 <polygon fill="none" stroke="#bfbfbf" points="511.5,-502.5 511.5,-559.5 588.5,-559.5 588.5,-502.5 511.5,-502.5"/>
 <text text-anchor="middle" x="550" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">static boolean</text>
 <polyline fill="none" stroke="#bfbfbf" points="511.5,-540.5 588.5,-540.5 "/>
@@ -80,16 +80,16 @@
 <polyline fill="none" stroke="#bfbfbf" points="511.5,-521.5 588.5,-521.5 "/>
 <text text-anchor="middle" x="550" y="-509.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
 </g>
-<!-- Node14&#45;&gt;Node13 -->
+<!-- Node15&#45;&gt;Node14 -->
 <g id="edge3" class="edge">
-<title>Node14&#45;&gt;Node13</title>
+<title>Node15&#45;&gt;Node14</title>
 <path fill="none" stroke="#404040" d="M550,-502.3055C550,-488.9442 550,-472.4218 550,-456.1157"/>
 <polygon fill="none" stroke="#404040" points="550.0001,-455.7445 546,-449.7445 550,-443.7445 554,-449.7444 550.0001,-455.7445"/>
 <text text-anchor="middle" x="597" y="-476" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> #debugModeEnabled</text>
 </g>
-<!-- Node15 -->
+<!-- Node16 -->
 <g id="node5" class="node">
-<title>Node15</title>
+<title>Node16</title>
 <g id="a_node5"><a xlink:href="interfaceene_1_1interfaces_1_1View.html" target="_top" xlink:title="{ene::interfaces::View\l\&lt; CoreComponentType \&gt;\n||+ setTitle()\l+ getTitle()\l+ setCoreComponent()\l+ getCoreComponent()\l+ setLayoutPosition()\l+ getLayoutPosition()\l+ render()\l}">
 <polygon fill="none" stroke="#000000" points="0,-320.5 0,-454.5 128,-454.5 128,-320.5 0,-320.5"/>
 <text text-anchor="start" x="8" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene::interfaces::View</text>
@@ -107,15 +107,15 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node12 -->
+<!-- Node16&#45;&gt;Node13 -->
 <g id="edge4" class="edge">
-<title>Node15&#45;&gt;Node12</title>
+<title>Node16&#45;&gt;Node13</title>
 <path fill="none" stroke="#191970" d="M135.8929,-320.9015C136.2624,-320.5997 136.6315,-320.2992 137,-320 170.5261,-292.7855 209.7553,-264.7174 241.9743,-242.5757"/>
 <polygon fill="none" stroke="#191970" points="133.5262,-318.3178 128.0851,-327.4087 138.0078,-323.6951 133.5262,-318.3178"/>
 </g>
-<!-- Node20 -->
+<!-- Node21 -->
 <g id="node10" class="node">
-<title>Node20</title>
+<title>Node21</title>
 <g id="a_node10"><a xlink:href="interfaceene_1_1interfaces_1_1PartialView.html" target="_top" xlink:title="{ene::interfaces::Partial\lView\&lt; CoreComponentType,\l ModelType \&gt;\n||+ setModel()\l+ getModel()\l+ update()\l}">
 <polygon fill="none" stroke="#000000" points="54.5,-149.5 54.5,-250.5 197.5,-250.5 197.5,-149.5 54.5,-149.5"/>
 <text text-anchor="start" x="62.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene::interfaces::Partial</text>
@@ -130,15 +130,15 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node20 -->
+<!-- Node16&#45;&gt;Node21 -->
 <g id="edge10" class="edge">
-<title>Node15&#45;&gt;Node20</title>
+<title>Node16&#45;&gt;Node21</title>
 <path fill="none" stroke="#191970" d="M89.3673,-310.7842C96.0853,-290.468 103.1683,-269.0473 109.2969,-250.5135"/>
 <polygon fill="none" stroke="#191970" points="86.0248,-309.7445 86.2083,-320.3378 92.6709,-311.9422 86.0248,-309.7445"/>
 </g>
-<!-- Node16 -->
+<!-- Node17 -->
 <g id="node6" class="node">
-<title>Node16</title>
+<title>Node17</title>
 <g id="a_node6"><a xlink:href="interfaceene_1_1interfaces_1_1Localization.html" target="_top" xlink:title="{ene.interfaces.Localization\n||+ getString()\l}">
 <polygon fill="none" stroke="#000000" points="146.5,-359 146.5,-416 279.5,-416 279.5,-359 146.5,-359"/>
 <text text-anchor="middle" x="213" y="-404" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.interfaces.Localization</text>
@@ -149,15 +149,15 @@
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node12 -->
+<!-- Node17&#45;&gt;Node13 -->
 <g id="edge5" class="edge">
-<title>Node16&#45;&gt;Node12</title>
+<title>Node17&#45;&gt;Node13</title>
 <path fill="none" stroke="#191970" d="M231.9053,-349.3845C244.4187,-324.1558 261.1095,-290.505 275.4814,-261.5294"/>
 <polygon fill="none" stroke="#191970" points="228.6354,-348.1002 227.3274,-358.614 234.9064,-351.2107 228.6354,-348.1002"/>
 </g>
-<!-- Node17 -->
+<!-- Node18 -->
 <g id="node7" class="node">
-<title>Node17</title>
+<title>Node18</title>
 <polygon fill="none" stroke="#bfbfbf" points="168,-502.5 168,-559.5 258,-559.5 258,-502.5 168,-502.5"/>
 <text text-anchor="middle" x="213" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">static final String</text>
 <polyline fill="none" stroke="#bfbfbf" points="168,-540.5 258,-540.5 "/>
@@ -165,16 +165,16 @@
 <polyline fill="none" stroke="#bfbfbf" points="168,-521.5 258,-521.5 "/>
 <text text-anchor="middle" x="213" y="-509.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
 </g>
-<!-- Node17&#45;&gt;Node16 -->
+<!-- Node18&#45;&gt;Node17 -->
 <g id="edge6" class="edge">
-<title>Node17&#45;&gt;Node16</title>
+<title>Node18&#45;&gt;Node17</title>
 <path fill="none" stroke="#404040" d="M213,-502.3055C213,-481.0904 213,-451.9058 213,-428.2714"/>
 <polygon fill="none" stroke="#404040" points="213.0001,-428.1447 209,-422.1448 213,-416.1447 217,-422.1447 213.0001,-428.1447"/>
 <text text-anchor="middle" x="263" y="-476" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> +DEFAULT_LOCALE</text>
 </g>
-<!-- Node18 -->
+<!-- Node19 -->
 <g id="node8" class="node">
-<title>Node18</title>
+<title>Node19</title>
 <polygon fill="none" stroke="#bfbfbf" points="298,-359 298,-416 340,-416 340,-359 298,-359"/>
 <text text-anchor="middle" x="319" y="-404" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">String</text>
 <polyline fill="none" stroke="#bfbfbf" points="298,-397 340,-397 "/>
@@ -182,17 +182,17 @@
 <polyline fill="none" stroke="#bfbfbf" points="298,-378 340,-378 "/>
 <text text-anchor="middle" x="319" y="-366" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
 </g>
-<!-- Node18&#45;&gt;Node12 -->
+<!-- Node19&#45;&gt;Node13 -->
 <g id="edge7" class="edge">
-<title>Node18&#45;&gt;Node12</title>
+<title>Node19&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M316.9972,-358.614C315.426,-335.9523 313.1672,-303.3726 311.1049,-273.6287"/>
 <polygon fill="none" stroke="#404040" points="311.0961,-273.5007 306.6907,-267.7917 310.266,-261.5294 314.6715,-267.2383 311.0961,-273.5007"/>
 <text text-anchor="middle" x="348" y="-294" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> #layoutPosition</text>
 <text text-anchor="middle" x="348" y="-283" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">#title</text>
 </g>
-<!-- Node19 -->
+<!-- Node20 -->
 <g id="node9" class="node">
-<title>Node19</title>
+<title>Node20</title>
 <polygon fill="none" stroke="#bfbfbf" points="358,-359 358,-416 468,-416 468,-359 358,-359"/>
 <text text-anchor="middle" x="413" y="-404" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CoreComponentType</text>
 <polyline fill="none" stroke="#bfbfbf" points="358,-397 468,-397 "/>
@@ -200,22 +200,22 @@
 <polyline fill="none" stroke="#bfbfbf" points="358,-378 468,-378 "/>
 <text text-anchor="middle" x="413" y="-366" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
 </g>
-<!-- Node19&#45;&gt;Node12 -->
+<!-- Node20&#45;&gt;Node13 -->
 <g id="edge8" class="edge">
-<title>Node19&#45;&gt;Node12</title>
+<title>Node20&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M410.427,-358.994C407.4002,-336.3706 400.8889,-304.5724 387,-280 384.3011,-275.2252 381.2356,-270.5455 377.9146,-265.9964"/>
 <polygon fill="none" stroke="#404040" points="377.6845,-265.7029 370.8344,-263.4499 370.2795,-256.2601 377.1296,-258.5132 377.6845,-265.7029"/>
 <text text-anchor="middle" x="435" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> #coreComponent</text>
 </g>
-<!-- Node20&#45;&gt;Node11 -->
+<!-- Node21&#45;&gt;Node12 -->
 <g id="edge9" class="edge">
-<title>Node20&#45;&gt;Node11</title>
+<title>Node21&#45;&gt;Node12</title>
 <path fill="none" stroke="#191970" d="M192.5302,-142.8949C212.5751,-125.6897 234.2898,-107.0513 253.305,-90.7299"/>
 <polygon fill="none" stroke="#191970" points="190.2473,-140.2419 184.9387,-149.4109 194.8065,-145.5536 190.2473,-140.2419"/>
 </g>
-<!-- Node21 -->
+<!-- Node22 -->
 <g id="node11" class="node">
-<title>Node21</title>
+<title>Node22</title>
 <polygon fill="none" stroke="#bfbfbf" points="388.5,-171.5 388.5,-228.5 453.5,-228.5 453.5,-171.5 388.5,-171.5"/>
 <text text-anchor="middle" x="421" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ModelType</text>
 <polyline fill="none" stroke="#bfbfbf" points="388.5,-209.5 453.5,-209.5 "/>
@@ -223,9 +223,9 @@
 <polyline fill="none" stroke="#bfbfbf" points="388.5,-190.5 453.5,-190.5 "/>
 <text text-anchor="middle" x="421" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
 </g>
-<!-- Node21&#45;&gt;Node11 -->
+<!-- Node22&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
-<title>Node21&#45;&gt;Node11</title>
+<title>Node22&#45;&gt;Node12</title>
 <path fill="none" stroke="#404040" d="M402.1918,-171.3026C395.09,-160.718 386.8316,-148.7016 379,-138 369.9435,-125.6247 359.9317,-112.5657 350.3005,-100.2844"/>
 <polygon fill="none" stroke="#404040" points="350.1163,-100.0509 343.2596,-97.8179 342.6836,-90.6298 349.5403,-92.8628 350.1163,-100.0509"/>
 <text text-anchor="middle" x="382.5" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> #model</text>

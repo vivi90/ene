@@ -3,4 +3,6 @@
 <area shape="rect" id="node3" href="$classene_1_1controllers_1_1AbstractController.html" title="{ene.controllers.Abstract\lController\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="201,359,368,465"/>
 <area shape="rect" id="node4" href="$classene_1_1AbstractObject.html" title="{ene.AbstractObject\n||+ enableDebugMode()\l+ disableDebugMode()\l+ isDebugModeEnabled()\l+ debugInfoAbout()\l+ consoleOutput()\l# delay()\l}" alt="" coords="5,145,175,296"/>
 <area shape="rect" id="node6" href="$interfaceene_1_1interfaces_1_1Controller.html" title="{ene::interfaces::Controller\l\&lt; ModelType \&gt;\n||+ setModel()\l+ getModel()\l}" alt="" coords="199,167,371,274"/>
+<area shape="rect" id="node8" href="$interfaceene_1_1interfaces_1_1Import.html" title="{ene.interfaces.Import\n||+ loadFromFile()\l}" alt="" coords="397,543,543,620"/>
+<area shape="rect" id="node9" href="$interfaceene_1_1interfaces_1_1Export.html" title="{ene.interfaces.Export\n||+ saveToFile()\l}" alt="" coords="567,543,714,620"/>
 </map>

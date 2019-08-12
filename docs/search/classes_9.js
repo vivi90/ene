@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['windowview',['WindowView',['../classene_1_1views_1_1gui_1_1WindowView.html',1,'ene::views::gui']]]
+  ['tracklistmodel',['TrackListModel',['../classene_1_1models_1_1TrackListModel.html',1,'ene::models']]],
+  ['trackmodel',['TrackModel',['../classene_1_1models_1_1TrackModel.html',1,'ene::models']]]
 ];

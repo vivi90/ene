@@ -1,0 +1,5 @@
+<map id="ene.models.TrackListModel.has" name="ene.models.TrackListModel.has">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a46b869b84db253abe071d06cb4629925" title="ene.views.gui.partial.Player\lView.isCurrentTrackPartOfCurrent\lPlaylist" alt="" coords="260,27,483,83"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a3098a851f88f8b9ce6d4e2fcacdf55c9" title="ene.views.gui.partial.Player\lView.enablePlayerControls" alt="" coords="531,5,713,47"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" title="ene.views.gui.partial.Player\lView.update" alt="" coords="761,35,944,76"/>
+</map>

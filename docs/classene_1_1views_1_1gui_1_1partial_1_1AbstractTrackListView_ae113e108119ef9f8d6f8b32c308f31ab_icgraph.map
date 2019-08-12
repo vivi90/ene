@@ -1,3 +1,4 @@
 <map id="ene.views.gui.partial.AbstractTrackListView.setPlayerController" name="ene.views.gui.partial.AbstractTrackListView.setPlayerController">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a23af39410ef7be2c3253b41ca96cdc4e" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="273,5,457,47"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6411fbda85767fc960a3f57677e16f26" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="275,5,459,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#acba54350f264fe81771e766ab3fbffde" title="ene.views.gui.partial.Playlist\lView.PlaylistView" alt="" coords="273,71,461,112"/>
 </map>

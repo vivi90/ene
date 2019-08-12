@@ -1,0 +1,7 @@
+<map id="ene.models.PlaylistModel.getCurrentTrack" name="ene.models.PlaylistModel.getCurrentTrack">
+<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#acfe1fde39cea80b94ae65ed401706d70" title="ene.models.PlayerModel.load\lPlaylist" alt="" coords="262,5,455,47"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#a384fd9a2e98fc581e8221659257a8dd4" title="ene.models.PlayerModel.next" alt="" coords="531,101,725,127"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlaylistModel.html#afba0932567d4d21976e3c37c8d80b634" title="ene.models.PlaylistModel.next\lTrack" alt="" coords="259,123,459,164"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#a7242e20d537405f031ec8d18e7faf8fc" title="ene.models.PlayerModel.previous" alt="" coords="519,218,737,245"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1PlaylistModel.html#ab30573de71b566da79145210f94be294" title="ene.models.PlaylistModel.previous\lTrack" alt="" coords="247,240,471,281"/>
+</map>

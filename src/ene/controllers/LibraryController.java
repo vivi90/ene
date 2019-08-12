@@ -2,6 +2,8 @@ package ene.controllers;
 
 import ene.models.TrackModel;
 import ene.models.LibraryModel;
+import ene.interfaces.Import;
+import ene.interfaces.Export;
 import ene.databases.SQLDatabase;
 import java.util.Properties;
 import ene.controllers.AbstractController;
@@ -12,9 +14,9 @@ import java.util.Map;
 
 /**
  * Library controller.
- * @version 3.2.0
+ * @version 4.0.1
  */
-public class LibraryController extends AbstractController <LibraryModel> {
+public class LibraryController extends AbstractController <LibraryModel> implements Import, Export {
     /**
      * Database connection timeout in seconds.
      */
@@ -70,13 +72,7 @@ public class LibraryController extends AbstractController <LibraryModel> {
         this.loadFromFile(databaseFilename);
     }
 
-    /**
-     * Loads the model from a file.
-     * @param filename File path.
-     * @return Returns TRUE if successful. Otherwise FALSE.
-     * @since 0.16.0
-     * @version 1.0.0
-     */
+    @Override
     public boolean loadFromFile(String filename) {
         if (!filename.isEmpty()) {
             if (new File(filename).exists()) {
@@ -113,13 +109,7 @@ public class LibraryController extends AbstractController <LibraryModel> {
         }
     }
 
-    /**
-     * Save the model to a file.
-     * @param filename File path.
-     * @return Returns TRUE if successful. Otherwise FALSE.
-     * @since 0.16.0
-     * @version 1.0.0
-     */
+    @Override
     public boolean saveToFile(String filename) {
         if (!filename.isEmpty()) {
             try {
@@ -148,7 +138,7 @@ public class LibraryController extends AbstractController <LibraryModel> {
      * @param filename File path.
      * @return Returns TRUE, if successful. Otherwise FALSE.
      * @since 0.12.0
-     * @version 1.1.0
+     * @version 1.1.1
      */
     public boolean add(String filename) {
         File file = new File(filename);
@@ -161,7 +151,7 @@ public class LibraryController extends AbstractController <LibraryModel> {
                 successful = this.addFile(file);
             }
         }
-        if (successful && !databaseFilename.isEmpty()) successful = this.saveToFile(databaseFilename);
+        if (successful && !databaseFilename.isEmpty()) successful = this.saveToFile(this.getDatabaseFilename());
         return successful;
     }
 
@@ -170,13 +160,13 @@ public class LibraryController extends AbstractController <LibraryModel> {
      * @param filename File path.
      * @return Returns TRUE, if successful. Otherwise FALSE.
      * @since 0.10.0
-     * @version 1.1.0
+     * @version 1.1.1
      */
     public boolean remove(String filename) {
         String databaseFilename = this.getDatabaseFilename();
         boolean successful = false;
         successful = this.getModel().remove(filename);
-        if (successful && !databaseFilename.isEmpty()) successful = this.saveToFile(databaseFilename);
+        if (successful && !databaseFilename.isEmpty()) successful = this.saveToFile(this.getDatabaseFilename());
         return successful;
     }
 
@@ -185,11 +175,11 @@ public class LibraryController extends AbstractController <LibraryModel> {
      * @param track Updated track model instance.
      * @return Returns TRUE, if successful. Otherwise FALSE.
      * @since 0.20.0
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public boolean edit(TrackModel track) {
         this.getModel().add(track);
-        return this.saveToFile(databaseFilename);
+        return this.saveToFile(this.getDatabaseFilename());
     }
 
     /**

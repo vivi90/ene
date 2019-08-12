@@ -1,33 +1,34 @@
 package ene.views.gui.partial;
 
-import javax.swing.table.TableRowSorter;
-import ene.views.gui.partial.AbstractTrackListView;
 import ene.controllers.LibraryController;
+import ene.controllers.PlaylistController;
 import ene.interfaces.Controller;
-import ene.models.LibraryModel;
 import ene.interfaces.Model;
+import ene.models.LibraryModel;
+import ene.models.TrackModel;
+import ene.views.gui.partial.AbstractTrackListView;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.util.Map;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
-import ene.models.TrackModel;
-import java.util.Map;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
+import javax.swing.table.TableRowSorter;
 
 /**
  * Library view.
- * @version 2.5.0
+ * @version 2.6.0
  * @since 0.13.0
  */
 public class LibraryView extends AbstractTrackListView {
@@ -35,6 +36,11 @@ public class LibraryView extends AbstractTrackListView {
      * Library controller instance.
      */
     protected LibraryController libraryController;
+
+    /**
+     * Playlist controller instance.
+     */
+    protected PlaylistController playlistController;
 
     /**
      * Sets the library controller instance.
@@ -53,17 +59,35 @@ public class LibraryView extends AbstractTrackListView {
     }
 
     /**
+     * Sets the playlist controller instance.
+     * @param playlistController Playlist controller instance.
+     */
+    protected void setPlaylistController(Controller playlistController) {
+        this.playlistController = (PlaylistController) playlistController;
+    }
+
+    /**
+     * Returns the playlist controller instance.
+     * @return Playlist controller instance.
+     */
+    protected PlaylistController getPlaylistController() {
+        return this.playlistController;
+    }
+
+    /**
      * Constructor.
      * @param model Library model instance.
      * @param libraryController Library controller instance.
+     * @param playlistController Playlist controller instance.
      * @param playerController Player controller instance.
-     * @version 1.1.0
+     * @version 2.0.0
      */
-    public LibraryView(Model model, Controller libraryController, Controller playerController) {
+    public LibraryView(Model model, Controller libraryController, Controller playlistController, Controller playerController) {
         model.addView(this);
         this.setModel(model);
         this.setTitle(getString("PANE_TITLE"));
         this.setLibraryController(libraryController);
+        this.setPlaylistController(playlistController);
         this.setPlayerController(playerController);
         this.setLayoutPosition(BorderLayout.CENTER);
     }
@@ -77,7 +101,7 @@ public class LibraryView extends AbstractTrackListView {
         tableContent.setRowCount(0);
         for (Map.Entry<String, TrackModel> entry : tracks.entrySet()) {
             TrackModel track = entry.getValue();
-            tableContent.addRow(new String[]{track.getArtist(), track.getTitle(), track.getGenre(), track.getFilename().toString()});
+            tableContent.addRow(new String[]{track.getFilename(), track.getArtist(), track.getTitle(), track.getGenre()});
         }
     }
 
@@ -93,9 +117,9 @@ public class LibraryView extends AbstractTrackListView {
         this.setCoreComponent(libraryPanel);
         // Prepare table controls.
         JPanel controlPanel = new JPanel(new FlowLayout());
+        libraryPanel.add(controlPanel, BorderLayout.WEST);
         controlPanel.setLayout(new BoxLayout(controlPanel, BoxLayout.Y_AXIS));
         controlPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
-        libraryPanel.add(controlPanel, BorderLayout.WEST);
         JButton addButton = new JButton(getString("TABLE_BUTTON_ADD"));
         controlPanel.add(addButton);
         addButton.setFocusPainted(false);
@@ -177,9 +201,22 @@ public class LibraryView extends AbstractTrackListView {
                 }
             }
         });
+        controlPanel.add(Box.createRigidArea(new Dimension(0, 5)));
+        JButton addToPlaylistButton = new JButton(getString("TABLE_BUTTON_ADD_TO_PLAYLIST"));
+        controlPanel.add(addToPlaylistButton);
+        addToPlaylistButton.setFocusPainted(false);
+        addToPlaylistButton.addActionListener(event -> {
+            String selectedFilename = this.getSelectedFilename();
+            if (!selectedFilename.isEmpty()) {
+                this.getPlaylistController().add(
+                    this.getModel().get(selectedFilename)
+                );
+            }
+        });
+        controlPanel.add(Box.createRigidArea(new Dimension(0, 5)));
         // Prepare table content.
         DefaultTableModel tableContent = this.getTableContent();
-        tableContent.setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE"), getString("TABLE_COLUMN_FILENAME")});
+        tableContent.setColumnIdentifiers(new String[]{getString("TABLE_COLUMN_FILENAME"), getString("TABLE_COLUMN_ARTIST"), getString("TABLE_COLUMN_TITLE"), getString("TABLE_COLUMN_GENRE")});
         // Prepare table row sorter.
         TableRowSorter<DefaultTableModel> tableRowSorter = new TableRowSorter<>(tableContent);
         this.setTableRowSorter(tableRowSorter);
@@ -190,7 +227,8 @@ public class LibraryView extends AbstractTrackListView {
         table.setRowSorter(tableRowSorter);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         table.getSelectionModel().addListSelectionListener(this);
-        this.hideColumn(table, 3); // Hides UUID.
+        table.addMouseListener(this);
+        this.hideColumn(table, TABLE_COLUMN_FILENAME);
         libraryPanel.add(new JScrollPane(table), BorderLayout.CENTER);
         // Ready to get data.
         this.update();

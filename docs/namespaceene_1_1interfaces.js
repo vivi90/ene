@@ -2,6 +2,8 @@ var namespaceene_1_1interfaces =
 [
     [ "Controller", "interfaceene_1_1interfaces_1_1Controller.html", "interfaceene_1_1interfaces_1_1Controller" ],
     [ "DatabaseConnection", "interfaceene_1_1interfaces_1_1DatabaseConnection.html", "interfaceene_1_1interfaces_1_1DatabaseConnection" ],
+    [ "Export", "interfaceene_1_1interfaces_1_1Export.html", "interfaceene_1_1interfaces_1_1Export" ],
+    [ "Import", "interfaceene_1_1interfaces_1_1Import.html", "interfaceene_1_1interfaces_1_1Import" ],
     [ "Localization", "interfaceene_1_1interfaces_1_1Localization.html", "interfaceene_1_1interfaces_1_1Localization" ],
     [ "MasterView", "interfaceene_1_1interfaces_1_1MasterView.html", "interfaceene_1_1interfaces_1_1MasterView" ],
     [ "Model", "interfaceene_1_1interfaces_1_1Model.html", "interfaceene_1_1interfaces_1_1Model" ],

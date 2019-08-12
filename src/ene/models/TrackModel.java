@@ -4,7 +4,7 @@ import ene.models.AbstractModel;
 
 /**
  * Track model.
- * @version 2.0.1
+ * @version 2.1.1
  */
 public class TrackModel extends AbstractModel {
     /**
@@ -128,8 +128,10 @@ public class TrackModel extends AbstractModel {
      * @param filename The filename.
      * @return Returns the artist or a empty string.
      * @since 0.10.1
+     * @version 2.0.0
      */
     public static String detectArtist(String filename) {
+        filename = cutFilenameFromPath(filename);
         String[] tags = filename.split(" - ");
         if (tags.length > 1) {
             return tags[0];
@@ -143,13 +145,41 @@ public class TrackModel extends AbstractModel {
      * @param filename The filename.
      * @return Returns the title or a empty string.
      * @since 0.10.1
+     * @version 2.0.0
      */
     public static String detectTitle(String filename) {
+        filename = cutFilenameFromPath(filename);
         String[] tags = filename.split(" - ");
-        if (tags.length > 1) {
-            return tags[1].substring(0, tags[1].lastIndexOf("."));
+        if (filename.indexOf(".") > -1) {
+            if (tags.length > 1) {
+                return tags[1].substring(0, tags[1].lastIndexOf("."));
+            } else {
+                return filename.substring(0, filename.lastIndexOf("."));
+            }
         } else {
-            return filename.substring(0, filename.lastIndexOf("."));
+            if (tags.length > 1) {
+                return tags[1];
+            } else {
+                return filename;
+            }
         }
+    }
+
+    /**
+     * Cuts the filenme from a given path.
+     * @param path File path.
+     * @return Returns the filename without it's path.
+     * @since 1.0.0
+     * @version 1.0.0
+     */
+    protected static String cutFilenameFromPath(String path) {
+        String filename = path;
+        if (path.indexOf('\\') > -1) {
+            filename =  path.substring(path.lastIndexOf('\\') + 1);
+        }
+        if (filename.indexOf('/') > -1) {
+            filename = path.substring(path.lastIndexOf('/') + 1);
+        }
+        return filename;
     }
 }

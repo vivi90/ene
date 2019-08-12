@@ -1,0 +1,12 @@
+<map id="ene.controllers.PlaylistController.loadFromFile" name="ene.controllers.PlaylistController.loadFromFile">
+<area shape="rect" id="node2" href="$classene_1_1controllers_1_1PlaylistController.html#ad5e0bbbd2de4359b178fdf0458447d77" title="ene.controllers.Playlist\lController.add" alt="" coords="234,86,389,127"/>
+<area shape="rect" id="node9" href="$classene_1_1models_1_1TrackModel.html#ab0db9bf0054a77ed2879695a379e3bd9" title="ene.models.TrackModel.detect\lArtist" alt="" coords="211,151,412,193"/>
+<area shape="rect" id="node11" href="$classene_1_1models_1_1TrackModel.html#a860b368d4cb6d81e7504cbf979c0cad7" title="ene.models.TrackModel.detect\lTitle" alt="" coords="211,217,412,258"/>
+<area shape="rect" id="node3" href="$classene_1_1controllers_1_1AbstractController.html#a9a5afba01d0004a64db4cb14c23e0bbd" title="ene.controllers.Abstract\lController\&lt; PlaylistModel\l \&gt;::getModel" alt="" coords="474,5,642,61"/>
+<area shape="rect" id="node4" href="$classene_1_1controllers_1_1PlaylistController.html#ad1d7aec30633c29764592d730354cb83" title="ene.controllers.Playlist\lController.getPlaylistFilename" alt="" coords="460,86,656,127"/>
+<area shape="rect" id="node5" href="$classene_1_1controllers_1_1PlaylistController.html#ab949ed1ee47aec9ba039d92a36435809" title="ene.controllers.Playlist\lController.saveToFile" alt="" coords="481,151,635,193"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1TrackModel.html#a04afba3cc5098c28ebd394fb7ac920ba" title="ene.models.TrackModel.get\lArtist" alt="" coords="704,86,887,127"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1TrackModel.html#a5bac0e2b6c87c93eef2802d9d10bf3c1" title="ene.models.TrackModel.get\lTitle" alt="" coords="704,151,887,193"/>
+<area shape="rect" id="node8" href="$classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d" title="ene.models.TrackModel.get\lFilename" alt="" coords="704,217,887,258"/>
+<area shape="rect" id="node10" href="$classene_1_1models_1_1TrackModel.html#a3bd9746678863a59cb9b7ec404f1f05e" title="ene.models.TrackModel.cut\lFilenameFromPath" alt="" coords="467,217,649,258"/>
+</map>
