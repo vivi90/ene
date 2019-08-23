@@ -13,17 +13,17 @@ public interface MasterView <CoreComponentType> extends View <CoreComponentType>
      * Adds view instance.
      * @param view View instance.
      */
-    void addView(View view);
+    void addView(View<?> view);
 
     /**
      * Sets all contained view instances.
      * @param views List of view instaces.
      */
-    void setAllViews(List<View> views);
+    void setAllViews(List<View<?>> views);
 
     /**
      * Returns all contained view instances.
      * @return List of view instaces.
      */
-    List<View> getAllViews();
+    List<View<?>> getAllViews();
 }

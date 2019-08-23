@@ -14,10 +14,10 @@ abstract class AbstractModel extends AbstractObject implements Model {
     /**
      * Related views.
      */
-    protected List<PartialView> views = new ArrayList<>();
+    protected List<PartialView<?, ?>> views = new ArrayList<>();
 
     @Override
-    public void addView(PartialView view) {
+    public void addView(PartialView<?, ?> view) {
         this.views.add(view);
     }
 

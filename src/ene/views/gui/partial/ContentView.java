@@ -15,7 +15,7 @@ public class ContentView extends AbstractMasterView <JTabbedPane> {
      * Constructor.
      * @param views View instances.
      */
-    public ContentView(View ... views) {
+    public ContentView(View<?> ... views) {
         for (int i = 0; i < views.length; i++) {
             this.addView(views[i]);
         }
@@ -27,7 +27,7 @@ public class ContentView extends AbstractMasterView <JTabbedPane> {
         JTabbedPane contentPane = new JTabbedPane();
         this.setCoreComponent(contentPane);
         // Merge partial content components.
-        for (View partialView : this.getAllViews()) {
+        for (View<?> partialView : this.getAllViews()) {
             partialView.render();
             contentPane.add(
                 partialView.getTitle(),

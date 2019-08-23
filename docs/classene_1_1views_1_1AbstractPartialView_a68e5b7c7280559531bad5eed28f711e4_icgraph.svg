@@ -18,7 +18,7 @@
 <!-- Node16 -->
 <g id="node2" class="node">
 <title>Node16</title>
-<g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6411fbda85767fc960a3f57677e16f26" target="_top" xlink:title="ene.views.gui.partial.Library\lView.LibraryView">
+<g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#ad4b163de4563715a06eb74cbb04c2226" target="_top" xlink:title="ene.views.gui.partial.Library\lView.LibraryView">
 <polygon fill="none" stroke="#000000" points="165.5,-98.5 165.5,-128.5 303.5,-128.5 303.5,-98.5 165.5,-98.5"/>
 <text text-anchor="start" x="173.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Library</text>
 <text text-anchor="middle" x="234.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.LibraryView</text>
@@ -34,7 +34,7 @@
 <!-- Node17 -->
 <g id="node3" class="node">
 <title>Node17</title>
-<g id="a_node3"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a87a7a4837fc2b68df6bf06984881a7ea" target="_top" xlink:title="ene.views.gui.partial.Player\lView.PlayerView">
+<g id="a_node3"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6ed8c972fe68d5edd0c1bbcd5a6dafac" target="_top" xlink:title="ene.views.gui.partial.Player\lView.PlayerView">
 <polygon fill="none" stroke="#000000" points="166,-49.5 166,-79.5 303,-79.5 303,-49.5 166,-49.5"/>
 <text text-anchor="start" x="174" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
 <text text-anchor="middle" x="234.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.PlayerView</text>
@@ -50,7 +50,7 @@
 <!-- Node18 -->
 <g id="node4" class="node">
 <title>Node18</title>
-<g id="a_node4"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#acba54350f264fe81771e766ab3fbffde" target="_top" xlink:title="ene.views.gui.partial.Playlist\lView.PlaylistView">
+<g id="a_node4"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a418b438613e29b221d7293b0da677ee0" target="_top" xlink:title="ene.views.gui.partial.Playlist\lView.PlaylistView">
 <polygon fill="none" stroke="#000000" points="164,-.5 164,-30.5 305,-30.5 305,-.5 164,-.5"/>
 <text text-anchor="start" x="172" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Playlist</text>
 <text text-anchor="middle" x="234.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View.PlaylistView</text>

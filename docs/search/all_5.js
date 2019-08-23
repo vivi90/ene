@@ -3,7 +3,7 @@ var searchData=
   ['genre',['genre',['../classene_1_1models_1_1TrackModel.html#a31fc5088af9a5a1d5a111086cf29ab26',1,'ene::models::TrackModel']]],
   ['get',['get',['../classene_1_1models_1_1TrackListModel.html#a7f18b38d4bc9d4dced2bb6485ec6c455',1,'ene::models::TrackListModel']]],
   ['getall',['getAll',['../classene_1_1models_1_1TrackListModel.html#a77a78d6a93e67e544d83bf5f4856d121',1,'ene::models::TrackListModel']]],
-  ['getallviews',['getAllViews',['../interfaceene_1_1interfaces_1_1MasterView.html#a35b420ae6c99e35019dd16d9084bd602',1,'ene.interfaces.MasterView.getAllViews()'],['../classene_1_1views_1_1AbstractMasterView.html#ae25938d2b597c1fc203da53e027d3648',1,'ene.views.AbstractMasterView.getAllViews()']]],
+  ['getallviews',['getAllViews',['../interfaceene_1_1interfaces_1_1MasterView.html#ae6e4ba39f8195009832781f75503ed9e',1,'ene.interfaces.MasterView.getAllViews()'],['../classene_1_1views_1_1AbstractMasterView.html#ad700dd9e7c9e05c4a04fa392b138ce90',1,'ene.views.AbstractMasterView.getAllViews()']]],
   ['getartist',['getArtist',['../classene_1_1models_1_1TrackModel.html#a04afba3cc5098c28ebd394fb7ac920ba',1,'ene::models::TrackModel']]],
   ['getbyartist',['getByArtist',['../classene_1_1models_1_1LibraryModel.html#a3165afccddf54c681f89de1a18356fd5',1,'ene::models::LibraryModel']]],
   ['getbygenre',['getByGenre',['../classene_1_1models_1_1LibraryModel.html#a98e2135ca9f08c127e5df33e002fc877',1,'ene::models::LibraryModel']]],

@@ -68,7 +68,7 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
      * Sets the player controller instance.
      * @param playerController Player controller instance.
      */
-    protected void setPlayerController(Controller playerController) {
+    protected void setPlayerController(Controller<?> playerController) {
         this.playerController = (PlayerController)playerController;
     }
 
@@ -86,7 +86,7 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
      * @param playerController Player controller instance.
      * @version 1.1.0
      */
-    public PlayerView(Model model, Controller playerController) {
+    public PlayerView(Model model, Controller<?> playerController) {
         model.addView(this);
         this.setModel(model);
         this.setPlayerController(playerController);
@@ -232,17 +232,18 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
             this.getPlayerController().togglePlayback();
         });
         // Progress slider.
-        JSlider slider = this.progressSlider = new JSlider(0, 100, 0);
-        this.progressSlider.setUI(new MetalSliderUI() {
+        JSlider slider = new JSlider(0, 100, 0);
+        this.progressSlider = slider;
+        slider.setUI(new MetalSliderUI() {
             @Override
             protected void scrollDueToClickInTrack(int direction) {
                 slider.setValue(this.valueForXPosition(slider.getMousePosition().x));
             }
         });
-        this.progressSlider.addChangeListener(event -> {
-            this.getPlayerController().changeTrackPosition(progressSlider.getValue());
+        slider.addChangeListener(event -> {
+            this.getPlayerController().changeTrackPosition(slider.getValue());
         });
-        panel.add(this.progressSlider, BorderLayout.CENTER);
+        panel.add(slider, BorderLayout.CENTER);
         // Progress label.
         this.progressLabel = new JLabel("--:-- / --:--");
         this.progressLabel.setHorizontalAlignment(SwingConstants.RIGHT);

@@ -39,7 +39,7 @@ public class PlaylistView extends AbstractTrackListView {
      * Sets the playlist controller instance.
      * @param playlistController Playlist controller instance.
      */
-    protected void setPlaylistController(Controller playlistController) {
+    protected void setPlaylistController(Controller<?> playlistController) {
         this.playlistController = (PlaylistController) playlistController;
     }
 
@@ -58,7 +58,7 @@ public class PlaylistView extends AbstractTrackListView {
      * @param playerController Player controller instance.
      * @version 1.1.0
      */
-    public PlaylistView(Model model, Controller playlistController, Controller playerController) {
+    public PlaylistView(Model model, Controller<?> playlistController, Controller<?> playerController) {
         model.addView(this);
         this.setModel(model);
         this.setTitle(getString("PANE_TITLE"));

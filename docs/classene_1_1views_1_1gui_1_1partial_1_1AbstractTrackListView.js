@@ -12,7 +12,7 @@ var classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView =
     [ "mousePressed", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ad66634518c60ff157ef83d7dd9d7b4c6", null ],
     [ "mouseReleased", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a3efdedc0013faa56efc8a8a510f3ef67", null ],
     [ "setColumnWidth", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a7f0f3e14d200a2a0a17afaf8131037c3", null ],
-    [ "setPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#ae113e108119ef9f8d6f8b32c308f31ab", null ],
+    [ "setPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aeb9bb5453047aacde2dc548df4025179", null ],
     [ "setTable", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a597363a2069558d6801c75be622b1988", null ],
     [ "setTableContent", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a13acee6cff5a5298c925eb01aef3339b", null ],
     [ "setTableRowSorter", "classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#a7ba0c6e862c2ef6d4e999650b61ec695", null ],

@@ -32,7 +32,7 @@ public class WindowView extends AbstractMasterView <JFrame> {
      * Constructor.
      * @param views View instances.
      */
-    public WindowView(View ... views) {
+    public WindowView(View<?> ... views) {
         for (int i = 0; i < views.length; i++) {
             this.addView(views[i]);
         }
@@ -59,7 +59,7 @@ public class WindowView extends AbstractMasterView <JFrame> {
         SwingUtilities.updateComponentTreeUI(frame);
         // Merge partial content components.
         JPanel contentPane = new JPanel(new BorderLayout());
-        for (View partialView : this.getAllViews()) {
+        for (View<?> partialView : this.getAllViews()) {
             partialView.render();
             contentPane.add(
                 (Component) partialView.getCoreComponent(), partialView.getLayoutPosition()

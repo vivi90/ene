@@ -1,0 +1,10 @@
+<map id="ene.views.gui.partial.LibraryView.LibraryView" name="ene.views.gui.partial.LibraryView.LibraryView">
+<area shape="rect" id="node2" href="$interfaceene_1_1interfaces_1_1Model.html#a3cea7a237d6203a77808d998eaf3e7d2" title="ene.interfaces.Model.addView" alt="" coords="249,5,446,32"/>
+<area shape="rect" id="node3" href="$interfaceene_1_1interfaces_1_1Localization.html#ae7d5c65647a8bd1ca0c27b3279b0751c" title="ene.interfaces.Localization.get\lString" alt="" coords="248,57,447,98"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1AbstractView.html#abdae9d407e6cc13b9004049e2327367b" title="ene.views.AbstractView.set\lLayoutPosition" alt="" coords="255,122,440,163"/>
+<area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a9080a51c7aee2eaca384b2dde2469e41" title="ene.views.gui.partial.Library\lView.setLibraryController" alt="" coords="255,187,439,229"/>
+<area shape="rect" id="node6" href="$classene_1_1views_1_1AbstractPartialView.html#a68e5b7c7280559531bad5eed28f711e4" title="ene.views.AbstractPartial\lView.setModel" alt="" coords="262,253,433,294"/>
+<area shape="rect" id="node7" href="$classene_1_1views_1_1gui_1_1partial_1_1AbstractTrackListView.html#aeb9bb5453047aacde2dc548df4025179" title="ene.views.gui.partial.Abstract\lTrackListView.setPlayerController" alt="" coords="237,318,457,359"/>
+<area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a9775682cdcef105aca6a593613258d26" title="ene.views.gui.partial.Library\lView.setPlaylistController" alt="" coords="255,383,439,425"/>
+<area shape="rect" id="node9" href="$classene_1_1views_1_1AbstractView.html#a95a682cf88e2d16d42d56d84bb360e91" title="ene.views.AbstractView.set\lTitle" alt="" coords="255,449,440,490"/>
+</map>

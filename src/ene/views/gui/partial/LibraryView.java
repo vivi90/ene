@@ -46,7 +46,7 @@ public class LibraryView extends AbstractTrackListView {
      * Sets the library controller instance.
      * @param libraryController Library controller instance.
      */
-    protected void setLibraryController(Controller libraryController) {
+    protected void setLibraryController(Controller<?> libraryController) {
         this.libraryController = (LibraryController)libraryController;
     }
 
@@ -62,7 +62,7 @@ public class LibraryView extends AbstractTrackListView {
      * Sets the playlist controller instance.
      * @param playlistController Playlist controller instance.
      */
-    protected void setPlaylistController(Controller playlistController) {
+    protected void setPlaylistController(Controller<?> playlistController) {
         this.playlistController = (PlaylistController) playlistController;
     }
 
@@ -82,7 +82,7 @@ public class LibraryView extends AbstractTrackListView {
      * @param playerController Player controller instance.
      * @version 2.0.0
      */
-    public LibraryView(Model model, Controller libraryController, Controller playlistController, Controller playerController) {
+    public LibraryView(Model model, Controller<?> libraryController, Controller<?> playlistController, Controller<?> playerController) {
         model.addView(this);
         this.setModel(model);
         this.setTitle(getString("PANE_TITLE"));

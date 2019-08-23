@@ -15,20 +15,20 @@ abstract public class AbstractMasterView <CoreComponentType> extends AbstractVie
     /**
      * Contained view instances.
      */
-    protected List<View> views = new ArrayList<>();
+    protected List<View<?>> views = new ArrayList<>();
 
     @Override
-    public void addView(View view) {
+    public void addView(View<?> view) {
         this.views.add(view);
     }
 
     @Override
-    public void setAllViews(List<View> views) {
+    public void setAllViews(List<View<?>> views) {
         this.views = views;
     }
 
     @Override
-    public List<View> getAllViews() {
+    public List<View<?>> getAllViews() {
         return this.views;
     }
 }

@@ -1,7 +1,7 @@
 var classene_1_1views_1_1AbstractMasterView =
 [
-    [ "addView", "classene_1_1views_1_1AbstractMasterView.html#a7e49af73fded3d801ff31b7591e0d5a8", null ],
-    [ "getAllViews", "classene_1_1views_1_1AbstractMasterView.html#ae25938d2b597c1fc203da53e027d3648", null ],
-    [ "setAllViews", "classene_1_1views_1_1AbstractMasterView.html#acc8385a0b11e37819c5230fc7a21dd9f", null ],
-    [ "views", "classene_1_1views_1_1AbstractMasterView.html#a66d5c28953bc345505b19814c05d70d0", null ]
+    [ "addView", "classene_1_1views_1_1AbstractMasterView.html#acd6c758982e1c88d9f7b1263c57d6980", null ],
+    [ "getAllViews", "classene_1_1views_1_1AbstractMasterView.html#ad700dd9e7c9e05c4a04fa392b138ce90", null ],
+    [ "setAllViews", "classene_1_1views_1_1AbstractMasterView.html#aaa7e609b8f76aeb08e2fdfcbe27f07ab", null ],
+    [ "views", "classene_1_1views_1_1AbstractMasterView.html#ac90e3f171c30c6ea0fe002486628dd31", null ]
 ];

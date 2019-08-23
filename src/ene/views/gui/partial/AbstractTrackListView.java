@@ -107,7 +107,7 @@ abstract class AbstractTrackListView extends AbstractPartialView <JPanel, TrackL
      * Sets the player controller instance.
      * @param playerController Player controller instance.
      */
-    protected void setPlayerController(Controller playerController) {
+    protected void setPlayerController(Controller<?> playerController) {
         this.playerController = (PlayerController) playerController;
     }
 

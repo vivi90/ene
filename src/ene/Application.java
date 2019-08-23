@@ -73,13 +73,13 @@ public class Application extends AbstractObject {
         Model playerModel = new PlayerModel();
         Model libraryModel = new LibraryModel();
         Model playlistModel = new PlaylistModel();
-        Controller playerController = new PlayerController(playerModel);
-        Controller libraryController = new LibraryController(libraryModel, LIBRARY_DATABASE_FILE);
-        Controller playlistController = new PlaylistController(playlistModel, PLAYLIST_FILE);
-        View libraryView = new LibraryView(libraryModel, libraryController, playlistController, playerController);
-        View playlistView = new PlaylistView(playlistModel, playlistController, playerController);
-        View playerView = new PlayerView(playerModel, playerController);
-        View windowView = new WindowView(new ContentView(libraryView, playlistView), playerView);
+        Controller<?> playerController = new PlayerController(playerModel);
+        Controller<?> libraryController = new LibraryController(libraryModel, LIBRARY_DATABASE_FILE);
+        Controller<?> playlistController = new PlaylistController(playlistModel, PLAYLIST_FILE);
+        View<?> libraryView = new LibraryView(libraryModel, libraryController, playlistController, playerController);
+        View<?> playlistView = new PlaylistView(playlistModel, playlistController, playerController);
+        View<?> playerView = new PlayerView(playerModel, playerController);
+        View<?> windowView = new WindowView(new ContentView(libraryView, playlistView), playerView);
         windowView.render();
     }
 }

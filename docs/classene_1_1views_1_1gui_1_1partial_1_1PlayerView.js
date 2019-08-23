@@ -1,6 +1,6 @@
 var classene_1_1views_1_1gui_1_1partial_1_1PlayerView =
 [
-    [ "PlayerView", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a87a7a4837fc2b68df6bf06984881a7ea", null ],
+    [ "PlayerView", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6ed8c972fe68d5edd0c1bbcd5a6dafac", null ],
     [ "disablePlayerControls", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7126e270c8cc5956e79773eddc508655", null ],
     [ "enablePlayerControls", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a3098a851f88f8b9ce6d4e2fcacdf55c9", null ],
     [ "formatTimeToString", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a5214bb8084cfb78242868039e33f78ef", null ],
@@ -8,7 +8,7 @@ var classene_1_1views_1_1gui_1_1partial_1_1PlayerView =
     [ "isCurrentTrackPartOfCurrentPlaylist", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a46b869b84db253abe071d06cb4629925", null ],
     [ "render", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35", null ],
     [ "resetProgress", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af84e60915df5af5201e75e01a2f9a4a5", null ],
-    [ "setPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af4c9cd0cd87bb0f2274266872c3ab2d4", null ],
+    [ "setPlayerController", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#acd3431582a29b115d793be620624f3eb", null ],
     [ "update", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9", null ],
     [ "updateProgress", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#af324f1c0b5648dab2400b4c0ab33f3ca", null ],
     [ "nextButton", "classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6c4ca60ce32f360eef544c4dedab6328", null ],

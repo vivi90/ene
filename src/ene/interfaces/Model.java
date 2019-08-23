@@ -11,5 +11,5 @@ public interface Model {
      * Add related view.
      * @param view View.
      */
-    void addView(PartialView view);
+    void addView(PartialView<?, ?> view);
 }

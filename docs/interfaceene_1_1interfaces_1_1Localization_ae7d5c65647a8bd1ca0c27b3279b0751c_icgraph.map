@@ -1,8 +1,8 @@
 <map id="ene.interfaces.Localization.getString" name="ene.interfaces.Localization.getString">
-<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a6411fbda85767fc960a3f57677e16f26" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="271,5,455,47"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#ad4b163de4563715a06eb74cbb04c2226" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="271,5,455,47"/>
 <area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#aab891c82686652a49db41a3e1bc1f3b9" title="ene.views.gui.partial.Playlist\lView.loadContent" alt="" coords="269,71,457,112"/>
 <area shape="rect" id="node5" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a8d541ff3e91c1492b2e47cc7272ca56d" title="ene.views.gui.partial.Playlist\lView.render" alt="" coords="759,100,947,141"/>
-<area shape="rect" id="node6" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#acba54350f264fe81771e766ab3fbffde" title="ene.views.gui.partial.Playlist\lView.PlaylistView" alt="" coords="269,188,457,229"/>
+<area shape="rect" id="node6" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a418b438613e29b221d7293b0da677ee0" title="ene.views.gui.partial.Playlist\lView.PlaylistView" alt="" coords="269,188,457,229"/>
 <area shape="rect" id="node7" href="$classene_1_1views_1_1gui_1_1WindowView.html#a2ce6d135f47d21b01c91eeeac2e5c52a" title="ene.views.gui.WindowView.render" alt="" coords="252,254,475,281"/>
 <area shape="rect" id="node8" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a0bd6885fe06ebde4d3dffbcd888c0b41" title="ene.views.gui.partial.Library\lView.render" alt="" coords="271,305,455,347"/>
 <area shape="rect" id="node9" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a7e28fb299fee46d221d3224ffb87ea35" title="ene.views.gui.partial.Player\lView.render" alt="" coords="272,371,455,412"/>

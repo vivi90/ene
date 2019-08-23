@@ -1,0 +1,5 @@
+<map id="ene.interfaces.Model.addView" name="ene.interfaces.Model.addView">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#ad4b163de4563715a06eb74cbb04c2226" title="ene.views.gui.partial.Library\lView.LibraryView" alt="" coords="253,5,437,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a6ed8c972fe68d5edd0c1bbcd5a6dafac" title="ene.views.gui.partial.Player\lView.PlayerView" alt="" coords="253,71,436,112"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a418b438613e29b221d7293b0da677ee0" title="ene.views.gui.partial.Playlist\lView.PlaylistView" alt="" coords="251,136,439,177"/>
+</map>
