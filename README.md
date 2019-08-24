@@ -33,6 +33,7 @@ Features
 
 Requirements
 ------------
+* Java Runtime Environment (tested with OpenJDK 8)
 * Doxygen (only for contribution)
 
 Contribution
