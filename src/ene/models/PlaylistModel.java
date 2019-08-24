@@ -40,7 +40,7 @@ public class PlaylistModel extends TrackListModel {
     public void previousTrack() {
         String currentFilename = this.getCurrentTrack().getFilename();
         String previousFilename;
-        if (this.getAll().higherKey(currentFilename) == null) {
+        if (this.getAll().lowerKey(currentFilename) == null) {
             previousFilename = this.getAll().lastEntry().getKey();
         } else {
             previousFilename = this.getAll().lowerKey(currentFilename);
