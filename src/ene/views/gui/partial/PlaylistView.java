@@ -26,7 +26,7 @@ import java.awt.event.MouseEvent;
 
 /**
  * Playlist view.
- * @version 1.0.0
+ * @version 1.0.1
  * @since 1.0.0
  */
 public class PlaylistView extends AbstractTrackListView {
@@ -70,14 +70,22 @@ public class PlaylistView extends AbstractTrackListView {
     /**
      * Loads the table content from the model.
      * @param tracks Map of Tracks.
+     * @version 1.0.1
      */
     protected void loadContent(Map<String, TrackModel> tracks) {
         DefaultTableModel tableContent = this.getTableContent();
         tableContent.setRowCount(0);
         for (Map.Entry<String, TrackModel> entry : tracks.entrySet()) {
             TrackModel track = entry.getValue();
-            String currentTrackFilename = ((PlaylistModel) this.getModel()).getCurrentTrack().getFilename();
-            tableContent.addRow(new String[]{track.getFilename(), track.getArtist(), track.getTitle(), ((track.getFilename().equals(currentTrackFilename)) ? getString("TABLE_ROW_CURRENT") : "")});
+            PlaylistModel playlist = (PlaylistModel) this.getModel();
+            tableContent.addRow(
+                new String[]{
+                    track.getFilename(),
+                    track.getArtist(),
+                    track.getTitle(),
+                    (((playlist.getLastAccess() != null) && (track.getFilename().equals(playlist.getCurrentTrack().getFilename()))) ? getString("TABLE_ROW_CURRENT") : "")
+                }
+            );
         }
     }
 

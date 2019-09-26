@@ -1,0 +1,5 @@
+<map id="ene.models.PlaylistModel.getLastAccess" name="ene.models.PlaylistModel.getLastAccess">
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#aab891c82686652a49db41a3e1bc1f3b9" title="ene.views.gui.partial.Playlist\lView.loadContent" alt="" coords="247,5,435,47"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#ad2b87823589c6e8895d2d7b98438a2dc" title="ene.views.gui.partial.Playlist\lView.update" alt="" coords="483,5,671,47"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a8d541ff3e91c1492b2e47cc7272ca56d" title="ene.views.gui.partial.Playlist\lView.render" alt="" coords="719,5,907,47"/>
+</map>

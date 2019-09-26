@@ -23,7 +23,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AbstractController_8java.html",
-"classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html"
+"classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a9080a51c7aee2eaca384b2dde2469e41"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

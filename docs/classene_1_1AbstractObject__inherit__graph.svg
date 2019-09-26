@@ -411,23 +411,26 @@
 <!-- Node14 -->
 <g id="node15" class="node">
 <title>Node14</title>
-<g id="a_node15"><a xlink:href="classene_1_1models_1_1PlaylistModel.html" target="_top" xlink:title="{ene.models.PlaylistModel\n|# currentTrack\l|+ setCurrentTrack()\l+ getCurrentTrack()\l+ previousTrack()\l+ nextTrack()\l}">
-<polygon fill="none" stroke="#000000" points="622.5,-288 622.5,-378 750.5,-378 750.5,-288 622.5,-288"/>
-<text text-anchor="middle" x="686.5" y="-366" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlaylistModel</text>
-<polyline fill="none" stroke="#000000" points="622.5,-359 750.5,-359 "/>
-<text text-anchor="start" x="630.5" y="-347" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># currentTrack</text>
-<polyline fill="none" stroke="#000000" points="622.5,-340 750.5,-340 "/>
-<text text-anchor="start" x="630.5" y="-328" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ setCurrentTrack()</text>
-<text text-anchor="start" x="630.5" y="-317" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getCurrentTrack()</text>
-<text text-anchor="start" x="630.5" y="-306" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ previousTrack()</text>
-<text text-anchor="start" x="630.5" y="-295" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ nextTrack()</text>
+<g id="a_node15"><a xlink:href="classene_1_1models_1_1PlaylistModel.html" target="_top" xlink:title="{ene.models.PlaylistModel\n|# currentTrack\l# lastAccess\l|+ getLastAccess()\l+ setCurrentTrack()\l+ getCurrentTrack()\l+ previousTrack()\l+ nextTrack()\l# updateLastAccess()\l}">
+<polygon fill="none" stroke="#000000" points="622.5,-271.5 622.5,-394.5 750.5,-394.5 750.5,-271.5 622.5,-271.5"/>
+<text text-anchor="middle" x="686.5" y="-382.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlaylistModel</text>
+<polyline fill="none" stroke="#000000" points="622.5,-375.5 750.5,-375.5 "/>
+<text text-anchor="start" x="630.5" y="-363.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># currentTrack</text>
+<text text-anchor="start" x="630.5" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># lastAccess</text>
+<polyline fill="none" stroke="#000000" points="622.5,-345.5 750.5,-345.5 "/>
+<text text-anchor="start" x="630.5" y="-333.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getLastAccess()</text>
+<text text-anchor="start" x="630.5" y="-322.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ setCurrentTrack()</text>
+<text text-anchor="start" x="630.5" y="-311.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ getCurrentTrack()</text>
+<text text-anchor="start" x="630.5" y="-300.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ previousTrack()</text>
+<text text-anchor="start" x="630.5" y="-289.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ nextTrack()</text>
+<text text-anchor="start" x="630.5" y="-278.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"># updateLastAccess()</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node14 -->
 <g id="edge14" class="edge">
 <title>Node12&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M683.2257,-608.0385C684.0146,-541.7762 685.2566,-437.4432 685.9625,-378.1482"/>
+<path fill="none" stroke="#191970" d="M683.2242,-608.1695C683.9441,-547.6939 685.0427,-455.4131 685.7661,-394.6516"/>
 <polygon fill="none" stroke="#191970" points="679.7226,-608.2926 683.1032,-618.3336 686.7221,-608.376 679.7226,-608.2926"/>
 </g>
 <!-- Node17 -->

@@ -8,31 +8,31 @@
  viewBox="0.00 0.00 765.00 156.68" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 152.6813)">
 <title>ene.models.PlaylistModel.previousTrack</title>
-<!-- Node17 -->
+<!-- Node27 -->
 <g id="node1" class="node">
-<title>Node17</title>
+<title>Node27</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-73.5 0,-103.5 168,-103.5 168,-73.5 0,-73.5"/>
 <text text-anchor="start" x="8" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlaylistModel.previous</text>
 <text text-anchor="middle" x="84" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Track</text>
 </g>
-<!-- Node18 -->
+<!-- Node28 -->
 <g id="node2" class="node">
-<title>Node18</title>
+<title>Node28</title>
 <g id="a_node2"><a xlink:href="classene_1_1models_1_1TrackListModel.html#a77a78d6a93e67e544d83bf5f4856d121" target="_top" xlink:title="ene.models.TrackListModel.getAll">
 <polygon fill="none" stroke="#000000" points="389.5,-126 389.5,-145 553.5,-145 553.5,-126 389.5,-126"/>
 <text text-anchor="middle" x="471.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.TrackListModel.getAll</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
+<!-- Node27&#45;&gt;Node28 -->
 <g id="edge1" class="edge">
-<title>Node17&#45;&gt;Node18</title>
+<title>Node27&#45;&gt;Node28</title>
 <path fill="none" stroke="#191970" d="M111.6091,-103.7033C135.3102,-115.8357 170.8033,-131.8607 204,-138.5 262.1728,-150.1346 328.8912,-149.4118 381.1445,-145.7668"/>
 <polygon fill="#191970" stroke="#191970" points="381.6838,-149.2364 391.3955,-145.0017 381.1627,-142.2558 381.6838,-149.2364"/>
 </g>
-<!-- Node19 -->
+<!-- Node29 -->
 <g id="node3" class="node">
-<title>Node19</title>
+<title>Node29</title>
 <g id="a_node3"><a xlink:href="classene_1_1models_1_1PlaylistModel.html#ad63fd499a74248dc9dadad29b9882fd2" target="_top" xlink:title="ene.models.PlaylistModel.get\lCurrentTrack">
 <polygon fill="none" stroke="#000000" points="204,-98.5 204,-128.5 349,-128.5 349,-98.5 204,-98.5"/>
 <text text-anchor="start" x="212" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlaylistModel.get</text>
@@ -40,77 +40,99 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node19 -->
+<!-- Node27&#45;&gt;Node29 -->
 <g id="edge2" class="edge">
-<title>Node17&#45;&gt;Node19</title>
+<title>Node27&#45;&gt;Node29</title>
 <path fill="none" stroke="#191970" d="M168.1533,-99.429C176.7337,-100.5433 185.4445,-101.6746 194.0069,-102.7866"/>
 <polygon fill="#191970" stroke="#191970" points="193.6062,-106.2639 203.9737,-104.081 194.5077,-99.3222 193.6062,-106.2639"/>
 </g>
-<!-- Node20 -->
-<g id="node4" class="node">
-<title>Node20</title>
-<g id="a_node4"><a xlink:href="classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d" target="_top" xlink:title="ene.models.TrackModel.get\lFilename">
+<!-- Node31 -->
+<g id="node5" class="node">
+<title>Node31</title>
+<g id="a_node5"><a xlink:href="classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d" target="_top" xlink:title="ene.models.TrackModel.get\lFilename">
 <polygon fill="none" stroke="#000000" points="208,-49.5 208,-79.5 345,-79.5 345,-49.5 208,-49.5"/>
 <text text-anchor="start" x="216" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.TrackModel.get</text>
 <text text-anchor="middle" x="276.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Filename</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node20 -->
-<g id="edge4" class="edge">
-<title>Node17&#45;&gt;Node20</title>
+<!-- Node27&#45;&gt;Node31 -->
+<g id="edge5" class="edge">
+<title>Node27&#45;&gt;Node31</title>
 <path fill="none" stroke="#191970" d="M168.1533,-78.0082C177.9896,-76.7818 187.9972,-75.5341 197.7564,-74.3174"/>
 <polygon fill="#191970" stroke="#191970" points="198.3287,-77.7732 207.8189,-73.0628 197.4627,-70.827 198.3287,-77.7732"/>
 </g>
-<!-- Node21 -->
-<g id="node5" class="node">
-<title>Node21</title>
-<g id="a_node5"><a xlink:href="classene_1_1models_1_1PlaylistModel.html#a7150506b3801f97a2e38955a585bbd07" target="_top" xlink:title="ene.models.PlaylistModel.set\lCurrentTrack">
+<!-- Node32 -->
+<g id="node6" class="node">
+<title>Node32</title>
+<g id="a_node6"><a xlink:href="classene_1_1models_1_1PlaylistModel.html#a7150506b3801f97a2e38955a585bbd07" target="_top" xlink:title="ene.models.PlaylistModel.set\lCurrentTrack">
 <polygon fill="none" stroke="#000000" points="204,-.5 204,-30.5 349,-30.5 349,-.5 204,-.5"/>
 <text text-anchor="start" x="212" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlaylistModel.set</text>
 <text text-anchor="middle" x="276.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CurrentTrack</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node21 -->
-<g id="edge5" class="edge">
-<title>Node17&#45;&gt;Node21</title>
-<path fill="none" stroke="#191970" d="M120.3203,-73.4399C144.028,-63.7415 175.7159,-51.0264 204,-40.5 209.814,-38.3362 215.9132,-36.132 222.0014,-33.9736"/>
-<polygon fill="#191970" stroke="#191970" points="223.2412,-37.2478 231.5166,-30.6321 220.9218,-30.6432 223.2412,-37.2478"/>
+<!-- Node27&#45;&gt;Node32 -->
+<g id="edge6" class="edge">
+<title>Node27&#45;&gt;Node32</title>
+<path fill="none" stroke="#191970" d="M119.1954,-73.3914C142.9811,-63.3632 175.1843,-50.1387 204,-39.5 209.1306,-37.6058 214.4902,-35.6989 219.8718,-33.8325"/>
+<polygon fill="#191970" stroke="#191970" points="221.2072,-37.0749 229.5375,-30.5285 218.943,-30.4512 221.2072,-37.0749"/>
 </g>
-<!-- Node19&#45;&gt;Node18 -->
+<!-- Node29&#45;&gt;Node28 -->
 <g id="edge3" class="edge">
-<title>Node19&#45;&gt;Node18</title>
+<title>Node29&#45;&gt;Node28</title>
 <path fill="none" stroke="#191970" d="M349.1108,-121.692C358.9375,-122.8006 369.1258,-123.9501 379.2387,-125.091"/>
 <polygon fill="#191970" stroke="#191970" points="378.9809,-128.5841 389.3102,-126.2273 379.7657,-121.6282 378.9809,-128.5841"/>
 </g>
-<!-- Node22 -->
-<g id="node6" class="node">
-<title>Node22</title>
-<g id="a_node6"><a xlink:href="classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" target="_top" xlink:title="ene.models.AbstractModel.changed">
+<!-- Node30 -->
+<g id="node4" class="node">
+<title>Node30</title>
+<g id="a_node4"><a xlink:href="classene_1_1models_1_1PlaylistModel.html#adf17aa2e0d9900d3c620035dbc9641bc" target="_top" xlink:title="ene.models.PlaylistModel.update\lLastAccess">
+<polygon fill="none" stroke="#000000" points="391,-71.5 391,-101.5 552,-101.5 552,-71.5 391,-71.5"/>
+<text text-anchor="start" x="399" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlaylistModel.update</text>
+<text text-anchor="middle" x="471.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">LastAccess</text>
+</a>
+</g>
+</g>
+<!-- Node29&#45;&gt;Node30 -->
+<g id="edge4" class="edge">
+<title>Node29&#45;&gt;Node30</title>
+<path fill="none" stroke="#191970" d="M349.1108,-103.4462C359.4502,-102.0146 370.1898,-100.5276 380.8207,-99.0556"/>
+<polygon fill="#191970" stroke="#191970" points="381.5379,-102.4898 390.9634,-97.6512 380.5778,-95.5559 381.5379,-102.4898"/>
+</g>
+<!-- Node32&#45;&gt;Node30 -->
+<g id="edge7" class="edge">
+<title>Node32&#45;&gt;Node30</title>
+<path fill="none" stroke="#191970" d="M323.0219,-30.5433C331.6815,-33.4446 340.6343,-36.5123 349,-39.5 373.9647,-48.4158 401.5469,-58.9381 424.2078,-67.764"/>
+<polygon fill="#191970" stroke="#191970" points="423.0083,-71.0529 433.5963,-71.433 425.5562,-64.5331 423.0083,-71.0529"/>
+</g>
+<!-- Node33 -->
+<g id="node7" class="node">
+<title>Node33</title>
+<g id="a_node7"><a xlink:href="classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" target="_top" xlink:title="ene.models.AbstractModel.changed">
 <polygon fill="none" stroke="#000000" points="385,-6 385,-25 558,-25 558,-6 385,-6"/>
 <text text-anchor="middle" x="471.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.AbstractModel.changed</text>
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node22 -->
-<g id="edge6" class="edge">
-<title>Node21&#45;&gt;Node22</title>
+<!-- Node32&#45;&gt;Node33 -->
+<g id="edge8" class="edge">
+<title>Node32&#45;&gt;Node33</title>
 <path fill="none" stroke="#191970" d="M349.1108,-15.5C357.5163,-15.5 366.1863,-15.5 374.8474,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="374.9944,-19.0001 384.9943,-15.5 374.9943,-12.0001 374.9944,-19.0001"/>
 </g>
-<!-- Node23 -->
-<g id="node7" class="node">
-<title>Node23</title>
-<g id="a_node7"><a xlink:href="interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" target="_top" xlink:title="ene.interfaces.PartialView.update">
+<!-- Node34 -->
+<g id="node8" class="node">
+<title>Node34</title>
+<g id="a_node8"><a xlink:href="interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" target="_top" xlink:title="ene.interfaces.PartialView.update">
 <polygon fill="none" stroke="#000000" points="594,-6 594,-25 757,-25 757,-6 594,-6"/>
 <text text-anchor="middle" x="675.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.interfaces.PartialView.update</text>
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
-<g id="edge7" class="edge">
-<title>Node22&#45;&gt;Node23</title>
+<!-- Node33&#45;&gt;Node34 -->
+<g id="edge9" class="edge">
+<title>Node33&#45;&gt;Node34</title>
 <path fill="none" stroke="#191970" d="M558.0144,-15.5C566.4296,-15.5 574.9887,-15.5 583.4555,-15.5"/>
 <polygon fill="#191970" stroke="#191970" points="583.7215,-19.0001 593.7215,-15.5 583.7214,-12.0001 583.7215,-19.0001"/>
 </g>

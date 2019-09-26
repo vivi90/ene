@@ -14,6 +14,7 @@ var searchData=
   ['getdatabasefilename',['getDatabaseFilename',['../classene_1_1controllers_1_1LibraryController.html#a510cf010821311fd17a441739179e99f',1,'ene::controllers::LibraryController']]],
   ['getfilename',['getFilename',['../classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d',1,'ene::models::TrackModel']]],
   ['getgenre',['getGenre',['../classene_1_1models_1_1TrackModel.html#a2c57f7fe3f410c0e914af9a79de57346',1,'ene::models::TrackModel']]],
+  ['getlastaccess',['getLastAccess',['../classene_1_1models_1_1PlaylistModel.html#af9e600b621b1b55d22812a70302ff23e',1,'ene::models::PlaylistModel']]],
   ['getlastevent',['getLastEvent',['../classene_1_1models_1_1PlayerModel.html#a7473339fab83ab3b9445dcc2006a110f',1,'ene::models::PlayerModel']]],
   ['getlayoutposition',['getLayoutPosition',['../interfaceene_1_1interfaces_1_1View.html#ab0092d87b353d635fcab04a215587ff1',1,'ene.interfaces.View.getLayoutPosition()'],['../classene_1_1views_1_1AbstractView.html#ab124094232a14426fb9342efa42046a0',1,'ene.views.AbstractView.getLayoutPosition()']]],
   ['getlibrarycontroller',['getLibraryController',['../classene_1_1views_1_1gui_1_1partial_1_1LibraryView.html#a54aebe6234a85e8ec433d9836ad02bb4',1,'ene::views::gui::partial::LibraryView']]],

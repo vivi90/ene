@@ -8,15 +8,15 @@
  viewBox="0.00 0.00 712.00 66.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62.5)">
 <title>ene.models.TrackListModel.has</title>
-<!-- Node21 -->
+<!-- Node24 -->
 <g id="node1" class="node">
-<title>Node21</title>
+<title>Node24</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-11.5 0,-30.5 155,-30.5 155,-11.5 0,-11.5"/>
 <text text-anchor="middle" x="77.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.TrackListModel.has</text>
 </g>
-<!-- Node22 -->
+<!-- Node25 -->
 <g id="node2" class="node">
-<title>Node22</title>
+<title>Node25</title>
 <g id="a_node2"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a46b869b84db253abe071d06cb4629925" target="_top" xlink:title="ene.views.gui.partial.Player\lView.isCurrentTrackPartOfCurrent\lPlaylist">
 <polygon fill="none" stroke="#000000" points="191,-.5 191,-41.5 358,-41.5 358,-.5 191,-.5"/>
 <text text-anchor="start" x="199" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -25,15 +25,15 @@
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node22 -->
+<!-- Node24&#45;&gt;Node25 -->
 <g id="edge1" class="edge">
-<title>Node21&#45;&gt;Node22</title>
+<title>Node24&#45;&gt;Node25</title>
 <path fill="none" stroke="#191970" d="M165.3414,-21C173.8138,-21 182.3926,-21 190.8232,-21"/>
 <polygon fill="#191970" stroke="#191970" points="165.0769,-17.5001 155.0768,-21 165.0768,-24.5001 165.0769,-17.5001"/>
 </g>
-<!-- Node23 -->
+<!-- Node26 -->
 <g id="node3" class="node">
-<title>Node23</title>
+<title>Node26</title>
 <g id="a_node3"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a3098a851f88f8b9ce6d4e2fcacdf55c9" target="_top" xlink:title="ene.views.gui.partial.Player\lView.enablePlayerControls">
 <polygon fill="none" stroke="#000000" points="394,-28 394,-58 531,-58 531,-28 394,-28"/>
 <text text-anchor="start" x="402" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -41,15 +41,15 @@
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node23 -->
+<!-- Node25&#45;&gt;Node26 -->
 <g id="edge2" class="edge">
-<title>Node22&#45;&gt;Node23</title>
+<title>Node25&#45;&gt;Node26</title>
 <path fill="none" stroke="#191970" d="M368.1858,-31.9632C376.8326,-32.9751 385.483,-33.9874 393.8442,-34.9658"/>
 <polygon fill="#191970" stroke="#191970" points="368.3934,-28.4637 358.0544,-30.7776 367.5798,-35.4163 368.3934,-28.4637"/>
 </g>
-<!-- Node24 -->
+<!-- Node27 -->
 <g id="node4" class="node">
-<title>Node24</title>
+<title>Node27</title>
 <g id="a_node4"><a xlink:href="classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" target="_top" xlink:title="ene.views.gui.partial.Player\lView.update">
 <polygon fill="none" stroke="#000000" points="567,-6 567,-36 704,-36 704,-6 567,-6"/>
 <text text-anchor="start" x="575" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.views.gui.partial.Player</text>
@@ -57,15 +57,15 @@
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node24 -->
+<!-- Node25&#45;&gt;Node27 -->
 <g id="edge4" class="edge">
-<title>Node22&#45;&gt;Node24</title>
+<title>Node25&#45;&gt;Node27</title>
 <path fill="none" stroke="#191970" d="M368.2716,-19.2817C376.9693,-19.1672 385.6486,-19.0699 394,-19 454.8868,-18.4905 470.1139,-18.4174 531,-19 542.6127,-19.1111 554.9503,-19.2917 566.9246,-19.5"/>
 <polygon fill="#191970" stroke="#191970" points="368.0218,-15.7847 358.0714,-19.4233 368.1191,-22.784 368.0218,-15.7847"/>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
+<!-- Node26&#45;&gt;Node27 -->
 <g id="edge3" class="edge">
-<title>Node23&#45;&gt;Node24</title>
+<title>Node26&#45;&gt;Node27</title>
 <path fill="none" stroke="#191970" d="M541.316,-32.9772C549.8439,-31.8927 558.4721,-30.7955 566.8657,-29.7281"/>
 <polygon fill="#191970" stroke="#191970" points="540.8498,-29.5082 531.3713,-34.2418 541.7329,-36.4522 540.8498,-29.5082"/>
 </g>

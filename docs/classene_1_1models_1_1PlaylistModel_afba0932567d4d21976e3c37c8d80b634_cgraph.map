@@ -1,8 +1,9 @@
 <map id="ene.models.PlaylistModel.nextTrack" name="ene.models.PlaylistModel.nextTrack">
 <area shape="rect" id="node2" href="$classene_1_1models_1_1TrackListModel.html#a77a78d6a93e67e544d83bf5f4856d121" title="ene.models.TrackListModel.getAll" alt="" coords="501,11,719,37"/>
 <area shape="rect" id="node3" href="$classene_1_1models_1_1PlaylistModel.html#ad63fd499a74248dc9dadad29b9882fd2" title="ene.models.PlaylistModel.get\lCurrentTrack" alt="" coords="253,33,447,74"/>
-<area shape="rect" id="node4" href="$classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d" title="ene.models.TrackModel.get\lFilename" alt="" coords="259,98,441,139"/>
-<area shape="rect" id="node5" href="$classene_1_1models_1_1PlaylistModel.html#a7150506b3801f97a2e38955a585bbd07" title="ene.models.PlaylistModel.set\lCurrentTrack" alt="" coords="253,163,447,205"/>
-<area shape="rect" id="node6" href="$classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" title="ene.models.AbstractModel.changed" alt="" coords="495,171,725,197"/>
-<area shape="rect" id="node7" href="$interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" title="ene.interfaces.PartialView.update" alt="" coords="773,171,991,197"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d" title="ene.models.TrackModel.get\lFilename" alt="" coords="259,98,441,139"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1PlaylistModel.html#a7150506b3801f97a2e38955a585bbd07" title="ene.models.PlaylistModel.set\lCurrentTrack" alt="" coords="253,163,447,205"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlaylistModel.html#adf17aa2e0d9900d3c620035dbc9641bc" title="ene.models.PlaylistModel.update\lLastAccess" alt="" coords="503,69,717,110"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" title="ene.models.AbstractModel.changed" alt="" coords="495,171,725,197"/>
+<area shape="rect" id="node8" href="$interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" title="ene.interfaces.PartialView.update" alt="" coords="773,171,991,197"/>
 </map>

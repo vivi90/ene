@@ -1,4 +1,5 @@
 <map id="ene.models.PlaylistModel.setCurrentTrack" name="ene.models.PlaylistModel.setCurrentTrack">
-<area shape="rect" id="node2" href="$classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" title="ene.models.AbstractModel.changed" alt="" coords="247,13,477,39"/>
-<area shape="rect" id="node3" href="$interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" title="ene.interfaces.PartialView.update" alt="" coords="525,13,743,39"/>
+<area shape="rect" id="node2" href="$classene_1_1models_1_1AbstractModel.html#a970306ac2228cbcb599f65476d8c80dd" title="ene.models.AbstractModel.changed" alt="" coords="247,5,477,32"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlaylistModel.html#adf17aa2e0d9900d3c620035dbc9641bc" title="ene.models.PlaylistModel.update\lLastAccess" alt="" coords="255,57,469,98"/>
+<area shape="rect" id="node3" href="$interfaceene_1_1interfaces_1_1PartialView.html#aae781d286eda4cbf8c57fdb877dde265" title="ene.interfaces.PartialView.update" alt="" coords="525,5,743,32"/>
 </map>

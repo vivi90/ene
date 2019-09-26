@@ -1,7 +1,10 @@
 <map id="ene.models.PlaylistModel.getCurrentTrack" name="ene.models.PlaylistModel.getCurrentTrack">
-<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#acfe1fde39cea80b94ae65ed401706d70" title="ene.models.PlayerModel.load\lPlaylist" alt="" coords="262,5,455,47"/>
-<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#a384fd9a2e98fc581e8221659257a8dd4" title="ene.models.PlayerModel.next" alt="" coords="531,101,725,127"/>
-<area shape="rect" id="node4" href="$classene_1_1models_1_1PlaylistModel.html#afba0932567d4d21976e3c37c8d80b634" title="ene.models.PlaylistModel.next\lTrack" alt="" coords="259,123,459,164"/>
-<area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#a7242e20d537405f031ec8d18e7faf8fc" title="ene.models.PlayerModel.previous" alt="" coords="519,218,737,245"/>
-<area shape="rect" id="node6" href="$classene_1_1models_1_1PlaylistModel.html#ab30573de71b566da79145210f94be294" title="ene.models.PlaylistModel.previous\lTrack" alt="" coords="247,240,471,281"/>
+<area shape="rect" id="node2" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#aab891c82686652a49db41a3e1bc1f3b9" title="ene.views.gui.partial.Playlist\lView.loadContent" alt="" coords="265,5,453,47"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#acfe1fde39cea80b94ae65ed401706d70" title="ene.models.PlayerModel.load\lPlaylist" alt="" coords="262,71,455,112"/>
+<area shape="rect" id="node6" href="$classene_1_1models_1_1PlayerModel.html#a384fd9a2e98fc581e8221659257a8dd4" title="ene.models.PlayerModel.next" alt="" coords="531,166,725,193"/>
+<area shape="rect" id="node7" href="$classene_1_1models_1_1PlaylistModel.html#afba0932567d4d21976e3c37c8d80b634" title="ene.models.PlaylistModel.next\lTrack" alt="" coords="259,188,459,229"/>
+<area shape="rect" id="node8" href="$classene_1_1models_1_1PlayerModel.html#a7242e20d537405f031ec8d18e7faf8fc" title="ene.models.PlayerModel.previous" alt="" coords="519,283,737,310"/>
+<area shape="rect" id="node9" href="$classene_1_1models_1_1PlaylistModel.html#ab30573de71b566da79145210f94be294" title="ene.models.PlaylistModel.previous\lTrack" alt="" coords="247,305,471,347"/>
+<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#ad2b87823589c6e8895d2d7b98438a2dc" title="ene.views.gui.partial.Playlist\lView.update" alt="" coords="534,5,722,47"/>
+<area shape="rect" id="node4" href="$classene_1_1views_1_1gui_1_1partial_1_1PlaylistView.html#a8d541ff3e91c1492b2e47cc7272ca56d" title="ene.views.gui.partial.Playlist\lView.render" alt="" coords="785,5,973,47"/>
 </map>
