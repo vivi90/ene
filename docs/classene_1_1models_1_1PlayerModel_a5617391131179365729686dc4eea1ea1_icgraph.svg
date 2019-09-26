@@ -8,30 +8,30 @@
  viewBox="0.00 0.00 547.00 115.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 111.5)">
 <title>ene.models.PlayerModel.setClip</title>
-<!-- Node103 -->
+<!-- Node105 -->
 <g id="node1" class="node">
-<title>Node103</title>
+<title>Node105</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-38.5 0,-57.5 158,-57.5 158,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="79" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.setClip</text>
 </g>
-<!-- Node104 -->
+<!-- Node106 -->
 <g id="node2" class="node">
-<title>Node104</title>
+<title>Node106</title>
 <g id="a_node2"><a xlink:href="classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" target="_top" xlink:title="ene.models.PlayerModel.load">
 <polygon fill="none" stroke="#000000" points="194,-38.5 194,-57.5 339,-57.5 339,-38.5 194,-38.5"/>
 <text text-anchor="middle" x="266.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.load</text>
 </a>
 </g>
 </g>
-<!-- Node103&#45;&gt;Node104 -->
+<!-- Node105&#45;&gt;Node106 -->
 <g id="edge1" class="edge">
-<title>Node103&#45;&gt;Node104</title>
+<title>Node105&#45;&gt;Node106</title>
 <path fill="none" stroke="#191970" d="M168.2534,-48C176.8133,-48 185.4232,-48 193.7969,-48"/>
 <polygon fill="#191970" stroke="#191970" points="168.2451,-44.5001 158.2451,-48 168.2451,-51.5001 168.2451,-44.5001"/>
 </g>
-<!-- Node105 -->
+<!-- Node107 -->
 <g id="node3" class="node">
-<title>Node105</title>
+<title>Node107</title>
 <g id="a_node3"><a xlink:href="classene_1_1models_1_1PlayerModel.html#acfe1fde39cea80b94ae65ed401706d70" target="_top" xlink:title="ene.models.PlayerModel.load\lPlaylist">
 <polygon fill="none" stroke="#000000" points="384.5,-77 384.5,-107 529.5,-107 529.5,-77 384.5,-77"/>
 <text text-anchor="start" x="392.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.load</text>
@@ -39,39 +39,39 @@
 </a>
 </g>
 </g>
-<!-- Node104&#45;&gt;Node105 -->
+<!-- Node106&#45;&gt;Node107 -->
 <g id="edge2" class="edge">
-<title>Node104&#45;&gt;Node105</title>
+<title>Node106&#45;&gt;Node107</title>
 <path fill="none" stroke="#191970" d="M317.6457,-59.8132C340.4353,-65.0769 367.5477,-71.3391 391.7738,-76.9346"/>
 <polygon fill="#191970" stroke="#191970" points="318.3668,-56.3877 307.8357,-57.5473 316.7915,-63.2081 318.3668,-56.3877"/>
 </g>
-<!-- Node106 -->
+<!-- Node108 -->
 <g id="node4" class="node">
-<title>Node106</title>
+<title>Node108</title>
 <g id="a_node4"><a xlink:href="classene_1_1models_1_1PlayerModel.html#a384fd9a2e98fc581e8221659257a8dd4" target="_top" xlink:title="ene.models.PlayerModel.next">
 <polygon fill="none" stroke="#000000" points="384,-38.5 384,-57.5 530,-57.5 530,-38.5 384,-38.5"/>
 <text text-anchor="middle" x="457" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.next</text>
 </a>
 </g>
 </g>
-<!-- Node104&#45;&gt;Node106 -->
+<!-- Node106&#45;&gt;Node108 -->
 <g id="edge3" class="edge">
-<title>Node104&#45;&gt;Node106</title>
+<title>Node106&#45;&gt;Node108</title>
 <path fill="none" stroke="#191970" d="M349.0965,-48C360.6067,-48 372.3679,-48 383.6915,-48"/>
 <polygon fill="#191970" stroke="#191970" points="349.0634,-44.5001 339.0633,-48 349.0633,-51.5001 349.0634,-44.5001"/>
 </g>
-<!-- Node107 -->
+<!-- Node109 -->
 <g id="node5" class="node">
-<title>Node107</title>
+<title>Node109</title>
 <g id="a_node5"><a xlink:href="classene_1_1models_1_1PlayerModel.html#a7242e20d537405f031ec8d18e7faf8fc" target="_top" xlink:title="ene.models.PlayerModel.previous">
 <polygon fill="none" stroke="#000000" points="375,-.5 375,-19.5 539,-19.5 539,-.5 375,-.5"/>
 <text text-anchor="middle" x="457" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ene.models.PlayerModel.previous</text>
 </a>
 </g>
 </g>
-<!-- Node104&#45;&gt;Node107 -->
+<!-- Node106&#45;&gt;Node109 -->
 <g id="edge4" class="edge">
-<title>Node104&#45;&gt;Node107</title>
+<title>Node106&#45;&gt;Node109</title>
 <path fill="none" stroke="#191970" d="M324.7003,-36.3905C351.7938,-30.986 383.625,-24.6365 409.2745,-19.5201"/>
 <polygon fill="#191970" stroke="#191970" points="323.6933,-33.0223 314.5712,-38.411 325.0627,-39.8871 323.6933,-33.0223"/>
 </g>

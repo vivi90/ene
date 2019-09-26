@@ -18,7 +18,7 @@ We have named it after the character 'Ene' from the anime 'Mekakucity Actors'.
 Usage
 -----
 Just compile it or use the attached binary file `bin/ene.jar`.
-Currently it supports only WAV files.
+Currently it supports only WAV (PCM) files.
 The library database is saved in a local SQLite file, called `library.db`.
 The playlist file is called `playlist.m3u`.
 

@@ -1,4 +1,3 @@
 <map id="ene.models.PlayerModel.getTrackLength" name="ene.models.PlayerModel.getTrackLength">
-<area shape="rect" id="node2" href="$classene_1_1AbstractObject.html#a600f6bedef1dc48e610cdfa5f81b7667" title="ene.AbstractObject.delay" alt="" coords="261,5,430,32"/>
-<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45" title="ene.models.PlayerModel.getClip" alt="" coords="240,56,451,83"/>
+<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45" title="ene.models.PlayerModel.getClip" alt="" coords="240,13,451,39"/>
 </map>

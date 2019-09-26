@@ -1,13 +1,14 @@
 <map id="ene.models.PlayerModel.loadPlaylist" name="ene.models.PlayerModel.loadPlaylist">
-<area shape="rect" id="node2" href="$classene_1_1models_1_1PlaylistModel.html#ad63fd499a74248dc9dadad29b9882fd2" title="ene.models.PlaylistModel.get\lCurrentTrack" alt="" coords="247,27,440,69"/>
-<area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="247,152,440,179"/>
-<area shape="rect" id="node12" href="$classene_1_1models_1_1PlayerModel.html#a65e4ceddca16c50f226118cf259cd8fb" title="ene.models.PlayerModel.set\lPlaylist" alt="" coords="250,203,437,245"/>
+<area shape="rect" id="node2" href="$classene_1_1models_1_1PlaylistModel.html#ad63fd499a74248dc9dadad29b9882fd2" title="ene.models.PlaylistModel.get\lCurrentTrack" alt="" coords="247,53,440,94"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="247,173,440,200"/>
+<area shape="rect" id="node13" href="$classene_1_1models_1_1PlayerModel.html#a65e4ceddca16c50f226118cf259cd8fb" title="ene.models.PlayerModel.set\lPlaylist" alt="" coords="250,225,437,266"/>
 <area shape="rect" id="node3" href="$classene_1_1models_1_1TrackListModel.html#a77a78d6a93e67e544d83bf5f4856d121" title="ene.models.TrackListModel.getAll" alt="" coords="488,5,707,32"/>
 <area shape="rect" id="node5" href="$classene_1_1AbstractObject.html#aff9619cf289ec83735b6c6ca2c12e020" title="ene.AbstractObject.debug\lInfoAbout" alt="" coords="511,57,684,98"/>
-<area shape="rect" id="node8" href="$classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45" title="ene.models.PlayerModel.getClip" alt="" coords="492,123,703,149"/>
-<area shape="rect" id="node9" href="$classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d" title="ene.models.TrackModel.get\lFilename" alt="" coords="506,174,689,215"/>
-<area shape="rect" id="node10" href="$classene_1_1models_1_1PlayerModel.html#a5617391131179365729686dc4eea1ea1" title="ene.models.PlayerModel.setClip" alt="" coords="492,240,703,267"/>
-<area shape="rect" id="node11" href="$classene_1_1models_1_1PlayerModel.html#a921a00136726aee3bcababbd6c9b2e3e" title="ene.models.PlayerModel.set\lCurrentTrack" alt="" coords="504,291,691,333"/>
+<area shape="rect" id="node8" href="$classene_1_1AbstractObject.html#a600f6bedef1dc48e610cdfa5f81b7667" title="ene.AbstractObject.delay" alt="" coords="513,123,682,149"/>
+<area shape="rect" id="node9" href="$classene_1_1models_1_1PlayerModel.html#aa03431aa1bae96eacf2019c56fd18f45" title="ene.models.PlayerModel.getClip" alt="" coords="492,173,703,200"/>
+<area shape="rect" id="node10" href="$classene_1_1models_1_1TrackModel.html#aab88fe151b093dba71ad9f9ab5c6959d" title="ene.models.TrackModel.get\lFilename" alt="" coords="506,225,689,266"/>
+<area shape="rect" id="node11" href="$classene_1_1models_1_1PlayerModel.html#a5617391131179365729686dc4eea1ea1" title="ene.models.PlayerModel.setClip" alt="" coords="492,291,703,317"/>
+<area shape="rect" id="node12" href="$classene_1_1models_1_1PlayerModel.html#a921a00136726aee3bcababbd6c9b2e3e" title="ene.models.PlayerModel.set\lCurrentTrack" alt="" coords="504,342,691,383"/>
 <area shape="rect" id="node6" href="$classene_1_1AbstractObject.html#a9ce30d3321c7ce794df2f07bdaf3e47c" title="ene.AbstractObject.console\lOutput" alt="" coords="757,25,939,66"/>
 <area shape="rect" id="node7" href="$classene_1_1AbstractObject.html#a6ee0b669069e0c3ee320a6cf41af24fe" title="ene.AbstractObject.isDebug\lModeEnabled" alt="" coords="755,90,941,131"/>
 </map>

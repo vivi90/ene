@@ -1,6 +1,6 @@
 <map id="ene.AbstractObject.delay" name="ene.AbstractObject.delay">
-<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#ac32610c7511e6187ae364f64e1cf290b" title="ene.models.PlayerModel.get\lTrackLength" alt="" coords="223,5,409,47"/>
-<area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html#a3108500012be901007a2e809761ac136" title="ene.models.PlayerModel.get\lTrackPosition" alt="" coords="223,71,409,112"/>
-<area shape="rect" id="node3" href="$classene_1_1views_1_1gui_1_1partial_1_1PlayerView.html#a15d3f24a6e52ff6dedb86bb793bb8fa9" title="ene.views.gui.partial.Player\lView.update" alt="" coords="459,5,642,47"/>
-<area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#ae58085790604570d46621f019a8e0e78" title="ene.models.PlayerModel.set\lTrackPosition" alt="" coords="457,71,644,112"/>
+<area shape="rect" id="node2" href="$classene_1_1models_1_1PlayerModel.html#a2c4655428b658dee3203787415a516a5" title="ene.models.PlayerModel.load" alt="" coords="223,71,416,98"/>
+<area shape="rect" id="node3" href="$classene_1_1models_1_1PlayerModel.html#acfe1fde39cea80b94ae65ed401706d70" title="ene.models.PlayerModel.load\lPlaylist" alt="" coords="477,5,670,47"/>
+<area shape="rect" id="node4" href="$classene_1_1models_1_1PlayerModel.html#a7242e20d537405f031ec8d18e7faf8fc" title="ene.models.PlayerModel.previous" alt="" coords="464,71,683,98"/>
+<area shape="rect" id="node5" href="$classene_1_1models_1_1PlayerModel.html#a384fd9a2e98fc581e8221659257a8dd4" title="ene.models.PlayerModel.next" alt="" coords="476,122,671,149"/>
 </map>

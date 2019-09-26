@@ -21,7 +21,7 @@ import javax.swing.border.EmptyBorder;
 
 /**
  * Player view.
- * @version 2.2.1
+ * @version 2.2.2
  */
 public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
     /**
@@ -163,6 +163,7 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
             this.disablePlayerControls();
         // Track started.
         } else if (lastEventType == Type.START) {
+            this.enablePlayerControls();
             this.progressTimer.start();
             this.playButton.setText(getString("PLAY_BUTTON_PAUSE"));
         // Track paused.
@@ -251,7 +252,7 @@ public class PlayerView extends AbstractPartialView <JPanel, PlayerModel> {
         this.trackTimeFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
         panel.add(this.progressLabel, BorderLayout.EAST);
         // Progress refresh timer.
-        this.progressTimer = new Timer(100, event -> {
+        this.progressTimer = new Timer(10, event -> {
             this.updateProgress();
         });
         // Prepare player controls.

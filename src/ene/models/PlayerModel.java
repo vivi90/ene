@@ -14,7 +14,7 @@ import javax.sound.sampled.LineListener;
 
 /**
  * Player model.
- * @version 1.1.0
+ * @version 1.1.1
  */
 public class PlayerModel extends AbstractModel implements LineListener {
     /**
@@ -106,9 +106,9 @@ public class PlayerModel extends AbstractModel implements LineListener {
     /**
      * Returns the track length.
      * @return Track length in seconds.
+     * @version 1.0.1
      */
     public int getTrackLength() {
-        this.delay(10);
         return (int) (this.getClip().getMicrosecondLength() / 1000000);
     }
 
@@ -123,9 +123,9 @@ public class PlayerModel extends AbstractModel implements LineListener {
     /**
      * Returns the current track position.
      * @return Current track position in seconds.
+     * @version 1.0.1
      */
     public int getTrackPosition() {
-        this.delay(10);
         return (int) (this.getClip().getMicrosecondPosition() / 1000000);
     }
 
@@ -146,7 +146,7 @@ public class PlayerModel extends AbstractModel implements LineListener {
      * Implementation inpired by: https://www.tutorials.de/threads/kontinuierlich-laufende-hintergrundmusik-in-java.359029
      * @param track Track model instance.
      * @return Returns TRUE, if successful. Otherwise FALSE.
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public boolean load(TrackModel track) {
         debugInfoAbout(track);
@@ -164,6 +164,7 @@ public class PlayerModel extends AbstractModel implements LineListener {
             clip = (Clip) AudioSystem.getLine(info);
             clip.addLineListener(this);
             clip.open(format, buffer, 0, size);
+            this.delay(size/1000000);
             audioInputStream.close();
             this.setClip(clip);
         } catch (Exception exception) {

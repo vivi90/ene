@@ -5,7 +5,7 @@ import ene.models.TrackListModel;
 /**
  * Playlist model.
  * @since 0.14.0
- * @version 2.0.0
+ * @version 2.0.1
  */
 public class PlaylistModel extends TrackListModel {
     /**
@@ -36,6 +36,7 @@ public class PlaylistModel extends TrackListModel {
 
     /**
      * Jumps to the previous track.
+     * @version 1.0.1
      */
     public void previousTrack() {
         String currentFilename = this.getCurrentTrack().getFilename();
@@ -46,12 +47,11 @@ public class PlaylistModel extends TrackListModel {
             previousFilename = this.getAll().lowerKey(currentFilename);
         }
         this.setCurrentTrack(previousFilename);
-        this.changed();
     }
 
     /**
      * Jumps to the next track.
-     * @return The next track model instance.
+     * @version 1.0.1
      */
     public void nextTrack() {
         String currentFilename = this.getCurrentTrack().getFilename();
@@ -62,6 +62,5 @@ public class PlaylistModel extends TrackListModel {
             nextFilename = this.getAll().higherKey(currentFilename);
         }
         this.setCurrentTrack(nextFilename);
-        this.changed();
     }
 }
